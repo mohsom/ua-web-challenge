@@ -89,6 +89,5 @@ body{
     vertical-align: middle;
 }
 .euro-sign{
-    float: left;
-    padding-left: 30px;
+   display: inline-block;
 }
