@@ -26,12 +26,20 @@ body {
     display: inline-block;
     vertical-align: middle;
     cursor: pointer;
+    transition: all 0.2s;
 }
 
 .navbar-item-link {
     margin-right: 60px;
+    margin-bottom: -32px;
+    padding-bottom: 30px;
 }
-
+.navbar-item-link:hover{
+    border-bottom-style: solid;
+    border-color: #eb4200;
+    border-width: 2px;
+    transition: all 0.2s;
+}
 .navbar-dropdown > .dropdown-lang {
     list-style: none;
     margin-left: 15px;
