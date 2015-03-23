@@ -23,3 +23,13 @@ body{
 .navbar-item-link{
     margin-right: 60px;
 }
+.navbar-dropdown>.dropdown-lang{
+    list-style: none;
+    margin-left: 15px;
+}
+.navbar-dropdown>.dropdown-lang>.lang-item{
+    display: none;
+}
+.navbar-dropdown>.dropdown-lang>.lang-item.active{
+    display: block;
+}
