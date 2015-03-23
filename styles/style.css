@@ -46,3 +46,9 @@ body{
 .lang-arrow-img{
     vertical-align: middle;
 }
+.banner{
+
+}
+.banner-img{
+    z-index: 1;
+}
