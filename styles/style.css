@@ -1,13 +1,15 @@
 body{
     font-family: "Tahoma";
+    background-color: #000000;
 }
 .navbar{
     height: 75px;
     background-color: #ffffff;
-    padding-top: 20px;
 }
 .navbar-ul{
     list-style-type: none;
+    height: 75px;
+    padding-top: 15px;
 }
 .navbar-logo{
     margin-left: 75px;
