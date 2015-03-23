@@ -30,7 +30,9 @@ body {
 }
 
 .navbar-item-link {
-    margin-right: 60px;
+    width: 120px;
+    margin-right: 20px;
+    text-align: center;
     margin-bottom: -30px;
     padding-bottom: 32px;
     border-bottom-style: solid;
@@ -39,6 +41,7 @@ body {
 }
 .navbar-item-link:hover{
     border-color: #eb4200;
+    color: #eb4200;
     transition: all 0.2s;
 }
 .navbar-dropdown > .dropdown-lang {
