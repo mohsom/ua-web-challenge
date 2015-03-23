@@ -5,12 +5,12 @@ body{
     height: 75px;
     background-color: #ffffff;
 }
-.navbar-logo{
-    margin-left: 120px;
-    margin-left:120px;
-}
 .navbar-ul{
     list-style-type: none;
+}
+.navbar-logo{
+    margin-left: 75px;
+    margin-right: 104px;
 }
 .navbar-item{
     font-size: 13px;
@@ -18,4 +18,8 @@ body{
     color: rgb( 51, 51, 51 );
     text-transform: uppercase;
     display: inline-block;
+    vertical-align: middle;
+}
+.navbar-item-link{
+    margin-right: 70px;
 }
