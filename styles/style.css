@@ -49,4 +49,7 @@ div.banner{
     width: 100%;
     height: 522px;
     background:url("../images/house.png") no-repeat;
+    -webkit-box-shadow: inset 0 -117px 196px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0 -117px 196px 0 rgba(0,0,0,0.75);
+    box-shadow: inset 0 -117px 196px 0 rgba(0,0,0,0.75);
 }
