@@ -28,6 +28,11 @@ body{
     list-style: none;
     margin-left: 15px;
     color: #dddddd;
+    border-right: solid;
+    border-left: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    padding: 15px;
 }
 .navbar-dropdown>.dropdown-lang>.lang-item{
     display: none;
