@@ -99,11 +99,15 @@ body {
     padding: 10px;
     width: 290px;
     margin: 0 auto;
-    text-align: center;
     font-size: 15px;
     vertical-align: middle;
+    height: 25px;
 }
-
-.euro-sign {
-
+.euro-sign{
+    margin-left: 55px;
+}
+.euro-content{
+    margin-top: -25px;
+    text-align: center;
+    margin-left: 25px;
 }
