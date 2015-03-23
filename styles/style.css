@@ -22,6 +22,7 @@ body{
     text-transform: uppercase;
     display: inline-block;
     vertical-align: middle;
+    cursor: pointer;
 }
 .navbar-item-link{
     margin-right: 60px;
@@ -41,4 +42,7 @@ body{
 }
 .navbar-dropdown>.dropdown-lang>.lang-item.active{
     display: block;
+}
+.lang-arrow-img{
+    vertical-align: middle;
 }
