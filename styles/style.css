@@ -53,3 +53,21 @@ body{
     -moz-box-shadow: inset 0 -117px 196px 0 rgba(0,0,0,0.75);
     box-shadow: inset 0 -117px 196px 0 rgba(0,0,0,0.75);
 }
+.banner-content{
+    margin: 0 auto;
+    width: 85%;
+    height: 100%;
+}
+.banner-text{
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 120px;
+}
+.banner-text-title{
+    font-weight: bold;
+    background:rgba(0,0,0,0.5);
+    padding: 10px;
+    width: 810px;
+    margin: 0 auto;
+    text-align: center;
+}
