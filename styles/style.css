@@ -31,13 +31,14 @@ body {
 
 .navbar-item-link {
     margin-right: 60px;
-    margin-bottom: -32px;
-    padding-bottom: 30px;
+    margin-bottom: -30px;
+    padding-bottom: 32px;
+    border-bottom-style: solid;
+    border-color: #ffffff;
+    border-width: 2px;
 }
 .navbar-item-link:hover{
-    border-bottom-style: solid;
     border-color: #eb4200;
-    border-width: 2px;
     transition: all 0.2s;
 }
 .navbar-dropdown > .dropdown-lang {
