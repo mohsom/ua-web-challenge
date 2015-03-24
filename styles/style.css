@@ -87,8 +87,8 @@ body {
 
 .submenu-img-container {
     position: relative;
-    width:120px;
-    height: 120px;
+    width:117px;
+    height: 117px;
 }
 .submenu-img-container:hover:after{
     content: '';
