@@ -101,6 +101,7 @@ body {
     left: 0;
     background: rgba(0,0,0,0.7);
     word-break: normal;
+    line-height: 15px;
 }
 .submenu>li:nth-of-type(1)>.submenu-img-container:hover:after{
     content: 'Rolety';
