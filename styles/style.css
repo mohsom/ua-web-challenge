@@ -162,7 +162,6 @@ body {
 }
 .navbar-dropdown > .dropdown-lang:hover >.lang-item:hover{
     color: #eb4200;
-    background-color: #ffffff;
 }
 .navbar-dropdown > .dropdown-lang > .lang-item.active {
     display: inline-block;
