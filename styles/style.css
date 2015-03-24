@@ -45,29 +45,35 @@ body {
     color: #eb4200;
     transition: all 0.2s;
 }
-.navbar-dropdown > .dropdown-lang {
-    list-style: none;
-    margin-left: 15px;
+.navbar-dropdown{
+    width: 70px;
+    text-align: center;
     color: #dddddd;
     border-right: solid;
     border-left: solid;
     border-width: 1px;
     border-color: #dddddd;
     padding: 0 15px 0 15px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+.navbar-dropdown > .dropdown-lang {
+    list-style: none;
+    height: 75px;
 }
 
 .navbar-dropdown > .dropdown-lang > .lang-item {
     display: none;
-    vertical-align: middle;
     height: 75px;
+    padding-top: 30px;
 }
 
 .navbar-dropdown > .dropdown-lang > .lang-item.active {
-    display: block;
+    display: inline-block;
 }
 
 .lang-arrow-img {
-    float: right;
+    vertical-align: middle;
 }
 
 .banner {
