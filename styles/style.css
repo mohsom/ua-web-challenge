@@ -65,10 +65,12 @@ body {
 .submenu-item{
     display: inline-block;
 }
-.submenu-item-img-title{
+.submenu-item-img{
     float: left;
+    cursor: pointer;
+}
+.submenu-item-img-title{
     color: #ffffff;
-    vertical-align: bottom;
 }
 .navbar-dropdown{
     text-align: center;
