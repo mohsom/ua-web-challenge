@@ -86,12 +86,12 @@ body {
 }
 
 .submenu-img-container {
+    cursor: pointer;
     position: relative;
     width:117px;
     height: 67px;
 }
 .submenu-img-container:hover:after{
-    content: '';
     vertical-align: middle;
     padding-top: 50px;
     position:absolute;
@@ -101,6 +101,30 @@ body {
     left: 0;
     background: rgba(0,0,0,0.7);
     word-break: break-all;
+}
+.submenu>li:nth-of-type(1)>.submenu-img-container:hover:after{
+    content: 'Rolety';
+}
+.submenu>li:nth-of-type(2)>.submenu-img-container:hover:after{
+    content: 'Venkovní žaluzie';
+}
+.submenu>li:nth-of-type(3)>.submenu-img-container:hover:after{
+    content: 'Systémové parapety';
+}
+.submenu>li:nth-of-type(4)>.submenu-img-container:hover:after{
+    content: 'Markýzy';
+}
+.submenu>li:nth-of-type(5)>.submenu-img-container:hover:after{
+    content: 'Vrata';
+}
+.submenu>li:nth-of-type(6)>.submenu-img-container:hover:after{
+    content: 'Sítě proti hmyzu';
+}
+.submenu>li:nth-of-type(7)>.submenu-img-container:hover:after{
+    content: 'Barvy rolet a žaluzií';
+}
+.submenu>li:nth-of-type(8)>.submenu-img-container:hover:after{
+    content: 'Spočítejte si cenu';
 }
 .submenu-img-container:hover+.submenu-item-img-title{
     visibility: hidden;
