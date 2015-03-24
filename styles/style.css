@@ -46,7 +46,6 @@ body {
     transition: all 0.2s;
 }
 .navbar-dropdown{
-    width: 70px;
     text-align: center;
     color: #dddddd;
     border-right: solid;
@@ -60,11 +59,13 @@ body {
 .navbar-dropdown > .dropdown-lang {
     list-style: none;
     height: 75px;
+    width: 70px;
 }
 
 .navbar-dropdown > .dropdown-lang > .lang-item {
     display: none;
     height: 75px;
+    width: 70px;
     padding-top: 30px;
 }
 .navbar-dropdown > .dropdown-lang:hover > .lang-item{
