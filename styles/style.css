@@ -90,12 +90,12 @@ body {
 }
 .submenu-img-hover{
     display: block;
-    background-color: rgba(0,0,0,0);
-    color: rgba(256,256,256,0);
-}
-.submenu-img-hover-title{
     vertical-align: middle;
     text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(256,256,256,0.5);
+}
+.submenu-img-hover-title{
     display: block;
 }
 .navbar-dropdown{
