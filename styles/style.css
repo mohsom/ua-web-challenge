@@ -50,7 +50,6 @@ body {
 }
 #products:hover .submenu{
     visibility: visible;
-    transition: all 0.2s;
 }
 .submenu{
     width: 1366px;
@@ -61,8 +60,15 @@ body {
     margin-left: -402px;
     display: block;
     visibility: hidden;
-    transition: all 0.2s;
     cursor: default;
+}
+.submenu-item{
+    display: inline-block;
+}
+.submenu-item-img-title{
+    float: left;
+    color: #ffffff;
+    vertical-align: bottom;
 }
 .navbar-dropdown{
     text-align: center;
