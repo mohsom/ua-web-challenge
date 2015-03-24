@@ -141,3 +141,12 @@ body {
     text-align: center;
     margin-left: 25px;
 }
+.submenu{
+    width: 1366px;
+    background-color: #8c8d8d;
+    height: 212px;
+    position: absolute;
+    margin-top: 32px;
+    margin-left: -402px;
+    display: block;
+}
