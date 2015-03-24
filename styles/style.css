@@ -88,8 +88,8 @@ body {
 .submenu-img-container {
     cursor: pointer;
     position: relative;
-    width:117px;
-    height: 67px;
+    width:120px;
+    height: 70px;
 }
 .submenu-img-container:hover:after{
     vertical-align: middle;
