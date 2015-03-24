@@ -65,6 +65,8 @@ body {
     display: block;
     visibility: hidden;
     cursor: default;
+    max-width: 100%;
+    word-break: normal;
 }
 .submenu-item{
     display: inline-block;
@@ -203,6 +205,8 @@ body {
     margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
+    max-width: 100%;
+    word-break: normal;
 }
 
 .banner-text-sub-title {
@@ -212,6 +216,8 @@ body {
     margin: 0 auto;
     text-align: center;
     font-size: 16px;
+    max-width: 100%;
+    word-break: normal;
 }
 
 .banner-text-euro {
@@ -223,6 +229,8 @@ body {
     font-size: 15px;
     vertical-align: middle;
     height: 25px;
+    max-width: 100%;
+    word-break: normal;
 }
 .euro-sign{
     margin-left: 55px;
@@ -231,4 +239,6 @@ body {
     margin-top: -25px;
     text-align: center;
     margin-left: 25px;
+    max-width: 100%;
+    word-break: normal;
 }
