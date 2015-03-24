@@ -84,19 +84,22 @@ body {
     float: left;
     margin-top: 10px;
 }
-.submenu-item-img:hover{
+.submenu-img-hover:hover{
     background-color: rgba(0,0,0,0.5);
     color: rgba(256,256,256,1);
 }
 .submenu-img-hover{
+    position: relative;
     display: block;
-    vertical-align: middle;
-    text-align: center;
-    background-color: rgba(0,0,0,0.5);
-    color: rgba(256,256,256,0.5);
+    background-color: rgba(0,0,0,0);
+    color: rgba(256,256,256,0);
+}
+.submenu-img-container {
+    position: relative;
 }
 .submenu-img-hover-title{
     display: block;
+    text-align: center;
 }
 .navbar-dropdown{
     text-align: center;
