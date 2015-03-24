@@ -84,19 +84,7 @@ body {
     float: left;
     margin-top: 10px;
 }
-.submenu-img-hover:hover{
-    background-color: rgba(0,0,0,0.5);
-    color: rgba(256,256,256,1);
-}
-.submenu-img-hover:hover +.submenu-item-img-title{
-    display: none;
-}
-.submenu-img-hover{
-    position: relative;
-    display: block;
-    background-color: rgba(0,0,0,0);
-    color: rgba(256,256,256,0);
-}
+
 .submenu-img-container {
     position: relative;
     width:120px;
@@ -110,13 +98,6 @@ body {
     top:0;
     left: 0;
     background: rgba(0,0,0,0.4);
-}
-.submenu-img-hover-title{
-    display: block;
-    text-align: center;
-}
-.submenu-img-hover-title>span{
-
 }
 .navbar-dropdown{
     text-align: center;
