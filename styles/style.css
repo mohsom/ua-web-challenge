@@ -48,6 +48,11 @@ body {
     color: #eb4200;
     transition: all 0.2s;
 }
+#products:hover{
+    background-color: #8c8d8d;
+    color: #ffffff;
+    border-color: #8c8d8d;
+}
 #products:hover .submenu{
     visibility: visible;
 }
@@ -78,6 +83,20 @@ body {
     display: block;
     float: left;
     margin-top: 10px;
+}
+.submenu-item-img:hover{
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(256,256,256,1);
+}
+.submenu-img-hover{
+    display: block;
+    background-color: rgba(0,0,0,0);
+    color: rgba(256,256,256,0);
+}
+.submenu-img-hover-title{
+    vertical-align: middle;
+    text-align: center;
+    display: block;
 }
 .navbar-dropdown{
     text-align: center;
