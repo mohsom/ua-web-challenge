@@ -1,7 +1,10 @@
 body {
     font-family: "Tahoma";
 }
-
+.main-block{
+    max-width: 1366px;
+    margin: 0 auto;
+}
 .navbar {
     height: 75px;
     background-color: #ffffff;
@@ -74,14 +77,22 @@ body {
     color: #ffffff;
     border-style: none;
 }
+.navbar-dropdown > .dropdown-lang:hover > .lang-item>.lang-arrow-img{
+    display: none;
+}
+.navbar-dropdown > .dropdown-lang:hover > .lang-item>.lang-arrow-img2{
+    display: block;
+}
 .navbar-dropdown > .dropdown-lang > .lang-item.active {
     display: inline-block;
 }
 
-.lang-arrow-img {
+.lang-arrow-img,.lang-arrow-img2 {
     vertical-align: middle;
 }
-
+.lang-arrow-img2{
+    display: none;
+}
 .banner {
     width: 100%;
     height: 522px;
