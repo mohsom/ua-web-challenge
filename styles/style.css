@@ -54,11 +54,12 @@ body {
     border-width: 1px;
     border-color: #dddddd;
     padding: 0 15px 0 15px;
-    height: 75px;
 }
 
 .navbar-dropdown > .dropdown-lang > .lang-item {
     display: none;
+    vertical-align: middle;
+    height: 75px;
 }
 
 .navbar-dropdown > .dropdown-lang > .lang-item.active {
