@@ -101,6 +101,9 @@ body {
     display: block;
     text-align: center;
 }
+.submenu-img-hover-title>span{
+    
+}
 .navbar-dropdown{
     text-align: center;
     color: #dddddd;
