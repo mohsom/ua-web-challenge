@@ -6,7 +6,7 @@ body {
     margin: 0 auto;
 }
 .navbar {
-    height: 75px;
+    min-height: 75px;
     background-color: #ffffff;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 .navbar-item-link {
-    width: 120px;
+    min-width: 120px;
     margin-right: 20px;
     text-align: center;
     height: 73px;
