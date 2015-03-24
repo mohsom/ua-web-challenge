@@ -67,7 +67,7 @@ body {
 }
 
 .lang-arrow-img {
-    vertical-align: middle;
+    float: right;
 }
 
 .banner {
