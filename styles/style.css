@@ -164,6 +164,8 @@ body {
 
 .lang-arrow-img {
     vertical-align: middle;
+    margin-left: 5px;
+    position: absolute;
 }
 .banner {
     width: 100%;
