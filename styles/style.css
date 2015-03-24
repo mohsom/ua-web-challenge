@@ -139,6 +139,7 @@ body {
     border-color: #dddddd;
     margin-left: 15px;
     vertical-align: middle;
+    cursor: default;
 }
 .navbar-dropdown > .dropdown-lang {
     list-style: none;
@@ -148,15 +149,20 @@ body {
 
 .navbar-dropdown > .dropdown-lang > .lang-item {
     display: none;
-    height: 75px;
+    height: 45px;
     width: 70px;
     padding-top: 30px;
+    cursor: pointer;
 }
 .navbar-dropdown > .dropdown-lang:hover > .lang-item{
     display: block;
     background-color: #8c8d8d;
     color: #ffffff;
     border-style: none;
+}
+.navbar-dropdown > .dropdown-lang:hover >.lang-item:hover{
+    color: #eb4200;
+    background-color: #ffffff;
 }
 .navbar-dropdown > .dropdown-lang > .lang-item.active {
     display: inline-block;
