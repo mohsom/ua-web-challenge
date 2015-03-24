@@ -76,7 +76,6 @@ body {
     background-color: #8c8d8d;
     color: #ffffff;
     border-style: none;
-    text-align: center;
 }
 .navbar-dropdown > .dropdown-lang > .lang-item.active {
     display: inline-block;
