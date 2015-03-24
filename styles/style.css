@@ -76,22 +76,14 @@ body {
     background-color: #8c8d8d;
     color: #ffffff;
     border-style: none;
-}
-.navbar-dropdown > .dropdown-lang:hover > .lang-item>.lang-arrow-img{
-    display: none;
-}
-.navbar-dropdown > .dropdown-lang:hover > .lang-item>.lang-arrow-img2{
-    display: block;
+    text-align: center;
 }
 .navbar-dropdown > .dropdown-lang > .lang-item.active {
     display: inline-block;
 }
 
-.lang-arrow-img,.lang-arrow-img2 {
+.lang-arrow-img {
     vertical-align: middle;
-}
-.lang-arrow-img2{
-    display: none;
 }
 .banner {
     width: 100%;
