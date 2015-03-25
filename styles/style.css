@@ -479,3 +479,6 @@ body {
     width: 490px;
     text-align: left;
 }
+.article-text>span{
+    color: #eb4200;
+}
