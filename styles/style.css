@@ -452,16 +452,19 @@ body {
 }
 .main-info-ceo{
     width: 1145px;
+    font-size: 13px;
 }
 .ceo-row{
-
+    width: 100%;
 }
 .ceo-article{
-
+    display: inline-block;
+    word-break: normal;
+    width: 487px;
 }
 .article-title{
-
+    color: #000000;
 }
 .article-text{
-    
+    color:#999999;
 }
