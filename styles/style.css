@@ -491,3 +491,26 @@ body {
     height: 110px;
     background-color: #939494;
 }
+.footer-blocks{
+    display: block;
+    width: 100%;
+    border-bottom: solid;
+    border-color: #a6a6a6;
+    border-width: 1px;
+}
+.footer-block1{
+    display: inline-block;
+    width: 1075px;
+    height: 75px;
+    border-right: solid;
+    border-color: #a6a6a6;
+    border-width: 1px;
+}
+.footer-block2{
+    display: inline-block;
+    width: 180px;
+    height: 75px;
+    border-right: solid;
+    border-color: #a6a6a6;
+    border-width: 1px;
+}
