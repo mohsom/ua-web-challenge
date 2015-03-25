@@ -403,7 +403,6 @@ body {
 }
 .add-block>span{
     display: block;
-    margin-top: 27px;
 }
 .add-block1{
     background-color: #eb4200;
@@ -418,6 +417,9 @@ body {
 }
 .add-block1>span,.add-block1>.add-block1-img{
     transform: skewX(25deg);
+}
+.add-block1>span{
+    margin-top: 25px;
 }
 .add-block1-img{
     display: block;
@@ -446,4 +448,5 @@ body {
 .add-block2>span{
     transform: skewX(25deg);
     margin-left: -125px;
+    margin-top: 25px;
 }
