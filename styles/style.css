@@ -703,6 +703,7 @@ body {
     color: #ffffff;
     font-size: 13px;
     position: absolute;
+    width: 100%;
 }
 
 .designed {
@@ -712,13 +713,21 @@ body {
 
 .designed > img {
     display: inline-block;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 8px;
 }
 
 .designed > span {
     display: inline-block;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 11px;
 }
 
 .copyright {
     display: inline-block;
-    
+    float: right;
+    margin-top: 10px;
+    margin-right: 85px;
 }
