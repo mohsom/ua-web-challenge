@@ -316,3 +316,19 @@ body {
 .main-info-slide{
     margin:0 auto;
 }
+.main-info-slides-item{
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 250px;
+    display: inline-block;
+    margin: 35px;
+}
+.main-info-slides-item#slide1{
+    background: url("../images/img-slide-1.png");
+}
+.main-info-slides-item#slide2{
+    background: url("../images/img-slide-2.png");
+}
+.main-info-slides-item#slide3{
+    background: url("../images/img-slide-3.png");
+}
