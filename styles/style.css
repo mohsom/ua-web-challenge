@@ -481,6 +481,10 @@ body {
 }
 .article-text>span{
     color: #eb4200;
+    cursor: pointer;
+}
+.article-text>span:hover{
+    text-decoration: underline;
 }
 .footer{
     width: 100%;
