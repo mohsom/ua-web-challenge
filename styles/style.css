@@ -675,12 +675,14 @@ body {
     margin-left: 13px;
     cursor: pointer;
 }
+
 .facebook-img {
     display: inline-block;
     padding-left: 10px;
     padding-top: 7px;
     position: absolute;
 }
+
 .facebook-title {
     display: inline-block;
     border-right: solid;
@@ -694,4 +696,29 @@ body {
 .facebook-num {
     display: inline-block;
     padding-left: 8px;
+}
+
+.footer-block3 {
+    display: block;
+    color: #ffffff;
+    font-size: 13px;
+    position: absolute;
+}
+
+.designed {
+    display: inline-block;
+    float: left;
+}
+
+.designed > img {
+    display: inline-block;
+}
+
+.designed > span {
+    display: inline-block;
+}
+
+.copyright {
+    display: inline-block;
+    
 }
