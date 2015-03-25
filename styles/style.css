@@ -535,3 +535,19 @@ body {
     margin-top: 2px;
     position: absolute;
 }
+.footer-menu{
+    list-style: none;
+    display: block;
+    color: #ffffff;
+    margin-left: 420px;
+    position: absolute;
+    margin-top: 10px;
+}
+.footer-menu-item{
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 60px;
+}
+.footer-menu-item:hover{
+    color: #eb4200;
+}
