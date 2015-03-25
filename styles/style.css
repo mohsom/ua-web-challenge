@@ -188,7 +188,7 @@ body {
 
 .banner-content {
     margin: 0 auto;
-    width: 85%;
+    width: 1145px;
     height: 100%;
 }
 
@@ -250,7 +250,7 @@ body {
 .our-products-title{
     overflow: hidden;
     position: relative;
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
     white-space: nowrap;
 }
@@ -272,4 +272,39 @@ body {
 .our-products-title:after{
     left: 10px;
     margin-right: -50%;
+}
+.our-products-menu{
+    margin-top: 30px;
+    width: 1145px;
+    display: block;
+    list-style: none;
+    height: 50px;
+    background-color: #ffffff;
+}
+.our-products-menu-item{
+    display: inline-block;
+    width: 190px;
+    height: 100%;
+    color: #333333;
+    border-right-style: solid;
+    border-color: #464c52;
+    border-width: 1px;
+    float: left;
+    vertical-align: middle;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor:pointer;
+}
+.our-products-menu>li:nth-last-of-type(1){
+    border-right-style: none;
+}
+.our-products-menu-item:hover{
+    background-color: #333333;
+    color: #ffffff;
+}
+.our-products-menu-item>span{
+    vertical-align: middle;
+    display: block;
+    margin-top: 19px;
 }
