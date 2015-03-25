@@ -453,11 +453,11 @@ body {
 .main-info-ceo{
     width: 1145px;
     font-size: 13px;
+    margin: 0 auto;
 }
 .ceo-row{
     display: block;
     width: 100%;
-    padding-bottom: 20px;
 }
 .ceo-article{
     display: inline-block;
