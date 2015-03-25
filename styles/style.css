@@ -189,6 +189,7 @@ body {
 .banner-content {
     margin: 0 auto;
     width: 1145px;
+    max-width: 100%;
     height: 100%;
 }
 
@@ -276,6 +277,7 @@ body {
 .our-products-menu{
     margin-top: 30px;
     width: 1145px;
+    max-width: 100%;
     display: block;
     list-style: none;
     height: 50px;
