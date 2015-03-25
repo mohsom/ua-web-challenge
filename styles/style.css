@@ -482,3 +482,8 @@ body {
 .article-text>span{
     color: #eb4200;
 }
+.footer{
+    width: 100%;
+    height: 110px;
+    background-color: #939494;
+}
