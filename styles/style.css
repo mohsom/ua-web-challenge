@@ -665,11 +665,14 @@ body {
 
 .facebook-button {
     display: block;
+    position: absolute;
     width: 150px;
     height: 30px;
     background-color: #3a5795;
     color: #ffffff;
     font-size: 13px;
+    margin-top: 25px;
+    margin-left: 13px;
     cursor: pointer;
 }
 .facebook-img {
