@@ -326,6 +326,7 @@ body {
     -webkit-box-shadow: inset 0 -117px 196px 0 rgba(0, 0, 0, 0.75);
     -moz-box-shadow: inset 0 -117px 196px 0 rgba(0, 0, 0, 0.75);
     box-shadow: inset 0 -117px 196px 0 rgba(0, 0, 0, 0.75);
+    overflow: hidden;
 }
 .main-info-slides-item#slide1{
     background: url("../images/img-slide-1.png");
@@ -342,6 +343,7 @@ body {
     text-align: center;
     color: #ffffff;
     padding-top: 190px;
+    position: relative;
 }
 .slide-text-title{
     text-transform: uppercase;
@@ -359,10 +361,13 @@ body {
     text-align: center;
     font-size: 13px;
     font-weight: bold;
-    position: absolute;
     margin-top: 30px;
+    margin-left: -10px;
+    margin-bottom: -65px;
+    transform: skewX(-20deg);
 }
 .slide-badge>span{
     display: block;
     padding-top: 11px;
+    transform:skewX(20deg);
 }
