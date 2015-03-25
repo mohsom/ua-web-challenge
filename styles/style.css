@@ -539,7 +539,7 @@ body {
     list-style: none;
     display: block;
     color: #ffffff;
-    margin-left: 420px;
+    margin-left: 380px;
     position: absolute;
     margin-top: 10px;
 }
@@ -551,4 +551,29 @@ body {
 }
 .footer-menu-item:hover{
     color: #eb4200;
+}
+.contacts{
+    display: block;
+    position: absolute;
+    color: #ffffff;
+    margin-left: 785px;
+    margin-top: 7px;
+}
+.contacts-item{
+    display: inline-block;
+    margin-right: 30px;
+}
+.contact-img{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #7c7c7c;
+    border-radius: 30px;
+}
+.contact-img>img{
+    margin-left: 6px;
+    margin-top: 6px;
+}
+.contacts-title{
+   display: inline-block;
 }
