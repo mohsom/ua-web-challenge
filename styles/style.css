@@ -293,7 +293,6 @@ body {
     border-color: #464c52;
     border-width: 1px;
     float: left;
-    vertical-align: middle;
     font-size: 13px;
     text-transform: uppercase;
     font-weight: bold;
@@ -307,7 +306,6 @@ body {
     color: #ffffff;
 }
 .our-products-menu-item>span{
-    vertical-align: middle;
     display: block;
     margin-top: 19px;
 }
