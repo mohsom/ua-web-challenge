@@ -547,6 +547,7 @@ body {
     display: inline-block;
     cursor: pointer;
     margin-right: 60px;
+    text-transform: uppercase;
 }
 .footer-menu-item:hover{
     color: #eb4200;
