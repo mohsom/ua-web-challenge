@@ -390,3 +390,57 @@ body {
 .radio-button.radio-active{
     background-color: #eb4200;
 }
+.main-info-add{
+    display: block;
+    margin: 0 auto;
+    width:1145px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.add-block{
+    display: inline-block;
+    height: 60px;
+}
+.add-block>span{
+    display: block;
+    margin-top: 27px;
+}
+.add-block1{
+    background-color: #eb4200;
+    color: #ffffff;
+    font-weight: bold;
+    font-size:15px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 50%;
+    margin-left: -20px;
+    transform: skewX(-25deg);
+}
+.add-block1>span,.add-block1>.add-block1-img{
+    transform: skewX(25deg);
+}
+.add-block1-img{
+    display: block;
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: absolute;
+}
+.add-block1-img>img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+.add-block2{
+    width: 50%;
+    background-color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    transform: skewX(-25deg);
+}
+.add-block2>span{
+    transform: skewX(25deg);
+}
