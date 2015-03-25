@@ -455,19 +455,23 @@ body {
     font-size: 13px;
 }
 .ceo-row{
-    width: 100%;
     display: block;
+    width: 100%;
+    padding-bottom: 20px;
 }
 .ceo-article{
     display: inline-block;
-    width: 487px;
-    position: relative;
+    word-break: normal;
 }
 .article-title{
     color: #000000;
-    word-break: normal;
+    display: block;
+    width: 100%;
+    text-align: left;
 }
 .article-text{
     color:#999999;
-    word-break: normal;
+    display: block;
+    width: 490px;
+    text-align: left;
 }
