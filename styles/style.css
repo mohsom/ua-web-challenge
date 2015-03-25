@@ -376,6 +376,7 @@ body {
     margin: 0 auto;
     width: 60px;
     height: 25px;
+    padding-bottom: 60px;
 }
 .radio-button{
     display: inline-block;
