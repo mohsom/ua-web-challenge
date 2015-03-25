@@ -351,3 +351,18 @@ body {
 .slide-text-description{
     font-size: 13px;
 }
+.slide-badge{
+    color: #ffffff;
+    background-color: #eb4200;
+    width: 145px;
+    height: 35px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 30px;
+}
+.slide-badge>span{
+    display: block;
+    padding-top: 10px;
+}
