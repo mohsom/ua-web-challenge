@@ -396,6 +396,7 @@ body {
     width:1145px;
     padding-bottom: 65px;
     overflow: hidden;
+    max-width: 100%;
 }
 .add-block{
     display: inline-block;
@@ -454,6 +455,7 @@ body {
     width: 1145px;
     font-size: 13px;
     margin: 0 auto;
+    max-width: 100%;
 }
 .ceo-row{
     display: block;
