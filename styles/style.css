@@ -236,11 +236,12 @@ body {
 }
 .euro-sign{
     margin-left: 55px;
+    margin-top: -10px;
 }
 .euro-content{
-    margin-top: -25px;
+    margin-top: -30px;
     text-align: center;
-    margin-left: 25px;
+    margin-left: 28px;
     max-width: 100%;
     word-break: normal;
 }
