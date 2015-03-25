@@ -309,3 +309,7 @@ body {
     display: block;
     margin-top: 19px;
 }
+.main-info{
+    background-color: #f3f3f3;
+    width: 100%;
+}
