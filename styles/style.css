@@ -435,11 +435,13 @@ body {
     padding-top: 8px;
 }
 .add-block2{
-    width: 50%;
+    width: 55%;
     background-color: #ffffff;
     font-size: 15px;
     text-align: center;
     transform: skewX(-25deg);
+    margin-right: -45px;
+    margin-left: -5px;
 }
 .add-block2>span{
     transform: skewX(25deg);
