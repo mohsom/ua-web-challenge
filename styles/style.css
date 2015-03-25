@@ -315,7 +315,7 @@ body {
 }
 .main-info-slides{
     margin: 0 auto;
-    padding: 35px 0 80px 100px;
+    padding: 35px 0 12px 100px;
 }
 .main-info-slides-item{
     background-repeat: no-repeat;
@@ -370,4 +370,21 @@ body {
     display: block;
     padding-top: 11px;
     transform:skewX(20deg);
+}
+.radio-buttons{
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 25px;
+}
+.radio-button{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    background-color: #bbbbbb;
+    cursor: pointer;
+}
+.radio-button.radio-active{
+    background-color: #eb4200;
 }
