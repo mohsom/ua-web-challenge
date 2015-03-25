@@ -514,3 +514,24 @@ body {
     border-color: #a6a6a6;
     border-width: 1px;
 }
+.becker-block{
+    display: block;
+    font-size: 11px;
+    color: #ffffff;
+    width: 215px;
+    word-break: normal;
+    margin-top: 20px;
+}
+.becker-block>img{
+    display: block;
+    margin-left: 70px;
+    position: absolute;
+}
+.becker-block>span{
+    display: block;
+    height: 35px;
+    width: 90px;
+    margin-left: 200px;
+    margin-top: 2px;
+    position: absolute;
+}
