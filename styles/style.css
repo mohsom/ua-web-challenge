@@ -68,7 +68,7 @@ body {
     min-height: 212px;
     position: absolute;
     margin-top: 32px;
-    margin-left: -402px;
+    left:0;
     display: block;
     visibility: hidden;
     cursor: default;
