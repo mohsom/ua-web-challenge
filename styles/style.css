@@ -710,11 +710,13 @@ body {
     float: left;
 }
 
-.designed > img {
+.designed > .company {
     display: inline-block;
     position: absolute;
     margin-left: 240px;
-    margin-top: 8px;
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
 }
 
 .designed > span {
