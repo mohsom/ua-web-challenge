@@ -55,7 +55,7 @@ body {
 #products:hover {
     background-color: #8c8d8d;
     color: #ffffff;
-    border-color: #8c8d8d; 
+    border-color: #8c8d8d;
 }
 
 #products:hover .submenu {
