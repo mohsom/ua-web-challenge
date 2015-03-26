@@ -24,7 +24,6 @@ body {
     display: inline-block;
     vertical-align: middle;
     cursor: pointer;
-    transition: all 0.2s;
 }
 @media (min-width: 1200px) {
     .navbar-item-link {
@@ -119,7 +118,6 @@ body {
 .navbar-item-link:hover {
     border-color: #eb4200;
     color: #eb4200;
-    transition: all 0.2s;
 }
 
 #products:hover {
