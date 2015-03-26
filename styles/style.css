@@ -65,7 +65,7 @@ body {
 .submenu {
     width: 1366px;
     background-color: #8c8d8d;
-    height: 212px;
+    min-height: 212px;
     position: absolute;
     margin-top: 32px;
     margin-left: -402px;
@@ -82,7 +82,6 @@ body {
     margin: 25px 0 0 25px;
     font-size: 11px;
     word-break: normal;
-    max-height: 25px;
 }
 
 .submenu-item-img {
