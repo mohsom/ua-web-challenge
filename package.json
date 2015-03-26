@@ -3,8 +3,14 @@
   "version": "0.0.0",
   "devDependencies": {
     "grunt": "latest",
+    "imagemin":"latest",
     "grunt-contrib-cssmin":"latest",
     "grunt-contrib-htmlmin":"latest",
-    "grunt-contrib-imagemin":"latest"
+    "grunt-contrib-imagemin":"latest",
+    "imagemin-mozjpeg":"latest",
+    "imagemin-optipng":"latest",
+    "imagemin-gifsicle":"latest",
+    "imagemin-jpegtran":"latest",
+    "imagemin-svgo":"latest"
   }
 }

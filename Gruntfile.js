@@ -1,4 +1,9 @@
 module.exports = function (grunt) {
+    var mozjpeg = require('imagemin-mozjpeg');
+    var optipng=require('imagemin-optipng');
+    var gifsicle=require('imagemin-gifsicle');
+    var jpegtran=require('imagemin-jpegtran');
+    var svgo=require('imagemin-svgo');
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         htmlmin: {
@@ -27,8 +32,9 @@ module.exports = function (grunt) {
         },
         imagemin: {
             options: {
-                optimizationLevel: 3,
-                svgoPlugins: [{ removeViewBox: false }]
+                optimizationLevel: 7,
+                svgoPlugins: [{ removeViewBox: false }],
+                use:[mozjpeg(),optipng(),gifsicle(),jpegtran(),svgo()]
             },
             dynamic: {
                 files: [{
