@@ -1,0 +1,10 @@
+{
+  "name": "pro-alu-page",
+  "version": "0.0.0",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-cssmin":"latest",
+    "grunt-contrib-htmlmin":"latest",
+    "grunt-contrib-imagemin":"latest"
+  }
+}
