@@ -61,7 +61,6 @@ body {
 #products:hover .submenu {
     visibility: visible;
 }
-/*todo:переробити*/
 .submenu {
     width: 1366px;
     background-color: #8c8d8d;
