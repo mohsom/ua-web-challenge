@@ -44,6 +44,31 @@ body {
         margin-left: 75px;
         margin-right: 104px;
     }
+    .navbar-dropdown {
+        text-align: center;
+        color: #dddddd;
+        border-right: solid;
+        border-left: solid;
+        border-width: 1px;
+        border-color: #dddddd;
+        margin-left: 15px;
+        vertical-align: middle;
+        cursor: default;
+    }
+
+    .navbar-dropdown > .dropdown-lang {
+        list-style: none;
+        height: 75px;
+        width: 70px;
+    }
+
+    .navbar-dropdown > .dropdown-lang > .lang-item {
+        display: none;
+        height: 45px;
+        width: 70px;
+        padding-top: 30px;
+        cursor: pointer;
+    }
 }
 @media (max-width: 1200px) {
     .navbar-item-link {
@@ -60,9 +85,33 @@ body {
         padding-top: 2%;
     }
     .navbar-logo{
-        display: block;
-        position: relative;
-        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-dropdown {
+        text-align: center;
+        color: #dddddd;
+        border-right: solid;
+        border-left: solid;
+        border-width: 1px;
+        border-color: #dddddd;
+        width: 100%;
+        vertical-align: middle;
+        cursor: default;
+    }
+
+    .navbar-dropdown > .dropdown-lang {
+        list-style: none;
+        height: 75px;
+        width: 100%;
+    }
+
+    .navbar-dropdown > .dropdown-lang > .lang-item {
+        display: none;
+        height: 45px;
+        width: 100%;
+        padding-top: 30px;
+        cursor: pointer;
     }
 }
 
@@ -170,32 +219,6 @@ body {
 
 .submenu-img-container:hover + .submenu-item-img-title {
     visibility: hidden;
-}
-
-.navbar-dropdown {
-    text-align: center;
-    color: #dddddd;
-    border-right: solid;
-    border-left: solid;
-    border-width: 1px;
-    border-color: #dddddd;
-    margin-left: 15px;
-    vertical-align: middle;
-    cursor: default;
-}
-
-.navbar-dropdown > .dropdown-lang {
-    list-style: none;
-    height: 75px;
-    width: 70px;
-}
-
-.navbar-dropdown > .dropdown-lang > .lang-item {
-    display: none;
-    height: 45px;
-    width: 70px;
-    padding-top: 30px;
-    cursor: pointer;
 }
 
 .navbar-dropdown > .dropdown-lang:hover > .lang-item {
