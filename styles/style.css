@@ -76,6 +76,7 @@ body {
         margin-right: 20px;
         text-align: center;
         height: 73px;
+        border-top-style: solid;
         border-bottom-style: solid;
         border-color: #ffffff;
         border-width: 2px;
@@ -108,7 +109,7 @@ body {
 
     .navbar-dropdown > .dropdown-lang > .lang-item {
         display: none;
-        height: 45px;
+        height: 35px;
         width: 100%;
         padding-top: 30px;
         cursor: pointer;
