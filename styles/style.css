@@ -73,6 +73,7 @@ body {
     cursor: default;
     max-width: 100%;
     word-break: normal;
+    z-index: 999999999;
 }
 
 .submenu-item {
