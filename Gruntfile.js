@@ -10,7 +10,7 @@ module.exports = function (grunt) {
                     collapseWhitespace: true
                 },
                 files: {
-                    'index.html': 'build/index.html',
+                    'build/index.html': 'index.html'
                 }
             }
         },
@@ -21,8 +21,24 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    'build/styles/styles.css': ['styles/style.css','styles/reset.css','styles/normalize.css']
+                    'build/styles/style.css': ['styles/style.css'],
+                    'build/styles/reset.css': ['styles/reset.css'],
+                    'build/styles/normalize.css': ['styles/normalize.css']
                 }
+            }
+        },
+        imagemin: {
+            options: {
+                optimizationLevel: 3,
+                svgoPlugins: [{ removeViewBox: false }]
+            },
+            dynamic: {
+                files: [{
+                    expand: true,
+                    cwd: 'images/',
+                    src: ['**/*.{png,jpg,gif,svg}'],
+                    dest: 'build/images'
+                }]
             }
         }
     });
