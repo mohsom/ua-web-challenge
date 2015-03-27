@@ -71,6 +71,7 @@
 .main-info-slides-item {
     width: 360px;
     height: 250px;
+    max-width: 100%;
     margin: 0 auto;
     margin-bottom: 10px;
     display: block;
