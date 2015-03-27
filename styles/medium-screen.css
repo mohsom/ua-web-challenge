@@ -14,8 +14,9 @@
 }
 .navbar-logo{
     text-align: left;
-    top:5%;
+    top:4%;
     left:2%;
+    bottom: 2%;
     position: absolute;
 }
 .show-menu{
@@ -71,7 +72,7 @@
     background-color: #8c8d8d;
     min-height: 212px;
     position: absolute;
-    
+
     left:0;
     display: block;
     visibility: hidden;
