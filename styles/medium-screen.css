@@ -144,6 +144,8 @@
     font-size: 15px;
     text-transform: uppercase;
     text-align: center;
+    height: 30px;
+    padding-top: 50px;
     width: 100%;
 }
 .add-block1-img {
