@@ -133,8 +133,8 @@
 }
 
 .add-block > span {
-    display: block;
     margin: 5px;
+    display: inline-block;
 }
 
 .add-block1 {
@@ -147,12 +147,12 @@
     width: 100%;
 }
 .add-block1-img {
-    display: block;
+    display: inline-block;
     background-color: #ffffff;
     width: 30px;
     height: 30px;
     border-radius: 30px;
-    margin: 0 auto;
+    vertical-align: middle;
 }
 
 .add-block1-img > img {
