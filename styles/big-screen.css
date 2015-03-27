@@ -119,6 +119,12 @@
     .footer-block2 {
         display: inline-block;
         min-height: 75px;
+        border-right: solid;
+        border-left: solid;
+        border-width: 1px;
+        border-color: #a6a6a6;
+        width: 15%;
+        margin-left: 45px;
     }
 
     .becker-block {
@@ -181,7 +187,7 @@
         color: #ffffff;
         font-size: 13px;
         margin-top: 25px;
-        margin-left: 60px;
+        margin-left: 20px;
         cursor: pointer;
     }
     .footer-block3 {
@@ -190,7 +196,7 @@
         font-size: 13px;
         width: 100%;
         border-top: solid;
-        border-color: #ffffff;
+        border-color: #a6a6a6;
         border-width: 1px;
         height: 30px;
     }

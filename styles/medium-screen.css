@@ -232,7 +232,6 @@
 .footer-block2 {
     display: inline-block;
     width: 100%;
-    min-height: 75px;
     border-bottom: solid;
     border-color: #a6a6a6;
     border-width: 1px;
