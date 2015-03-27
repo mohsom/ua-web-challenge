@@ -40,11 +40,11 @@ module.exports = function (grunt) {
         watch: {
             css:{
                 files:['styles/*.css'],
-                tasks:['cssmin']
+                tasks:['build']
             },
             html:{
                 files:['index.html'],
-                tasks:['htmlmin']
+                tasks:['build']
             }
         }
     });
@@ -53,6 +53,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.registerTask('default', ['cssmin', 'htmlmin', 'imagemin']);
-    grunt.registerTask('dev', ['watch']);
+    grunt.registerTask('build', ['cssmin', 'htmlmin', 'imagemin']);
+    grunt.registerTask('default', ['watch']);
 };
