@@ -20,7 +20,8 @@ module.exports = function (grunt) {
             target: {
                 files: {
                     'build/styles/style.css': ['styles/style.css'],
-                    'build/styles/small-screen.css': ['styles/medium-screen.css'],
+                    'build/styles/medium-screen.css': ['styles/medium-screen.css'],
+                    'build/styles/small-screen.css': ['styles/small-screen.css'],
                     'build/styles/big-screen.css': ['styles/big-screen.css'],
                     'build/styles/reset.css': ['styles/reset.css'],
                     'build/styles/normalize.css': ['styles/normalize.css']
