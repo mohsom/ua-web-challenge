@@ -25,7 +25,7 @@ body {
     vertical-align: middle;
     cursor: pointer;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
     .navbar-item-link {
         width: 120px;
         margin-right: 20px;
@@ -68,8 +68,22 @@ body {
         padding-top: 30px;
         cursor: pointer;
     }
+    .submenu {
+        width: 1366px;
+        background-color: #8c8d8d;
+        min-height: 212px;
+        position: absolute;
+        margin-top: 32px;
+        left:0;
+        display: block;
+        visibility: hidden;
+        cursor: default;
+        max-width: 100%;
+        word-break: normal;
+        z-index: 2;
+    }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1280px) {
     .navbar-item-link {
         width: 100%;
         text-align: center;
@@ -108,6 +122,19 @@ body {
         padding-top: 30px;
         cursor: pointer;
     }
+    .submenu {
+        background-color: #8c8d8d;
+        min-height: 212px;
+        position: absolute;
+        margin-top: 30px;
+        left:0;
+        display: block;
+        visibility: hidden;
+        cursor: default;
+        width: 100%;
+        word-break: normal;
+        z-index: 2;
+    }
 }
 
 .navbar-item-link:hover {
@@ -123,20 +150,6 @@ body {
 
 #products:hover .submenu {
     visibility: visible;
-}
-.submenu {
-    width: 1366px;
-    background-color: #8c8d8d;
-    min-height: 212px;
-    position: absolute;
-    margin-top: 32px;
-    left:0;
-    display: block;
-    visibility: hidden;
-    cursor: default;
-    max-width: 100%;
-    word-break: normal;
-    z-index: 2;
 }
 
 .submenu-item {
@@ -345,7 +358,7 @@ body {
 }
 
 
-@media (max-width: 1200px){
+@media (max-width: 1280px){
     .our-products-menu-item{
         display: inline-block;
         width: 100%;
@@ -641,7 +654,7 @@ body {
     }
 
 }
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
     .our-products-menu-item {
         display: inline-block;
         width: 190px;
