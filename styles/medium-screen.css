@@ -14,24 +14,28 @@
 }
 .navbar-logo{
     text-align: left;
-    margin:20px;
+    top:5%;
+    left:2%;
+    position: absolute;
 }
 .show-menu{
-    transform: rotateZ(90deg);
-    height: 100%;
+    display: block;
     text-align: center;
-    width: 75px;
+    margin-left: 60%;
+    cursor: pointer;
 }
 .show-menu-arrow{
+    display: block;
     font-size: 40px;
     color:#8c8d8d ;
-    padding-top: 10px;
+    padding-top: 30px;
+    transform: rotateZ(90deg);
 }
 .active-menu{
     display: block;
 }
 .active-arrow{
-    transform: rotateZ(-90deg);
+    transform: rotateX(-180deg);
 }
 .navbar-dropdown {
     text-align: center;
@@ -46,6 +50,8 @@
     position:absolute;
     margin-left: 1%;
     margin-right: 5%;
+    top:0;
+    right: 4%;
 }
 
 .navbar-dropdown > .dropdown-lang {
