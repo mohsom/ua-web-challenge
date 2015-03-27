@@ -130,14 +130,14 @@ body {
 }
 
 .navbar-dropdown > .dropdown-lang:hover > .lang-item.active > span > .lang-arrow-img {
-    transform: rotateZ(90deg);
+    transform: rotateZ(-90deg);
 }
 
 .lang-arrow-img {
     vertical-align: middle;
     margin-left: 5px;
     position: absolute;
-    transform: rotateZ(-90deg);
+    transform: rotateZ(90deg);
 }
 
 .banner {
