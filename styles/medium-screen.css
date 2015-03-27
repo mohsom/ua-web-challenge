@@ -30,6 +30,9 @@
 .active-menu{
     display: block;
 }
+.active-arrow{
+    transform: rotateZ(-90deg);
+}
 .navbar-dropdown {
     text-align: center;
     color: #dddddd;
