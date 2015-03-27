@@ -4,6 +4,8 @@ body {
 
 .main-block {
     max-width: 1366px;
+    width: 100%;
+    overflow: hidden;
     margin: 0 auto;
 }
 
