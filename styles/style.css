@@ -137,7 +137,7 @@ body {
     }
 }
 
-.navbar-item-link:hover {
+.navbar-item-link:hover {   
     border-color: #eb4200;
     color: #eb4200;
 }
