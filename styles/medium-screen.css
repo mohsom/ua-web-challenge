@@ -6,21 +6,42 @@
     border-bottom-style: solid;
     border-color: #ffffff;
     border-width: 2px;
+    display: none;
 }
 .navbar-item-link > span {
     display: block;
-    padding-top: 2.5%;
+    padding-top: 3%;
 }
 .navbar-logo{
-    width: 100%;
+    text-align: left;
+    margin:20px;
+}
+.show-menu{
+    display: block;
+    float: right;
+    margin-right: 60px;
+    transform: rotateZ(90deg);
+    height: 100%;
     text-align: center;
+    width: 75px;
+}
+.show-menu-arrow{
+    font-size: 40px;
+    color:#8c8d8d ;
+    padding-top: 10px;
 }
 .navbar-dropdown {
     text-align: center;
     color: #dddddd;
-    width: 100%;
+    width: 75px;
+    border-right: solid;
+    border-left: solid;
+    border-width: 1px;
+    border-color: #dddddd;
     vertical-align: middle;
     cursor: default;
+    float: right;
+    margin-right: 30px;
 }
 
 .navbar-dropdown > .dropdown-lang {

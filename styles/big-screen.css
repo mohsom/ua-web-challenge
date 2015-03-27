@@ -35,6 +35,9 @@
     list-style: none;
     min-height: 50px;
 }
+.show-menu{
+    display: none;
+}
 @media (min-width: 1200px) and (max-width: 1279px){
     .navbar-item-link {
         width: 110px;
