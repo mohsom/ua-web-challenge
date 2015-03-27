@@ -235,28 +235,31 @@
     border-bottom: solid;
     border-color: #a6a6a6;
     border-width: 1px;
+    height: 50px;
 }
 
 .becker-block {
     display: block;
     font-size: 11px;
     color: #ffffff;
-    width: 100%;
+    width: 20%;
     word-break: normal;
-    margin-top: 20px;
+    margin: 0 auto;
+    padding-top: 10px;
 }
 
 .becker-block > img {
     display: block;
-    margin: 0 auto;
 }
 
 .becker-block > span {
     display: block;
-    width: 100%;
-    margin-top: 2px;
-    text-align: center;
+    height: 35px;
+    width: 90px;
+    margin-top: -35px;
+    margin-left: 80%;
 }
+
 
 .footer-menu {
     list-style: none;
