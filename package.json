@@ -5,6 +5,7 @@
     "grunt": "latest",
     "grunt-contrib-cssmin":"latest",
     "grunt-contrib-htmlmin":"latest",
-    "grunt-contrib-imagemin":"latest"
+    "grunt-contrib-imagemin":"latest",
+    "grunt-contrib-watch":"latest"
   }
 }

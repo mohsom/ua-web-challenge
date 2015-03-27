@@ -36,11 +36,23 @@ module.exports = function (grunt) {
                     dest: 'build/images'
                 }]
             }
+        },
+        watch: {
+            css:{
+                files:['styles/*.css'],
+                tasks:['cssmin']
+            },
+            html:{
+                files:['index.html'],
+                tasks:['htmlmin']
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
+    grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.registerTask('default', ['cssmin', 'htmlmin', 'imagemin']);
+    grunt.registerTask('dev', ['watch']);
 };
