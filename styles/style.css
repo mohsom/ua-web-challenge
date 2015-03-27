@@ -72,7 +72,6 @@ body {
 @media (max-width: 1200px) {
     .navbar-item-link {
         width: 100%;
-        margin-right: 20px;
         text-align: center;
         height: 73px;
         border-top-style: solid;
@@ -91,10 +90,6 @@ body {
     .navbar-dropdown {
         text-align: center;
         color: #dddddd;
-        border-right: solid;
-        border-left: solid;
-        border-width: 1px;
-        border-color: #dddddd;
         width: 100%;
         vertical-align: middle;
         cursor: default;
