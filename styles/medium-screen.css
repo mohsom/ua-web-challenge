@@ -17,21 +17,17 @@
     margin:20px;
 }
 .show-menu{
-    display: block;
-    margin-right: 60px;
     transform: rotateZ(90deg);
     height: 100%;
     text-align: center;
     width: 75px;
-    position:absolute;
-    margin-left: 50%;
 }
 .show-menu-arrow{
     font-size: 40px;
     color:#8c8d8d ;
     padding-top: 10px;
 }
-.show-menu:hover   .navbar-item-link{
+.active-menu{
     display: block;
 }
 .navbar-dropdown {
@@ -44,9 +40,9 @@
     border-color: #dddddd;
     vertical-align: middle;
     cursor: default;
-    margin-right: 30px;
     position:absolute;
-    margin-left: 30%;
+    margin-left: 1%;
+    margin-right: 5%;
 }
 
 .navbar-dropdown > .dropdown-lang {
