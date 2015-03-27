@@ -1,0 +1,344 @@
+.navbar-item-link {
+    width: 100%;
+    text-align: center;
+    height: 73px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+}
+.navbar-item-link > span {
+    display: block;
+    padding-top: 2.5%;
+}
+.navbar-logo{
+    width: 100%;
+    text-align: center;
+}
+.navbar-dropdown {
+    text-align: center;
+    color: #dddddd;
+    width: 100%;
+    vertical-align: middle;
+    cursor: default;
+}
+
+.navbar-dropdown > .dropdown-lang {
+    list-style: none;
+    height: 75px;
+    width: 100%;
+}
+
+.navbar-dropdown > .dropdown-lang > .lang-item {
+    display: none;
+    height: 35px;
+    width: 100%;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.submenu {
+    background-color: #8c8d8d;
+    min-height: 212px;
+    position: absolute;
+    margin-top: 30px;
+    left:0;
+    display: block;
+    visibility: hidden;
+    cursor: default;
+    width: 100%;
+    word-break: normal;
+    z-index: 2;
+}
+.our-products-menu-item{
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    color: #333333;
+    background-color: #ffffff;
+    float: left;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.our-products-menu {
+    margin-top: 30px;
+    max-width: 100%;
+    display: block;
+    list-style: none;
+    min-height: 50px;
+}
+.main-info-slides-item {
+    width: 360px;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: block;
+    box-shadow: inset 0 -97px 96px 0 rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+}
+.main-info-slides {
+    margin: 0 auto;
+}
+.main-info-add {
+    display: block;
+    margin: 0 auto;
+    width: 1145px;
+    padding-bottom: 65px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.add-block {
+    display: inline-block;
+    min-height: 60px;
+    padding: 10px;
+}
+
+.add-block > span {
+    display: block;
+}
+
+.add-block1 {
+    background-color: #eb4200;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+.add-block1-img {
+    display: block;
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.add-block1-img > img {
+    display: block;
+    margin: 0 auto;
+    padding: 7px;
+}
+
+.add-block2 {
+    width: 100%;
+    background-color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.add-block2 > span {
+    margin-top: 25px;
+}
+.main-info-ceo {
+    width: 100%;
+    font-size: 13px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.ceo-row {
+    display: block;
+    padding-bottom: 40px;
+}
+
+.ceo-article {
+    display: block;
+    word-break: normal;
+    width: 100%;
+    line-height: 15px;
+}
+
+.article-title {
+    color: #000000;
+    width: 100%;
+    text-align: center;
+}
+
+.article-text {
+    color: #999999;
+    width: 100%;
+    text-align: center;
+}
+.footer {
+    width: 100%;
+    background-color: #939494;
+}
+
+.footer-blocks {
+    display: block;
+    width: 100%;
+    border-bottom: solid;
+    border-color: #a6a6a6;
+    border-width: 1px;
+}
+
+.footer-block1 {
+    display: inline-block;
+    width: 100%;
+    border-bottom: solid;
+    border-color: #a6a6a6;
+    border-width: 1px;
+}
+
+.footer-block2 {
+    display: inline-block;
+    width: 100%;
+    min-height: 75px;
+    border-bottom: solid;
+    border-color: #a6a6a6;
+    border-width: 1px;
+}
+
+.becker-block {
+    display: block;
+    font-size: 11px;
+    color: #ffffff;
+    width: 100%;
+    word-break: normal;
+    margin-top: 20px;
+}
+
+.becker-block > img {
+    display: block;
+    margin: 0 auto;
+}
+
+.becker-block > span {
+    display: block;
+    width: 100%;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.footer-menu {
+    list-style: none;
+    display: block;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    margin-top: 8px;
+    border-top-style: solid;
+    border-color: #a6a6a6;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.footer-menu-item {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 60px;
+    text-transform: uppercase;
+}
+
+.footer-menu-item:hover {
+    color: #eb4200;
+}
+
+.contacts {
+    display: block;
+    color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    border-top-style: solid;
+    border-color: #a6a6a6;
+    border-width: 1px;
+    text-align: center;
+}
+
+.contacts-item {
+    display: inline-block;
+}
+
+.contact-img {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #7c7c7c;
+    border-radius: 30px;
+}
+
+.contact-img > img {
+    margin-left: 2px;
+    margin-top: 7px;
+}
+
+.contacts-title {
+    display: inline-block;
+}
+
+.facebook-button {
+    display: block;
+    width: 150px;
+    height: 30px;
+    background-color: #3a5795;
+    color: #ffffff;
+    font-size: 13px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.facebook-img {
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 7px;
+    position: absolute;
+}
+
+.facebook-title {
+    display: inline-block;
+    border-right: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    padding-right: 10px;
+    padding-left: 25px;
+    margin-top: 9px;
+}
+
+.facebook-num {
+    display: inline-block;
+    padding-left: 8px;
+}
+
+.footer-block3 {
+    display: block;
+    color: #ffffff;
+    font-size: 13px;
+    width: 100%;
+}
+
+.designed {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-bottom: solid;
+    border-color: #a6a6a6;
+    border-width: 1px;
+}
+
+.designed > .company {
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.designed > span {
+    display: inline-block;
+}
+
+.copyright {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-bottom: solid;
+    border-color: #a6a6a6;
+    border-width: 1px;
+}
