@@ -275,6 +275,36 @@ body {
 .main-info-slides-item#slide3 {
     background: url("../images/img-slide-3.png") no-repeat;
 }
+.slide-text-title {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.slide-text-description {
+    font-size: 13px;
+}
+
+.slide-badge {
+    color: #ffffff;
+    background-color: #eb4200;
+    width: 145px;
+    height: 35px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: -10px;
+    margin-bottom: -65px;
+    transform: skewX(-25deg);
+}
+
+.slide-badge > span {
+    display: block;
+    padding-top: 11px;
+    transform: skewX(25deg);
+}
+
 .radio-buttons {
     display: block;
     margin: 0 auto;

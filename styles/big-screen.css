@@ -46,36 +46,6 @@
     padding-top: 190px;
     position: relative;
 }
-
-.slide-text-title {
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.slide-text-description {
-    font-size: 13px;
-}
-
-.slide-badge {
-    color: #ffffff;
-    background-color: #eb4200;
-    width: 145px;
-    height: 35px;
-    text-align: center;
-    font-size: 13px;
-    font-weight: bold;
-    margin-top: 30px;
-    margin-left: -10px;
-    margin-bottom: -65px;
-    transform: skewX(-25deg);
-}
-
-.slide-badge > span {
-    display: block;
-    padding-top: 11px;
-    transform: skewX(25deg);
-}
 @media (min-width: 1200px) and (max-width: 1279px){
     .navbar-item-link {
         width: 110px;
