@@ -2,11 +2,6 @@
     display: block;
     padding-top: 4%;
 }
-.navbar-logo{
-    text-align: left;
-    position: absolute;
-    margin-top: -50px;
-}
 @media (min-width: 500px){
     .show-menu{
         display: block;
@@ -47,6 +42,11 @@
         border-width: 2px;
         display: none;
     }
+    .navbar-logo{
+        text-align: left;
+        position: absolute;
+        margin-top: -50px;
+    }
 }
 @media (max-width: 499px){
     .show-menu{
@@ -76,6 +76,13 @@
         border-color: #ffffff;
         border-width: 2px;
         display: block;
+    }
+    .navbar-logo{
+        display: block;
+    }
+    .navbar-logo>img{
+        display: block;
+        margin: 0 auto;
     }
 }
 .active-menu{
