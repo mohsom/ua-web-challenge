@@ -1,79 +1,98 @@
+.add-block1, .our-products-menu-item {
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.add-block1, .add-block2, .slide-text {
+    text-align: center
+}
+
 .submenu {
     width: 1366px;
     background-color: #8c8d8d;
     min-height: 212px;
     position: absolute;
     margin-top: 32px;
-    left:0;
+    left: 0;
     display: block;
     visibility: hidden;
     cursor: default;
     max-width: 100%;
     word-break: normal;
-    z-index: 2;
+    z-index: 2
 }
+
 .our-products-menu-item {
     display: inline-block;
     width: 190px;
     height: 50px;
-    color: #333333;
-    background-color: #ffffff;
+    color: #333;
+    background-color: #fff;
     border-right: solid #464c52 1px;
     float: left;
     font-size: 13px;
-    text-transform: uppercase;
-    font-weight: bold;
-    cursor: pointer;
+    cursor: pointer
 }
+
 .our-products-menu {
     margin-top: 30px;
     position: absolute;
     max-width: 100%;
     display: block;
     list-style: none;
-    min-height: 50px;
+    min-height: 50px
 }
-.show-menu{
-    display: none;
+
+.show-menu {
+    display: none
 }
+
 .slide-text {
     display: block;
     width: 100%;
-    text-align: center;
-    color: #ffffff;
+    color: #fff;
     padding-top: 190px;
-    position: relative;
+    position: relative
 }
-@media (min-width: 1200px) and (max-width: 1279px){
+
+@media (min-width: 1200px)and (max-width: 1279px) {
+    .footer-block1, .footer-block2 {
+        display: inline-block;
+        min-height: 75px
+    }
+
     .navbar-item-link {
         width: 110px;
         margin-right: 10px;
         text-align: center;
         height: 73px;
-        border-bottom: solid #ffffff 2px;
+        border-bottom: solid #fff 2px
     }
+
     .navbar-item-link > span {
         display: block;
-        padding-top: 25%;
+        padding-top: 25%
     }
+
     .navbar-logo {
         margin-left: 75px;
-        margin-right: 104px;
+        margin-right: 104px
     }
+
     .navbar-dropdown {
         text-align: center;
-        color: #dddddd;
-        border-right: solid #dddddd 1px;
-        border-left: solid #dddddd 1px;
+        color: #ddd;
+        border-right: solid #ddd 1px;
+        border-left: solid #ddd 1px;
         margin-left: 15px;
         vertical-align: middle;
-        cursor: default;
+        cursor: default
     }
 
     .navbar-dropdown > .dropdown-lang {
         list-style: none;
         height: 75px;
-        width: 70px;
+        width: 70px
     }
 
     .navbar-dropdown > .dropdown-lang > .lang-item {
@@ -81,55 +100,53 @@
         height: 45px;
         width: 70px;
         padding-top: 29px;
-        cursor: pointer;
+        cursor: pointer
     }
+
     .main-info-slides-item {
         width: 300px;
         height: 240px;
         margin-right: 2%;
         display: inline-block;
-        box-shadow: inset 0 -97px 96px 0 rgba(0, 0, 0, 0.75);
-        overflow: hidden;
+        box-shadow: inset 0 -97px 96px 0 rgba(0, 0, 0, .75);
+        overflow: hidden
     }
+
     .footer {
         width: 100%;
-        background-color: #939494;
+        background-color: #939494
     }
 
     .footer-blocks {
         display: block;
         width: 100%;
-        border-bottom: solid #a6a6a6 1px;
+        border-bottom: solid #a6a6a6 1px
     }
 
     .footer-block1 {
-        display: inline-block;
-        width: 80%;
-        min-height: 75px;
+        width: 80%
     }
 
     .footer-block2 {
-        display: inline-block;
-        min-height: 75px;
         border-right: solid #a6a6a6 1px;
         border-left: solid #a6a6a6 1px;
         width: 15%;
-        margin-left: 45px;
+        margin-left: 45px
     }
 
     .becker-block {
         display: block;
         font-size: 11px;
-        color: #ffffff;
+        color: #fff;
         width: 215px;
         word-break: normal;
-        margin-top: 20px;
+        margin-top: 20px
     }
 
     .becker-block > img {
         display: block;
         margin-left: 70px;
-        position: absolute;
+        position: absolute
     }
 
     .becker-block > span {
@@ -138,87 +155,96 @@
         width: 90px;
         margin-left: 200px;
         margin-top: 2px;
-        position: absolute;
+        position: absolute
     }
 
     .footer-menu {
         list-style: none;
         display: block;
-        color: #ffffff;
+        color: #fff;
         margin-left: 30%;
         position: absolute;
-        margin-top: 10px;
+        margin-top: 10px
     }
 
     .footer-menu-item {
         display: inline-block;
         cursor: pointer;
         margin-right: 20px;
-        text-transform: uppercase;
+        text-transform: uppercase
+    }
+
+    .contacts, .facebook-button, .footer-block3 {
+        color: #fff;
+        display: block
     }
 
     .footer-menu-item:hover {
-        color: #eb4200;
+        color: #eb4200
     }
 
     .contacts {
-        display: block;
         position: absolute;
-        color: #ffffff;
         margin-left: 60%;
-        margin-top: 7px;
+        margin-top: 7px
     }
+
     .facebook-button {
-        display: block;
         position: absolute;
         width: 150px;
         height: 30px;
         background-color: #3a5795;
-        color: #ffffff;
         font-size: 13px;
         margin-top: 25px;
         margin-left: 20px;
-        cursor: pointer;
+        cursor: pointer
     }
+
     .footer-block3 {
-        display: block;
-        color: #ffffff;
         font-size: 13px;
         width: 100%;
         border-top: solid #a6a6a6 1px;
-        height: 30px;
+        height: 30px
     }
 }
-@media (min-width: 1280px){
+
+@media (min-width: 1280px) {
     .navbar-item-link {
         width: 120px;
         margin-right: 20px;
         text-align: center;
         height: 73px;
-        border-bottom: solid #ffffff 2px;
+        border-bottom: solid #fff 2px
     }
+
     .navbar-item-link > span {
         display: block;
-        padding-top: 25%;
+        padding-top: 25%
     }
+
     .navbar-logo {
         margin-left: 75px;
-        margin-right: 104px;
+        margin-right: 104px
     }
+
     .navbar-dropdown {
         text-align: center;
-        color: #dddddd;
-        border-right: solid #dddddd 1px;
-        border-left: solid #dddddd 1px;
+        color: #ddd;
+        border-right: solid #ddd 1px;
+        border-left: solid #ddd 1px;
         margin-left: 15px;
         vertical-align: middle;
-        cursor: default;
+        cursor: default
+    }
+
+    .footer-block1, .footer-block2 {
+        border-right: solid #a6a6a6 1px
     }
 
     .navbar-dropdown > .dropdown-lang {
         list-style: none;
         height: 75px;
-        width: 70px;
+        width: 70px
     }
 
     .navbar-dropdown > .dropdown-lang > .lang-item {
@@ -226,55 +252,56 @@
         height: 45px;
         width: 70px;
         padding-top: 30px;
-        cursor: pointer;
+        cursor: pointer
     }
+
     .main-info-slides-item {
         width: 320px;
         height: 250px;
         margin-right: 2%;
         display: inline-block;
-        box-shadow: inset 0 -97px 96px 0 rgba(0, 0, 0, 0.75);
-        overflow: hidden;
+        box-shadow: inset 0 -97px 96px 0 rgba(0, 0, 0, .75);
+        overflow: hidden
     }
+
     .footer {
         width: 100%;
         min-height: 110px;
-        background-color: #939494;
+        background-color: #939494
+    }
+
+    .footer-block1, .footer-block2 {
+        display: inline-block;
+        min-height: 75px
     }
 
     .footer-blocks {
         display: block;
         width: 100%;
-        border-bottom: solid #a6a6a6 1px;
+        border-bottom: solid #a6a6a6 1px
     }
 
     .footer-block1 {
-        display: inline-block;
-        width: 1075px;
-        min-height: 75px;
-        border-right: solid  #a6a6a6 1px;
+        width: 1075px
     }
 
     .footer-block2 {
-        display: inline-block;
-        width: 180px;
-        min-height: 75px;
-        border-right: solid #a6a6a6 1px;
+        width: 180px
     }
 
     .becker-block {
         display: block;
         font-size: 11px;
-        color: #ffffff;
+        color: #fff;
         width: 215px;
         word-break: normal;
-        margin-top: 20px;
+        margin-top: 20px
     }
 
     .becker-block > img {
         display: block;
         margin-left: 70px;
-        position: absolute;
+        position: absolute
     }
 
     .becker-block > span {
@@ -283,226 +310,217 @@
         width: 90px;
         margin-left: 200px;
         margin-top: 2px;
-        position: absolute;
+        position: absolute
     }
 
     .footer-menu {
         list-style: none;
         display: block;
-        color: #ffffff;
+        color: #fff;
         margin-left: 380px;
         position: absolute;
-        margin-top: 10px;
+        margin-top: 10px
     }
 
     .footer-menu-item {
         display: inline-block;
         cursor: pointer;
         margin-right: 60px;
-        text-transform: uppercase;
+        text-transform: uppercase
+    }
+
+    .contacts, .facebook-button, .footer-block3 {
+        color: #fff;
+        display: block
     }
 
     .footer-menu-item:hover {
-        color: #eb4200;
+        color: #eb4200
     }
 
     .contacts {
-        display: block;
         position: absolute;
-        color: #ffffff;
         margin-left: 785px;
-        margin-top: 7px;
+        margin-top: 7px
     }
+
     .facebook-button {
-        display: block;
         position: absolute;
         width: 150px;
         height: 30px;
         background-color: #3a5795;
-        color: #ffffff;
         font-size: 13px;
         margin-top: 25px;
         margin-left: 13px;
-        cursor: pointer;
+        cursor: pointer
     }
 
     .footer-block3 {
-        display: block;
-        color: #ffffff;
         font-size: 13px;
-        width: 100%;
+        width: 100%
     }
 }
+
 .main-info-slides {
     margin: 0 auto;
-    padding: 35px 0 12px 13%;
+    padding: 35px 0 12px 13%
 }
+
 .main-info-add {
     display: block;
     margin: 0 auto;
     width: 1145px;
     padding-bottom: 65px;
     overflow: hidden;
-    max-width: 100%;
+    max-width: 100%
 }
 
 .add-block {
     display: inline-block;
-    height: 60px;
+    height: 60px
 }
 
-.add-block > span {
-    display: block;
+.add-block1-img, .add-block > span, .ceo-row {
+    display: block
 }
 
 .add-block1 {
     background-color: #eb4200;
-    color: #ffffff;
-    font-weight: bold;
+    color: #fff;
     font-size: 15px;
-    text-transform: uppercase;
-    text-align: center;
     width: 50%;
     margin-left: -20px;
-    transform: skewX(-25deg);
+    transform: skewX(-25deg)
 }
 
-.add-block1 > span, .add-block1 > .add-block1-img {
-    transform: skewX(25deg);
+.add-block1 > .add-block1-img, .add-block1 > span {
+    transform: skewX(25deg)
 }
 
 .add-block1 > span {
-    margin-top: 25px;
+    margin-top: 25px
 }
 
 .add-block1-img {
-    display: block;
-    background-color: #ffffff;
+    background-color: #fff;
     width: 30px;
     height: 30px;
     border-radius: 30px;
     margin-left: 50px;
     margin-top: 17px;
-    position: absolute;
+    position: absolute
 }
 
 .add-block1-img > img {
     display: block;
     margin: 0 auto;
-    padding-top: 8px;
+    padding-top: 8px
 }
 
 .add-block2 {
     width: 55%;
-    background-color: #ffffff;
+    background-color: #fff;
     font-size: 15px;
-    text-align: center;
     transform: skewX(-25deg);
     margin-right: -45px;
-    margin-left: -5px;
+    margin-left: -5px
 }
 
 .add-block2 > span {
     transform: skewX(25deg);
     margin-left: -125px;
-    margin-top: 25px;
+    margin-top: 25px
 }
+
 .main-info-ceo {
     width: 1145px;
     font-size: 13px;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 100%
 }
 
 .ceo-row {
-    display: block;
-    padding-bottom: 40px;
+    padding-bottom: 40px
+}
+
+.ceo-article, .contact-img, .contacts-item, .contacts-title, .copyright, .designed, .designed > .company, .designed > span, .facebook-img, .facebook-num {
+    display: inline-block
 }
 
 .ceo-article {
-    display: inline-block;
     word-break: normal;
     vertical-align: text-top;
     margin-right: 80px;
     width: 490px;
-    line-height: 15px;
+    line-height: 15px
 }
 
 .article-title {
-    color: #000000;
+    color: #000;
     width: 490px;
-    text-align: left;
+    text-align: left
 }
 
 .article-text {
-    color: #999999;
+    color: #999;
     width: 490px;
-    text-align: left;
+    text-align: left
 }
+
 .contacts-item {
-    display: inline-block;
-    margin-right: 30px;
+    margin-right: 30px
 }
 
 .contact-img {
-    display: inline-block;
     width: 25px;
     height: 25px;
     background-color: #7c7c7c;
-    border-radius: 30px;
+    border-radius: 30px
 }
 
 .contact-img > img {
     margin-left: 6px;
-    margin-top: 6px;
+    margin-top: 6px
 }
 
-.contacts-title {
-    display: inline-block;
-}
 .facebook-img {
-    display: inline-block;
     padding-left: 10px;
     padding-top: 7px;
-    position: absolute;
+    position: absolute
 }
 
 .facebook-title {
     display: inline-block;
-    border-right: solid #ffffff 1px;
+    border-right: solid #fff 1px;
     padding-right: 10px;
     padding-left: 25px;
-    margin-top: 9px;
+    margin-top: 9px
 }
 
 .facebook-num {
-    display: inline-block;
-    padding-left: 8px;
+    padding-left: 8px
 }
+
 .designed {
-    display: inline-block;
-    float: left;
+    float: left
 }
 
 .designed > .company {
-    display: inline-block;
     position: absolute;
     margin-left: 240px;
     margin-top: 10px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 15px;
+    font-family: Oswald, sans-serif;
+    font-size: 15px
 }
 
 .designed > span {
-    display: inline-block;
     position: absolute;
     margin-left: 70px;
-    margin-top: 11px;
+    margin-top: 11px
 }
 
 .copyright {
-    display: inline-block;
     float: right;
     margin-top: 10px;
-    margin-right: 85px;
+    margin-right: 85px
 }

@@ -1,43 +1,48 @@
+.banner-text-title, .navbar-item, .slide-text-title {
+    text-transform: uppercase
+}
+
 body {
-    font-family: "Tahoma", serif;
+    font-family: Tahoma, serif
 }
 
 .main-block {
     max-width: 1366px;
     width: 100%;
     overflow: hidden;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .navbar {
     min-height: 75px;
-    background-color: #ffffff;
+    background-color: #fff
 }
 
 .navbar-ul {
-    list-style-type: none;
+    list-style-type: none
 }
+
 .navbar-item {
     font-size: 13px;
-    color: rgb(51, 51, 51);
-    text-transform: uppercase;
+    color: #333;
     display: inline-block;
     vertical-align: middle;
-    cursor: pointer;
+    cursor: pointer
 }
+
 .navbar-item-link:hover {
     border-color: #eb4200;
-    color: #eb4200;
+    color: #eb4200
 }
 
 #products:hover {
     background-color: #8c8d8d;
-    color: #ffffff;
-    border-color: #8c8d8d;
+    color: #fff;
+    border-color: #8c8d8d
 }
 
 #products:hover .submenu {
-    visibility: visible;
+    visibility: visible
 }
 
 .submenu-item {
@@ -45,26 +50,26 @@ body {
     width: 120px;
     margin: 25px 0 0 25px;
     font-size: 11px;
-    word-break: normal;
+    word-break: normal
 }
 
 .submenu-item-img {
     cursor: pointer;
-    float: left;
+    float: left
 }
 
 .submenu-item-img-title {
-    color: #ffffff;
+    color: #fff;
     display: block;
     float: left;
-    margin-top: 10px;
+    margin-top: 10px
 }
 
 .submenu-img-container {
     cursor: pointer;
     position: relative;
     width: 110px;
-    height: 70px;
+    height: 70px
 }
 
 .submenu-img-container:hover:after {
@@ -75,113 +80,112 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, .7);
     word-break: normal;
-    line-height: 15px;
+    line-height: 15px
 }
 
 .submenu > li:nth-of-type(1) > .submenu-img-container:hover:after {
-    content: 'Rolety';
+    content: 'Rolety'
 }
 
 .submenu > li:nth-of-type(2) > .submenu-img-container:hover:after {
-    content: 'Venkovní žaluzie';
+    content: 'Venkovní žaluzie'
 }
 
 .submenu > li:nth-of-type(3) > .submenu-img-container:hover:after {
-    content: 'Systémové parapety';
+    content: 'Systémové parapety'
 }
 
 .submenu > li:nth-of-type(4) > .submenu-img-container:hover:after {
-    content: 'Markýzy';
+    content: 'Markýzy'
 }
 
 .submenu > li:nth-of-type(5) > .submenu-img-container:hover:after {
-    content: 'Vrata';
+    content: 'Vrata'
 }
 
 .submenu > li:nth-of-type(6) > .submenu-img-container:hover:after {
-    content: 'Sítě proti hmyzu';
+    content: 'Sítě proti hmyzu'
 }
 
 .submenu > li:nth-of-type(7) > .submenu-img-container:hover:after {
-    content: 'Barvy rolet a žaluzií';
+    content: 'Barvy rolet a žaluzií'
 }
 
 .submenu > li:nth-of-type(8) > .submenu-img-container:hover:after {
-    content: 'Spočítejte si cenu';
+    content: 'Spočítejte si cenu'
 }
 
 .submenu-img-container:hover + .submenu-item-img-title {
-    visibility: hidden;
+    visibility: hidden
 }
 
 .navbar-dropdown > .dropdown-lang:hover > .lang-item {
     display: block;
     background-color: #8c8d8d;
-    color: #ffffff;
-    border-style: none;
+    color: #fff;
+    border-style: none
 }
 
 .navbar-dropdown > .dropdown-lang:hover > .lang-item:hover {
-    color: #eb4200;
+    color: #eb4200
 }
 
 .navbar-dropdown > .dropdown-lang > .lang-item.active {
-    display: inline-block;
+    display: inline-block
 }
 
 .navbar-dropdown > .dropdown-lang:hover > .lang-item.active > span > .lang-arrow-img {
-    transform: rotateZ(-90deg);
+    transform: rotateZ(-90deg)
 }
 
 .lang-arrow-img {
     vertical-align: middle;
     margin-left: 5px;
     position: absolute;
-    transform: rotateZ(90deg);
+    transform: rotateZ(90deg)
+}
+
+.banner-text-sub-title, .banner-text-title {
+    padding: 10px;
+    background: rgba(0, 0, 0, .5);
+    margin: 0 auto
 }
 
 .banner {
     width: 100%;
     height: 522px;
-    background: url("../images/house.png") no-repeat;
-    box-shadow: inset 0 -117px 196px 0 rgba(0, 0, 0, 0.75);
+    background: url(../images/house.png) no-repeat;
+    box-shadow: inset 0 -117px 196px 0 rgba(0, 0, 0, .75)
 }
 
 .banner-content {
     margin: 0 auto;
     width: 1145px;
     max-width: 100%;
-    height: 100%;
+    height: 100%
 }
 
 .banner-text {
-    color: #ffffff;
-    padding-top: 120px;
+    color: #fff;
+    padding-top: 120px
 }
 
 .banner-text-title {
-    font-weight: bold;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    font-weight: 700;
     width: 810px;
-    margin: 0 auto;
     text-align: center;
-    text-transform: uppercase;
     max-width: 100%;
-    word-break: normal;
+    word-break: normal
 }
 
 .banner-text-sub-title {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px;
     width: 600px;
-    margin: 0 auto;
     text-align: center;
     font-size: 16px;
     max-width: 100%;
-    word-break: normal;
+    word-break: normal
 }
 
 .banner-text-euro {
@@ -189,17 +193,17 @@ body {
     border-radius: 3px;
     padding: 10px;
     width: 290px;
-    margin: 0 auto  100px;
+    margin: 0 auto 100px;
     font-size: 15px;
     vertical-align: middle;
     height: 25px;
     max-width: 100%;
-    word-break: normal;
+    word-break: normal
 }
 
 .euro-sign {
     margin-left: 55px;
-    margin-top: -10px;
+    margin-top: -10px
 }
 
 .euro-content {
@@ -207,12 +211,12 @@ body {
     text-align: center;
     margin-left: 28px;
     max-width: 100%;
-    word-break: normal;
+    word-break: normal
 }
 
 .our-products {
     text-align: center;
-    font-size: 15px;
+    font-size: 15px
 }
 
 .our-products-title {
@@ -220,10 +224,10 @@ body {
     position: relative;
     margin: 0 auto;
     text-align: center;
-    white-space: nowrap;
+    white-space: nowrap
 }
 
-.our-products-title:before, .our-products-title:after {
+.our-products-title:after, .our-products-title:before {
     content: '';
     display: inline-block;
     position: relative;
@@ -231,79 +235,76 @@ body {
     width: 45%;
     height: 1px;
     vertical-align: middle;
-    background: #ffffff;
+    background: #fff
 }
 
 .our-products-title:before {
     left: -10px;
-    margin-left: -45%;
+    margin-left: -45%
 }
 
 .our-products-title:after {
     left: 10px;
-    margin-right: -45%;
+    margin-right: -45%
 }
+
 .our-products-menu > li:nth-last-of-type(1) {
-    border-right-style: none;
+    border-right-style: none
 }
 
 .our-products-menu-item:hover {
-    background-color: #333333;
-    color: #ffffff;
+    background-color: #333;
+    color: #fff
 }
 
 .our-products-menu-item > span {
     display: block;
-    margin-top: 19px;
+    margin-top: 19px
 }
 
 .main-info {
     background-color: #f3f3f3;
-    width: 100%;
+    width: 100%
 }
 
-
-
-
 .main-info-slides-item#slide1 {
-    background: url("../images/img-slide-1.png") no-repeat;
+    background: url(../images/img-slide-1.png) no-repeat
 }
 
 .main-info-slides-item#slide2 {
-    background: url("../images/img-slide-2.png") no-repeat;
+    background: url(../images/img-slide-2.png) no-repeat
 }
 
 .main-info-slides-item#slide3 {
-    background: url("../images/img-slide-3.png") no-repeat;
-}
-.slide-text-title {
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: bold;
+    background: url(../images/img-slide-3.png) no-repeat
 }
 
-.slide-text-description {
-    font-size: 13px;
+.slide-text-title {
+    font-size: 15px;
+    font-weight: 700
+}
+
+.slide-badge, .slide-text-description {
+    font-size: 13px
 }
 
 .slide-badge {
-    color: #ffffff;
+    color: #fff;
     background-color: #eb4200;
     width: 145px;
     height: 35px;
     text-align: center;
-    font-size: 13px;
-    font-weight: bold;
+    font-weight: 700;
     margin-top: 30px;
     margin-left: -10px;
     margin-bottom: -65px;
-    transform: skewX(-25deg);
+    transform: skewX(-25deg)
 }
 
 .slide-badge > span {
     display: block;
     padding-top: 11px;
-    transform: skewX(25deg);
+    transform: skewX(25deg)
 }
 
 .radio-buttons {
@@ -311,7 +312,7 @@ body {
     margin: 0 auto;
     width: 60px;
     height: 25px;
-    padding-bottom: 60px;
+    padding-bottom: 60px
 }
 
 .radio-button {
@@ -319,21 +320,19 @@ body {
     width: 10px;
     height: 10px;
     border-radius: 30px;
-    background-color: #bbbbbb;
-    cursor: pointer;
+    background-color: #bbb;
+    cursor: pointer
 }
 
 .radio-button.radio-active {
-    background-color: #eb4200;
+    background-color: #eb4200
 }
-
-
 
 .article-text > span {
     color: #eb4200;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .article-text > span:hover {
-    text-decoration: underline;
+    text-decoration: underline
 }

@@ -1,59 +1,83 @@
+.add-block1, .our-products-menu-item {
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+.becker-block, .ceo-article, .submenu {
+    word-break: normal
+}
+
 .navbar-item-link {
     width: 100%;
     text-align: center;
     height: 73px;
-    border-top: solid #ffffff 2px;
-    border-bottom: solid #ffffff 2px;
-    display: none;
+    border-top: solid #fff 2px;
+    border-bottom: solid #fff 2px;
+    display: none
 }
+
+.active-menu, .show-menu, .show-menu-arrow {
+    display: block
+}
+
+.copyright, .designed, .footer-block1, .footer-block2, .footer-blocks {
+    border-bottom: solid #a6a6a6 1px
+}
+
+.contacts, .footer-menu {
+    border-top: solid #a6a6a6 1px
+}
+
 .navbar-item-link > span {
     display: block;
-    padding-top:30px;
+    padding-top: 30px
 }
-.navbar-logo{
+
+.navbar-logo {
     text-align: left;
     top: 20px;
-    left:2%;
-    position: absolute;
+    left: 2%;
+    position: absolute
 }
-.show-menu{
-    display: block;
-    text-align: center;
+
+.add-block1, .article-text, .article-title, .contacts, .copyright, .designed, .footer-menu, .main-info-slides, .navbar-dropdown, .show-menu, .slide-text {
+    text-align: center
+}
+
+.show-menu {
     margin-left: 60%;
-    cursor: pointer;
+    cursor: pointer
 }
-.show-menu-arrow{
-    display: block;
+
+.show-menu-arrow {
     font-size: 40px;
-    color:#8c8d8d ;
+    color: #8c8d8d;
     padding-top: 35px;
-    transform: rotateZ(90deg);
+    transform: rotateZ(90deg)
 }
-.active-menu{
-    display: block;
+
+.active-arrow {
+    transform: rotateX(-180deg)
 }
-.active-arrow{
-    transform: rotateX(-180deg);
-}
+
 .navbar-dropdown {
-    text-align: center;
-    color: #dddddd;
+    color: #ddd;
     width: 75px;
-    border-right: solid #dddddd 1px;
-    border-left: solid #dddddd 1px;
+    border-right: solid #ddd 1px;
+    border-left: solid #ddd 1px;
     vertical-align: middle;
     cursor: default;
-    position:absolute;
+    position: absolute;
     margin-left: 1%;
     margin-right: 5%;
-    top:0;
-    right: 4%;
+    top: 0;
+    right: 4%
 }
 
 .navbar-dropdown > .dropdown-lang {
     list-style: none;
     height: 75px;
-    width: 100%;
+    width: 100%
 }
 
 .navbar-dropdown > .dropdown-lang > .lang-item {
@@ -61,182 +85,182 @@
     height: 35px;
     width: 100%;
     padding-top: 30px;
-    cursor: pointer;
+    cursor: pointer
 }
+
 .submenu {
     background-color: #8c8d8d;
     min-height: 212px;
     position: absolute;
-
-    left:0;
+    left: 0;
     display: block;
     visibility: hidden;
     cursor: default;
     width: 100%;
-    word-break: normal;
-    z-index: 2;
+    z-index: 2
 }
-.our-products-menu-item{
+
+.our-products-menu-item {
     display: inline-block;
     width: 16%;
     height: 50px;
-    color: #333333;
-    background-color: #ffffff;
+    color: #333;
+    background-color: #fff;
     float: left;
     font-size: 13px;
     border-right: solid #464c52 1px;
-    text-transform: uppercase;
-    font-weight: bold;
-    cursor: pointer;
+    cursor: pointer
 }
+
 .our-products-menu {
     margin: 1%;
     padding-top: 20px;
     width: 100%;
     display: block;
-    list-style: none;
+    list-style: none
 }
+
 .main-info-slides-item {
     width: 30%;
     height: 200px;
     margin: 1%;
     display: inline-block;
-    box-shadow: inset 0 -97px 96px 0 rgba(0, 0, 0, 0.75);
-    overflow: hidden;
+    box-shadow: inset 0 -97px 96px 0 rgba(0, 0, 0, .75);
+    overflow: hidden
 }
-.main-info-slides {
-    text-align: center;
-}
+
 .slide-text {
     display: block;
     width: 100%;
-    text-align: center;
-    color: #ffffff;
+    color: #fff;
     padding-top: 150px;
-    position: relative;
+    position: relative
 }
+
 .main-info-add {
     display: block;
     width: 100%;
     padding-bottom: 65px;
     overflow: hidden;
-    max-width: 100%;
+    max-width: 100%
 }
 
 .add-block {
     display: inline-block;
     min-height: 60px;
-    padding: 10px;
+    padding: 10px
 }
 
 .add-block > span {
     margin: 5px;
-    display: inline-block;
+    display: inline-block
 }
 
 .add-block1 {
     background-color: #eb4200;
-    color: #ffffff;
-    font-weight: bold;
+    color: #fff;
     font-size: 15px;
-    text-transform: uppercase;
-    text-align: center;
     height: 30px;
     padding-top: 50px;
-    width: 100%;
+    width: 100%
 }
+
 .add-block1-img {
     display: inline-block;
-    background-color: #ffffff;
+    background-color: #fff;
     width: 30px;
     height: 30px;
     border-radius: 30px;
-    vertical-align: middle;
+    vertical-align: middle
 }
 
 .add-block1-img > img {
     display: block;
     margin: 0 auto;
-    padding: 7px;
+    padding: 7px
 }
 
 .add-block2 {
     width: 100%;
-    background-color: #ffffff;
+    background-color: #fff;
     font-size: 15px;
-    text-align: center;
+    text-align: center
+}
+
+.facebook-button, .footer-block3 {
+    color: #fff;
+    font-size: 13px
 }
 
 .add-block2 > span {
-    margin-top: 25px;
+    margin-top: 25px
 }
+
 .main-info-ceo {
     width: 100%;
     font-size: 13px;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 100%
 }
 
 .ceo-row {
     display: block;
-    padding-bottom: 40px;
+    padding-bottom: 40px
+}
+
+.contacts, .footer-menu {
+    width: 100%;
+    padding: 10px
 }
 
 .ceo-article {
     display: block;
-    word-break: normal;
     width: 100%;
     line-height: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 20px
 }
 
 .article-title {
-    color: #000000;
-    width: 100%;
-    text-align: center;
+    color: #000;
+    width: 100%
 }
 
 .article-text {
-    color: #999999;
-    width: 100%;
-    text-align: center;
+    color: #999;
+    width: 100%
 }
+
 .footer {
     width: 100%;
-    background-color: #939494;
+    background-color: #939494
 }
 
 .footer-blocks {
     display: block;
-    width: 100%;
-    border-bottom: solid #a6a6a6 1px;
+    width: 100%
 }
 
 .footer-block1 {
     display: inline-block;
-    width: 100%;
-    border-bottom: solid #a6a6a6 1px;
+    width: 100%
 }
 
 .footer-block2 {
     display: inline-block;
     width: 100%;
-    border-bottom: solid #a6a6a6 1px;
-    height: 50px;
+    height: 50px
+}
+
+.becker-block, .becker-block > img, .footer-menu {
+    display: block
 }
 
 .becker-block {
-    display: block;
     font-size: 11px;
-    color: #ffffff;
+    color: #fff;
     width: 20%;
-    word-break: normal;
     margin: 0 auto;
-    padding-top: 10px;
-}
-
-.becker-block > img {
-    display: block;
+    padding-top: 10px
 }
 
 .becker-block > span {
@@ -244,60 +268,45 @@
     height: 35px;
     width: 90px;
     margin-top: -35px;
-    margin-left: 80%;
+    margin-left: 80%
 }
-
 
 .footer-menu {
     list-style: none;
-    display: block;
-    color: #ffffff;
-    width: 100%;
-    text-align: center;
-    margin-top: 8px;
-    border-top: solid #a6a6a6 1px;
-    padding: 10px;
+    color: #fff;
+    margin-top: 8px
 }
 
 .footer-menu-item {
     display: inline-block;
     cursor: pointer;
     margin-right: 60px;
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 
 .footer-menu-item:hover {
-    color: #eb4200;
+    color: #eb4200
 }
 
 .contacts {
     display: block;
-    color: #ffffff;
-    width: 100%;
-    padding: 10px;
-    border-top: solid #a6a6a6 1px;
-    text-align: center;
+    color: #fff
 }
 
-.contacts-item {
-    display: inline-block;
+.contact-img, .contacts-item, .contacts-title {
+    display: inline-block
 }
 
 .contact-img {
-    display: inline-block;
     width: 25px;
     height: 25px;
     background-color: #7c7c7c;
-    border-radius: 30px;
+    border-radius: 30px
 }
 
 .contact-img > img {
     margin-left: 2px;
-    margin-top: 7px;
-}
-
-.contacts-title {
-    display: inline-block;
+    margin-top: 7px
 }
 
 .facebook-button {
@@ -305,63 +314,52 @@
     width: 150px;
     height: 30px;
     background-color: #3a5795;
-    color: #ffffff;
-    font-size: 13px;
     margin: 10px auto;
-    cursor: pointer;
+    cursor: pointer
+}
+
+.designed, .footer-block3 {
+    display: block;
+    width: 100%
 }
 
 .facebook-img {
     display: inline-block;
     padding-left: 10px;
     padding-top: 7px;
-    position: absolute;
+    position: absolute
 }
 
 .facebook-title {
     display: inline-block;
-    border-right: solid #ffffff 1px;
+    border-right: solid #fff 1px;
     padding-right: 10px;
     padding-left: 25px;
-    margin-top: 9px;
+    margin-top: 9px
 }
 
 .facebook-num {
     display: inline-block;
-    padding-left: 8px;
-}
-
-.footer-block3 {
-    display: block;
-    color: #ffffff;
-    font-size: 13px;
-    width: 100%;
+    padding-left: 8px
 }
 
 .designed {
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    border-bottom: solid #a6a6a6 1px;
+    padding: 10px
+}
+
+.designed > .company, .designed > span {
+    display: inline-block
 }
 
 .designed > .company {
-    display: inline-block;
-    font-family: 'Oswald', sans-serif;
+    font-family: Oswald, sans-serif;
     font-size: 15px;
     vertical-align: middle;
-    padding-left: 5px;
-}
-
-.designed > span {
-    display: inline-block;
+    padding-left: 5px
 }
 
 .copyright {
     display: block;
     width: 100%;
-    text-align: center;
-    padding: 10px;
-    border-bottom: solid #a6a6a6 1px;
+    padding: 10px
 }
