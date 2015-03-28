@@ -274,7 +274,7 @@
 .footer-block2 {
     display: inline-block;
     width: 100%;
-    min-height: 75px;
+    min-height: 40px;
     border-bottom: solid;
     border-color: #a6a6a6;
     border-width: 1px;
@@ -317,7 +317,7 @@
 .footer-menu-item {
     display: inline-block;
     cursor: pointer;
-    margin-right: 60px;
+    margin-right: 2%;
     text-transform: uppercase;
 }
 
@@ -366,7 +366,7 @@
     font-size: 13px;
     margin: 0 auto;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .facebook-img {
