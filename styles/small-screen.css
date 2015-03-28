@@ -26,7 +26,7 @@
         display: block;
         font-size: 40px;
         color: #8c8d8d;
-        padding-top: 15px;
+        padding-top: 17px;
     }
 
     .navbar-dropdown {
@@ -69,7 +69,7 @@
 
     .navbar-logo > img {
         display: block;
-        margin: 0 auto;
+        margin: 10px auto;
     }
 
     .show-menu {
