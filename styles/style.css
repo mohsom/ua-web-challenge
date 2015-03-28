@@ -1,6 +1,7 @@
 body {
     font-family: Tahoma, serif;
 }
+
 .banner-text-title, .navbar-item, .slide-text-title {
     text-transform: uppercase;
 }
@@ -211,17 +212,19 @@ body {
     text-align: center;
     font-weight: bold;
 }
-.euro-sign>i{
+
+.euro-sign > i {
     display: block;
     margin-top: -2px;
 }
+
 .euro-content {
     margin-top: -20px;
     text-align: center;
     margin-left: 28px;
     max-width: 100%;
     word-break: normal;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 
 .our-products {
@@ -346,6 +349,7 @@ body {
 .article-text > span:hover {
     text-decoration: underline;
 }
+
 .contact-img {
     width: 25px;
     height: 25px;
