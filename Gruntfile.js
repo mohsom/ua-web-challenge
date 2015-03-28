@@ -56,7 +56,8 @@ module.exports = function (grunt) {
             my_target: {
                 files: {
                     'build/js/script.js': ['js/script.js'],
-                    'build/js/jquery.min.js': ['js/jquery.min.js']
+                    'build/js/jquery.min.js': ['js/jquery.min.js'],
+                    'build/js/contact-widget.js':['js/contact-widget.js']
                 }
             }
         }
