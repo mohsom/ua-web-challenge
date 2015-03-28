@@ -1,66 +1,4 @@
-.add-block1, .our-products-menu-item {
-    font-weight: 700;
-    text-transform: uppercase
-}
-
-.add-block1, .add-block2, .slide-text {
-    text-align: center
-}
-
-.submenu {
-    width: 1366px;
-    background-color: #8c8d8d;
-    min-height: 212px;
-    position: absolute;
-    margin-top: 32px;
-    left: 0;
-    display: block;
-    visibility: hidden;
-    cursor: default;
-    max-width: 100%;
-    word-break: normal;
-    z-index: 2
-}
-
-.our-products-menu-item {
-    display: inline-block;
-    width: 190px;
-    height: 50px;
-    color: #333;
-    background-color: #fff;
-    border-right: solid #464c52 1px;
-    float: left;
-    font-size: 13px;
-    cursor: pointer
-}
-
-.our-products-menu {
-    margin-top: 30px;
-    position: absolute;
-    max-width: 100%;
-    display: block;
-    list-style: none;
-    min-height: 50px
-}
-
-.show-menu {
-    display: none
-}
-
-.slide-text {
-    display: block;
-    width: 100%;
-    color: #fff;
-    padding-top: 190px;
-    position: relative
-}
-
 @media (min-width: 1200px)and (max-width: 1279px) {
-    .footer-block1, .footer-block2 {
-        display: inline-block;
-        min-height: 75px
-    }
-
     .navbar-item-link {
         width: 110px;
         margin-right: 10px;
@@ -126,14 +64,16 @@
     .footer-block1 {
         width: 80%
     }
-
     .footer-block2 {
         border-right: solid #a6a6a6 1px;
         border-left: solid #a6a6a6 1px;
         width: 15%;
         margin-left: 45px
     }
-
+    .footer-block1, .footer-block2 {
+        display: inline-block;
+        min-height: 75px
+    }
     .becker-block {
         display: block;
         font-size: 11px;
@@ -236,11 +176,6 @@
         vertical-align: middle;
         cursor: default
     }
-
-    .footer-block1, .footer-block2 {
-        border-right: solid #a6a6a6 1px
-    }
-
     .navbar-dropdown > .dropdown-lang {
         list-style: none;
         height: 75px;
@@ -269,12 +204,6 @@
         min-height: 110px;
         background-color: #939494
     }
-
-    .footer-block1, .footer-block2 {
-        display: inline-block;
-        min-height: 75px
-    }
-
     .footer-blocks {
         display: block;
         width: 100%;
@@ -288,7 +217,11 @@
     .footer-block2 {
         width: 180px
     }
-
+    .footer-block1, .footer-block2 {
+        display: inline-block;
+        min-height: 75px;
+        border-right: solid #a6a6a6 1px
+    }
     .becker-block {
         display: block;
         font-size: 11px;
@@ -361,6 +294,54 @@
     }
 }
 
+.submenu {
+    width: 1366px;
+    background-color: #8c8d8d;
+    min-height: 212px;
+    position: absolute;
+    margin-top: 32px;
+    left: 0;
+    display: block;
+    visibility: hidden;
+    cursor: default;
+    max-width: 100%;
+    word-break: normal;
+    z-index: 2
+}
+
+.our-products-menu-item {
+    display: inline-block;
+    width: 190px;
+    height: 50px;
+    color: #333;
+    background-color: #fff;
+    border-right: solid #464c52 1px;
+    float: left;
+    font-size: 13px;
+    cursor: pointer
+}
+
+.our-products-menu {
+    margin-top: 30px;
+    position: absolute;
+    max-width: 100%;
+    display: block;
+    list-style: none;
+    min-height: 50px
+}
+
+.show-menu {
+    display: none
+}
+
+.slide-text {
+    display: block;
+    width: 100%;
+    color: #fff;
+    padding-top: 190px;
+    position: relative
+}
+
 .main-info-slides {
     margin: 0 auto;
     padding: 35px 0 12px 13%
@@ -374,7 +355,14 @@
     overflow: hidden;
     max-width: 100%
 }
+.add-block1, .our-products-menu-item {
+    font-weight: 700;
+    text-transform: uppercase
+}
 
+.add-block1, .add-block2, .slide-text {
+    text-align: center
+}
 .add-block {
     display: inline-block;
     height: 60px
