@@ -146,7 +146,7 @@
 .main-info-slides-item {
     width: 100%;
     max-width: 240px;
-    height: 160px;
+    height: 200px;
     margin: 1%;
     display: inline-block;
     box-shadow: inset 0 -97px 96px 0 rgba(0, 0, 0, 0.75);
@@ -161,7 +161,7 @@
     text-align: center;
     color: #ffffff;
     position: relative;
-    padding-top: 35%;
+    padding-top: 140px;
     bottom: 0;
 }
 .main-info-add {
