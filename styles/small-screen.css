@@ -1,18 +1,19 @@
-.add-block1, .our-products-menu-item {
-    text-transform: uppercase;
-    font-weight: 700
-}
-
-.becker-block, .ceo-article, .submenu {
-    word-break: normal
-}
-
-.navbar-item-link > span {
-    display: block;
-    padding-top: 30px
-}
-
 @media (min-width: 500px) {
+    .navbar-item-link {
+        width: 100%;
+        text-align: center;
+        height: 73px;
+        border-top: solid #fff 2px;
+        border-bottom: solid #fff 2px;
+        display: none
+    }
+
+    .navbar-logo {
+        text-align: left;
+        position: absolute;
+        top: 20px
+    }
+
     .show-menu {
         display: block;
         text-align: center;
@@ -43,21 +44,6 @@
         right: 4%
     }
 
-    .navbar-item-link {
-        width: 100%;
-        text-align: center;
-        height: 73px;
-        border-top: solid #fff 2px;
-        border-bottom: solid #fff 2px;
-        display: none
-    }
-
-    .navbar-logo {
-        text-align: left;
-        position: absolute;
-        top: 20px
-    }
-
     .navbar-dropdown > .dropdown-lang > .lang-item {
         display: none;
         height: 35px;
@@ -67,28 +53,7 @@
     }
 }
 
-.add-block1, .add-block2, .article-title, .becker-block > span, .contacts, .copyright, .designed, .footer-menu, .main-info-slides, .slide-text {
-    text-align: center
-}
-
 @media (max-width: 499px) {
-    .show-menu, .show-menu-arrow {
-        display: none
-    }
-
-    .navbar-dropdown {
-        display: block;
-        text-align: center;
-        color: #ddd;
-        background-color: #fff;
-        width: 100%;
-        border-right: solid #ddd 1px;
-        border-left: solid #ddd 1px;
-        vertical-align: middle;
-        cursor: default;
-        position: absolute
-    }
-
     .navbar-item-link {
         width: 100%;
         text-align: center;
@@ -107,6 +72,23 @@
         margin: 0 auto
     }
 
+    .show-menu, .show-menu-arrow {
+        display: none
+    }
+
+    .navbar-dropdown {
+        display: block;
+        text-align: center;
+        color: #ddd;
+        background-color: #fff;
+        width: 100%;
+        border-right: solid #ddd 1px;
+        border-left: solid #ddd 1px;
+        vertical-align: middle;
+        cursor: default;
+        position: absolute
+    }
+
     .navbar-dropdown > .dropdown-lang > .lang-item {
         display: none;
         height: 35px;
@@ -116,12 +98,22 @@
     }
 }
 
-.copyright, .designed, .footer-block1, .footer-block2, .footer-blocks {
-    border-bottom: solid #a6a6a6 1px
+.navbar-item-link > span {
+    display: block;
+    padding-top: 30px
 }
 
-.contacts, .footer-menu {
-    border-top: solid #a6a6a6 1px
+.add-block1, .our-products-menu-item {
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+.becker-block, .ceo-article, .submenu {
+    word-break: normal
+}
+
+.add-block1, .add-block2, .article-title, .becker-block > span, .contacts, .copyright, .designed, .footer-menu, .main-info-slides, .slide-text {
+    text-align: center
 }
 
 .active-menu, .submenu {
@@ -235,11 +227,6 @@
     font-size: 15px
 }
 
-.facebook-button, .footer-block3 {
-    color: #fff;
-    font-size: 13px
-}
-
 .add-block2 > span {
     margin-top: 25px
 }
@@ -293,6 +280,14 @@
     display: inline-block;
     width: 100%;
     min-height: 40px
+}
+
+.copyright, .designed, .footer-block1, .footer-block2, .footer-blocks {
+    border-bottom: solid #a6a6a6 1px
+}
+
+.contacts, .footer-menu {
+    border-top: solid #a6a6a6 1px
 }
 
 .becker-block {
@@ -364,6 +359,11 @@
     background-color: #3a5795;
     margin: 5px auto;
     cursor: pointer
+}
+
+.facebook-button, .footer-block3 {
+    color: #fff;
+    font-size: 13px
 }
 
 .designed, .footer-block3 {
