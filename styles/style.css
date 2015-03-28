@@ -1,9 +1,8 @@
-.banner-text-title, .navbar-item, .slide-text-title {
-    text-transform: uppercase
-}
-
 body {
     font-family: Tahoma, serif
+}
+.banner-text-title, .navbar-item, .slide-text-title {
+    text-transform: uppercase
 }
 
 .main-block {
