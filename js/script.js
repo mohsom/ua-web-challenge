@@ -4,12 +4,12 @@ $(document).ready(function () {
     $('.show-menu').click(function () {
         if (click === 1) {
             $('.navbar-item-link').removeClass('active-menu');
-            $('.show-menu').removeClass('active-arrow');
+            $('.show-menu-icon>i').attr('class','fa fa-bars');
             click = 0;
         }
         else {
             $('.navbar-item-link').addClass('active-menu');
-            $('.show-menu').addClass('active-arrow');
+            $('.show-menu-icon>i').attr('class','fa fa-times');
             click = 1;
         }
     });
