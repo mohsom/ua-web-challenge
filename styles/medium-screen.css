@@ -194,7 +194,9 @@
     width: 100%;
     padding: 10px;
 }
-
+.contacts>.contacts-item{
+    margin-left: 30px;
+}
 .ceo-article {
     display: block;
     width: 100%;

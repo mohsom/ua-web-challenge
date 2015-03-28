@@ -330,7 +330,9 @@
     width: 100%;
     padding: 10px;
 }
-
+.contacts>.contacts-item{
+    margin-left: 10px;
+}
 .contact-img, .contacts-item, .contacts-title {
     display: inline-block;
 }
