@@ -14,23 +14,40 @@
 }
 .navbar-logo{
     text-align: left;
-    top:4%;
-    left:2%;
-    bottom: 2%;
     position: absolute;
+    margin-top: -50px;
 }
-.show-menu{
-    display: block;
-    text-align: center;
-    margin-left: 60%;
-    cursor: pointer;
-}
-.show-menu-arrow{
-    display: block;
-    font-size: 20px;
-    color:#8c8d8d ;
-    padding-top: 30px;
-    transform: rotateZ(90deg);
+@media (min-width: 500px){
+    .show-menu{
+        display: block;
+        text-align: center;
+        margin-left: 40%;
+        cursor: pointer;
+    }
+    .show-menu-arrow{
+        display: block;
+        font-size: 40px;
+        color:#8c8d8d ;
+        padding-top: 35px;
+        transform: rotateZ(90deg);
+    }
+    .navbar-dropdown {
+        text-align: center;
+        color: #dddddd;
+        width: 75px;
+        border-right: solid;
+        border-left: solid;
+        border-width: 1px;
+        border-color: #dddddd;
+        vertical-align: middle;
+        cursor: default;
+        position:absolute;
+        margin-left: 1%;
+        margin-right: 5%;
+        top:0;
+        right: 4%;
+    }
+
 }
 .active-menu{
     display: block;
@@ -38,23 +55,6 @@
 .active-arrow{
     transform: rotateX(-180deg);
 }
-.navbar-dropdown {
-    text-align: center;
-    color: #dddddd;
-    width: 75px;
-    border-right: solid;
-    border-left: solid;
-    border-width: 1px;
-    border-color: #dddddd;
-    vertical-align: middle;
-    cursor: default;
-    position:absolute;
-    margin-left: 1%;
-    margin-right: 5%;
-    top:0;
-    right: 4%;
-}
-
 .navbar-dropdown > .dropdown-lang {
     list-style: none;
     height: 75px;
@@ -101,6 +101,7 @@
 }
 .main-info-slides-item {
     width: 100%;
+    max-width: 240px;
     height: 160px;
     margin: 1%;
     display: block;
