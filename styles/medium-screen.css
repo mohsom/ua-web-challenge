@@ -14,9 +14,8 @@
 }
 .navbar-logo{
     text-align: left;
-    top:2%;
+    top: 20px;
     left:2%;
-    bottom: 2%;
     position: absolute;
 }
 .show-menu{
