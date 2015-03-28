@@ -202,7 +202,7 @@ body {
 
 .euro-sign {
     display: block;
-    margin-left: 55px;
+    margin-left: 35px;
     width: 10px;
     height: 10px;
     background-color: #eb4200;
@@ -216,7 +216,8 @@ body {
     text-align: center;
     margin-left: 28px;
     max-width: 100%;
-    word-break: normal
+    word-break: normal;
+    text-transform:uppercase;
 }
 
 .our-products {
