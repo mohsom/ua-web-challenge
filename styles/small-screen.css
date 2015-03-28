@@ -1,6 +1,6 @@
 .navbar-item-link > span {
     display: block;
-    padding-top: 4%;
+    padding-top: 30px;
 }
 @media (min-width: 500px){
     .show-menu{
