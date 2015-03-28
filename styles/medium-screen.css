@@ -145,12 +145,14 @@
     display: inline-block;
 }
 
+.add-block1 > span {
+    margin: 20px;
+}
+
 .add-block1 {
     background-color: #eb4200;
     color: #fff;
     font-size: 15px;
-    height: 30px;
-    padding-top: 50px;
     width: 100%;
 }
 
