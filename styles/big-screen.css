@@ -464,11 +464,12 @@
     height: 25px;
     background-color: #7c7c7c;
     border-radius: 30px;
+    text-align: center;
 }
 
-.contact-img > img {
-    margin-left: 6px;
-    margin-top: 6px;
+.contact-img > i {
+    padding-top: 6px;
+   font-size: 12px;
 }
 
 .facebook-img {
