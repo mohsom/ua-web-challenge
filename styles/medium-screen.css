@@ -2,10 +2,8 @@
     width: 100%;
     text-align: center;
     height: 73px;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-color: #ffffff;
-    border-width: 2px;
+    border-top: solid #ffffff 2px;
+    border-bottom: solid #ffffff 2px;
     display: none;
 }
 .navbar-item-link > span {
@@ -41,10 +39,8 @@
     text-align: center;
     color: #dddddd;
     width: 75px;
-    border-right: solid;
-    border-left: solid;
-    border-width: 1px;
-    border-color: #dddddd;
+    border-right: solid #dddddd 1px;
+    border-left: solid #dddddd 1px;
     vertical-align: middle;
     cursor: default;
     position:absolute;
@@ -88,9 +84,7 @@
     background-color: #ffffff;
     float: left;
     font-size: 13px;
-    border-right-style: solid;
-    border-color: #464c52;
-    border-width: 1px;
+    border-right: solid #464c52 1px;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
@@ -215,25 +209,19 @@
 .footer-blocks {
     display: block;
     width: 100%;
-    border-bottom: solid;
-    border-color: #a6a6a6;
-    border-width: 1px;
+    border-bottom: solid #a6a6a6 1px;
 }
 
 .footer-block1 {
     display: inline-block;
     width: 100%;
-    border-bottom: solid;
-    border-color: #a6a6a6;
-    border-width: 1px;
+    border-bottom: solid #a6a6a6 1px;
 }
 
 .footer-block2 {
     display: inline-block;
     width: 100%;
-    border-bottom: solid;
-    border-color: #a6a6a6;
-    border-width: 1px;
+    border-bottom: solid #a6a6a6 1px;
     height: 50px;
 }
 
@@ -267,9 +255,7 @@
     width: 100%;
     text-align: center;
     margin-top: 8px;
-    border-top-style: solid;
-    border-color: #a6a6a6;
-    border-width: 1px;
+    border-top: solid #a6a6a6 1px;
     padding: 10px;
 }
 
@@ -289,9 +275,7 @@
     color: #ffffff;
     width: 100%;
     padding: 10px;
-    border-top-style: solid;
-    border-color: #a6a6a6;
-    border-width: 1px;
+    border-top: solid #a6a6a6 1px;
     text-align: center;
 }
 
@@ -323,9 +307,8 @@
     background-color: #3a5795;
     color: #ffffff;
     font-size: 13px;
-    margin: 0 auto;
+    margin: 10px auto;
     cursor: pointer;
-    margin-top: 10px;
 }
 
 .facebook-img {
@@ -337,9 +320,7 @@
 
 .facebook-title {
     display: inline-block;
-    border-right: solid;
-    border-color: #ffffff;
-    border-width: 1px;
+    border-right: solid #ffffff 1px;
     padding-right: 10px;
     padding-left: 25px;
     margin-top: 9px;
@@ -362,9 +343,7 @@
     width: 100%;
     text-align: center;
     padding: 10px;
-    border-bottom: solid;
-    border-color: #a6a6a6;
-    border-width: 1px;
+    border-bottom: solid #a6a6a6 1px;
 }
 
 .designed > .company {
@@ -384,7 +363,5 @@
     width: 100%;
     text-align: center;
     padding: 10px;
-    border-bottom: solid;
-    border-color: #a6a6a6;
-    border-width: 1px;
+    border-bottom: solid #a6a6a6 1px;
 }
