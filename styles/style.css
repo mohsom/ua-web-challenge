@@ -346,3 +346,15 @@ body {
 .article-text > span:hover {
     text-decoration: underline;
 }
+.contact-img {
+    width: 25px;
+    height: 25px;
+    background-color: #7c7c7c;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.contact-img > i {
+    padding-top: 6px;
+    font-size: 12px;
+}
