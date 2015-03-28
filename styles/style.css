@@ -209,8 +209,12 @@ body {
     padding: 9px 9px;
     border-radius: 30px;
     text-align: center;
+    font-weight: bold;
 }
-
+.euro-sign>i{
+    display: block;
+    margin-top: -2px;
+}
 .euro-content {
     margin-top: -20px;
     text-align: center;
