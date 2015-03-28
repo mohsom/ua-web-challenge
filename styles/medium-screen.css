@@ -36,21 +36,16 @@
 }
 
 .show-menu {
-    margin-left: 60%;
+    margin-left: 55%;
     cursor: pointer
 }
 
-.show-menu-arrow {
+.show-menu-icon {
+    display: block;
     font-size: 40px;
     color: #8c8d8d;
-    padding-top: 35px;
-    transform: rotateZ(90deg)
+    padding-top: 15px;
 }
-
-.active-arrow {
-    transform: rotateX(-180deg)
-}
-
 .navbar-dropdown {
     color: #ddd;
     width: 75px;

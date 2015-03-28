@@ -21,12 +21,11 @@
         cursor: pointer
     }
 
-    .show-menu-arrow {
+    .show-menu-icon {
         display: block;
         font-size: 40px;
         color: #8c8d8d;
-        padding-top: 35px;
-        transform: rotateZ(90deg)
+        padding-top: 15px;
     }
 
     .navbar-dropdown {
@@ -72,7 +71,7 @@
         margin: 0 auto
     }
 
-    .show-menu, .show-menu-arrow {
+    .show-menu {
         display: none
     }
 
@@ -118,10 +117,6 @@
 
 .active-menu, .submenu {
     display: block
-}
-
-.active-arrow {
-    transform: rotateX(-180deg)
 }
 
 .navbar-dropdown > .dropdown-lang {
