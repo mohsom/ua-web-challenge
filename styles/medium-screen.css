@@ -159,12 +159,12 @@
     height: 30px;
     border-radius: 30px;
     vertical-align: middle;
+    color: #eb4200;
 }
-
-.add-block1-img > img {
-    display: block;
-    margin: 0 auto;
-    padding: 7px;
+.add-block1-img>i{
+    position: absolute;
+    margin-left: -6px;
+    margin-top: 6px;
 }
 
 .add-block2 {

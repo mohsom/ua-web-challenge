@@ -367,7 +367,15 @@
     display: inline-block;
     height: 60px;
 }
-
+.add-block1-img{
+    color: #eb4200;
+    font-size: 16px;
+}
+.add-block1-img>i{
+    position: absolute;
+    margin-left: -6px;
+    margin-top: 6px;
+}
 .add-block1-img, .add-block > span, .ceo-row {
     display: block;
 }
