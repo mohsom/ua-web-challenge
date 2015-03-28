@@ -1,3 +1,4 @@
+"use strict";
 $(document).ready(function () {
     var click = 0;
     $('.show-menu').click(function () {

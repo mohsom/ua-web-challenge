@@ -7,7 +7,6 @@
     "grunt-contrib-htmlmin":"latest",
     "grunt-contrib-imagemin":"latest",
     "grunt-contrib-watch":"latest",
-    "grunt-contrib-uglify":"latest",
-    "grunt-contrib-jshint":"latest"
+    "grunt-contrib-uglify":"latest"
   }
 }

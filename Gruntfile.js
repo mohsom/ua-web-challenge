@@ -58,9 +58,6 @@ module.exports = function (grunt) {
                     'build/script.js': ['js/script.js']
                 }
             }
-        },
-        jshint: {
-            all: ['js/script.js']
         }
     });
 
@@ -68,8 +65,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.registerTask('build', ['cssmin', 'htmlmin', 'imagemin','uglify','jshint']);
+    grunt.registerTask('build', ['cssmin', 'htmlmin', 'imagemin','uglify']);
     grunt.registerTask('default', ['watch']);
 };
