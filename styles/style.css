@@ -395,6 +395,13 @@ body {
     overflow: hidden;
     max-width: 100%;
 }
+.add-block {
+    display: inline-block;
+}
+.add-block1-img {
+    color: #eb4200;
+    font-size: 16px;
+}
 .article-text > span {
     color: #eb4200;
     cursor: pointer;

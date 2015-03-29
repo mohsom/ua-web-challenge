@@ -144,7 +144,6 @@
 
 .add-block > span {
     margin: 5px;
-    display: inline-block;
 }
 
 .add-block1 > span {
@@ -165,7 +164,6 @@
     height: 30px;
     border-radius: 30px;
     vertical-align: middle;
-    color: #eb4200;
 }
 
 .add-block1-img > i {

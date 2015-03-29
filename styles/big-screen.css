@@ -154,13 +154,11 @@
 }
 
 .add-block {
-    display: inline-block;
     height: 60px;
 }
 
 .add-block1-img {
-    color: #eb4200;
-    font-size: 16px;
+
 }
 
 .add-block1-img > i {
