@@ -1,9 +1,3 @@
-@import "reset.css";
-@import "normalize.css";
-@import "small-screen.css";
-@import "medium-screen.css";
-@import "big-screen.css";
-
 body {
     font-family: Tahoma, serif;
 }
@@ -95,7 +89,7 @@ body {
     word-break: normal;
     visibility: hidden;
     vertical-align: text-top;
-    transition: all 0.5s;
+    transition: all 1s;
 }
 
 .submenu-item-img {
