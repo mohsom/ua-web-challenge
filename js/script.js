@@ -3,5 +3,11 @@ $(document).ready(function () {
     $('.show-menu').click(function () {
         $('.navbar').toggleClass('active');
     });
+    $(document).click(function(e){
+        var $el = $(e.target);
+        if(!$('.navbar').has($el).length){
+            $('.navbar').removeClass('active');
+        }
+    });
 });
 
