@@ -519,7 +519,7 @@
 
 .designed > .company {
     position: absolute;
-    margin-left: 240px;
+    margin-left: 260px;
     margin-top: 10px;
     font-family: Oswald, sans-serif;
     font-size: 15px;
@@ -527,12 +527,14 @@
 
 .designed > span {
     position: absolute;
-    margin-left: 70px;
+    margin-left: 110px;
     margin-top: 11px;
+    font-size: 11px;
 }
 
 .copyright {
     float: right;
     margin-top: 10px;
-    margin-right: 85px;
+    margin-right: 90px;
+    font-size: 11px;
 }
