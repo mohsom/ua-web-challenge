@@ -442,6 +442,9 @@ body {
 .article-title {
     color: #000;
 }
+.article-text {
+    color: #999;
+}
 .article-text > span {
     color: #eb4200;
     cursor: pointer;
