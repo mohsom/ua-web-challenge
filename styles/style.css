@@ -431,6 +431,11 @@ body {
     margin: 0 auto;
     max-width: 100%;
 }
+.ceo-row {
+    display: block;
+    padding-bottom: 40px;
+}
+
 .article-text > span {
     color: #eb4200;
     cursor: pointer;

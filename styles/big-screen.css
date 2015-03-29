@@ -202,10 +202,6 @@
     width: 1145px;
 }
 
-.ceo-row {
-    padding-bottom: 40px;
-}
-
 .ceo-article, .contact-img, .contacts-item, .contacts-title, .copyright, .designed, .designed > .company, .designed > span, .facebook-img, .facebook-num {
     display: inline-block;
 }
