@@ -19,7 +19,7 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    'build/styles/style.min.css': ['build/styles/style.css']
+                    'build/styles/style.min.css': ['build/styles/style.min.css']
                 }
             }
         },
@@ -57,12 +57,9 @@ module.exports = function (grunt) {
             }
         },
         concat: {
-            options: {
-                separator: ';'
-            },
             dist: {
-                src: ['styles/style.css', 'styles/big-screen.css', 'styles/small-screen.css','styles/medium-screen.css','normalize.css','reset.css'],
-                dest: 'build/styles/style.css'
+                src: ['styles/reset.css','styles/normalize.css','styles/style.css', 'styles/big-screen.css', 'styles/small-screen.css','styles/medium-screen.css'],
+                dest: 'build/styles/style.min.css'
             }
         }
     });
