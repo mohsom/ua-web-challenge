@@ -468,6 +468,9 @@ body {
 .becker-block > img {
     display: block;
 }
+.becker-block > span {
+    display: block;
+}
 .facebook-button {
     width: 150px;
     height: 30px;
