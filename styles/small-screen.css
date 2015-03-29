@@ -60,12 +60,9 @@
 
 .navbar-item-link {
     width: 100%;
-    text-align: center;
     height: 73px;
     margin-top: 18px;
     border-top: solid #fff 2px;
-    border-bottom: solid #fff 2px;
-    vertical-align: middle;
 }
 .show-menu {
     text-align: center;

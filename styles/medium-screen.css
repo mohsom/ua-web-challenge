@@ -9,10 +9,8 @@
 
 .navbar-item-link {
     width: 100%;
-    text-align: center;
     height: 73px;
     border-top: solid #fff 2px;
-    border-bottom: solid #fff 2px;
     display: none;
     margin-top: 18px;
 }

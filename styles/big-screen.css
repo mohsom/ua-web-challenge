@@ -78,9 +78,7 @@
 }
 
 .navbar-item-link {
-    text-align: center;
     height: 73px;
-    border-bottom: solid #fff 2px;
 }
 
 .navbar-item-link > span {

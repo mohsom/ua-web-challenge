@@ -29,6 +29,10 @@ body {
     vertical-align: middle;
     cursor: pointer;
 }
+.navbar-item-link {
+    text-align: center;
+    border-bottom: solid #fff 2px;
+}
 .navbar-item-link > span{
     display: block;
 }
