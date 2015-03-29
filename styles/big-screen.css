@@ -28,21 +28,7 @@
     .contacts {
         margin-left: 60%;
     }
-
-    .facebook-button {
-        position: absolute;
-        width: 150px;
-        height: 30px;
-        background-color: #3a5795;
-        font-size: 13px;
-        margin-top: 25px;
-        margin-left: 20px;
-        cursor: pointer;
-    }
-
     .footer-block3 {
-        font-size: 13px;
-        width: 100%;
         border-top: solid #a6a6a6 1px;
         height: 30px;
     }
@@ -77,22 +63,6 @@
 
     .contacts {
         margin-left: 810px;
-    }
-
-    .facebook-button {
-        position: absolute;
-        width: 150px;
-        height: 30px;
-        background-color: #3a5795;
-        font-size: 13px;
-        margin-top: 25px;
-        margin-left: 13px;
-        cursor: pointer;
-    }
-
-    .footer-block3 {
-        font-size: 13px;
-        width: 100%;
     }
 }
 
@@ -391,7 +361,21 @@
     margin-right: 30px;
     font-size: 13px;
 }
+.facebook-button {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    background-color: #3a5795;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
 
+.footer-block3 {
+    font-size: 13px;
+    width: 100%;
+}
 .facebook-img {
     padding-left: 10px;
     padding-top: 9px;
