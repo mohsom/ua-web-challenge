@@ -1,11 +1,6 @@
 @media (min-width: 500px) {
+
     .navbar-item-link {
-        width: 100%;
-        text-align: center;
-        height: 73px;
-        margin-top: 18px;
-        border-top: solid #fff 2px;
-        border-bottom: solid #fff 2px;
         display: none;
     }
 
@@ -17,9 +12,6 @@
 
     .show-menu {
         display: block;
-        text-align: center;
-        margin-left: 40%;
-        cursor: pointer;
     }
 
     .show-menu-icon {
@@ -30,14 +22,9 @@
     }
 
     .navbar-dropdown {
-        text-align: center;
-        color: #ddd;
         width: 75px;
         border-right: solid #ddd 1px;
         border-left: solid #ddd 1px;
-        vertical-align: middle;
-        cursor: default;
-        position: absolute;
         margin-left: 1%;
         margin-right: 5%;
         top: 0;
@@ -55,11 +42,6 @@
 
 @media (max-width: 499px) {
     .navbar-item-link {
-        width: 100%;
-        text-align: center;
-        height: 73px;
-        border-top: solid #fff 2px;
-        border-bottom: solid #fff 2px;
         display: block;
     }
 
@@ -78,15 +60,9 @@
 
     .navbar-dropdown {
         display: block;
-        text-align: center;
-        color: #ddd;
-        background-color: #fff;
         width: 100%;
         border-right: solid #ddd 1px;
         border-left: solid #ddd 1px;
-        vertical-align: middle;
-        cursor: default;
-        position: absolute;
     }
 
     .navbar-dropdown > .dropdown-lang > .lang-item {
@@ -98,11 +74,31 @@
     }
 }
 
+.navbar-item-link {
+    width: 100%;
+    text-align: center;
+    height: 73px;
+    margin-top: 18px;
+    border-top: solid #fff 2px;
+    border-bottom: solid #fff 2px;
+    vertical-align: middle;
+}
+.show-menu {
+    text-align: center;
+    margin-left: 40%;
+    cursor: pointer;
+}
 .navbar-item-link > span {
     display: block;
     padding-top: 30px;
 }
-
+.navbar-dropdown{
+    text-align: center;
+    color: #ddd;
+    background-color: #fff;
+    cursor: default;
+    position: absolute;
+}
 .add-block1, .our-products-menu-item {
     text-transform: uppercase;
     font-weight: 700;
@@ -154,12 +150,14 @@
     display: block;
     list-style: none;
 }
+
 .submenu-item-img-title {
     color: #fff;
     display: block;
     float: left;
     margin-top: 10px;
 }
+
 .main-info-slides-item {
     width: 100%;
     max-width: 340px;
