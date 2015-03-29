@@ -16,7 +16,9 @@
     margin-top: 18px;
 }
 
-.active-menu, .show-menu, .show-menu-arrow {
+.navbar.active .navbar-item-link,
+.show-menu,
+.show-menu-arrow {
     display: block;
 }
 

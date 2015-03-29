@@ -98,7 +98,8 @@
     text-align: center;
 }
 
-.active-menu, .submenu {
+.navbar.active .navbar-item-link,
+.submenu {
     display: block;
 }
 

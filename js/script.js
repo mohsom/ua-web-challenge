@@ -1,16 +1,8 @@
-"use strict";
 $(document).ready(function () {
-    var click = 0;
+    "use strict";
     $('.show-menu').click(function () {
-        if (click === 1) {
-            $('.navbar-item-link').removeClass('active-menu');
-            $('.show-menu-icon>i').attr('class','fa fa-bars');
-            click = 0;
-        }
-        else {
-            $('.navbar-item-link').addClass('active-menu');
-            $('.show-menu-icon>i').attr('class','fa fa-times');
-            click = 1;
-        }
+        $('.navbar').toggleClass('active');
+        $('.show-menu-icon>i').toggleClass('class','fa fa-times');
     });
 });
+
