@@ -7,15 +7,6 @@
         border-bottom: solid #fff 2px;
     }
 
-    .navbar-item-link > span {
-        display: block;
-        padding-top: 25%
-    }
-
-    .navbar-logo {
-        margin-left: 75px;
-        margin-right: 104px;
-    }
     .submenu {
         width: 1366px;
         background-color: #8c8d8d;
@@ -149,16 +140,6 @@
         height: 73px;
         border-bottom: solid #fff 2px;
     }
-
-    .navbar-item-link > span {
-        display: block;
-        padding-top: 25%;
-    }
-
-    .navbar-logo {
-        margin-left: 45px;
-        margin-right: 80px;
-    }
     .submenu {
         width: 1366px;
         background-color: #8c8d8d;
@@ -278,6 +259,15 @@
         font-size: 13px;
         width: 100%;
     }
+}
+.navbar-logo {
+    margin-left: 45px;
+    margin-right: 80px;
+}
+
+.navbar-item-link > span {
+    display: block;
+    padding-top: 25%;
 }
 .navbar-dropdown {
     text-align: center;
