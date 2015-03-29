@@ -390,3 +390,7 @@ body {
     padding-top: 10px;
     font-size: 12px;
 }
+.designed > .company {
+    font-family: Oswald, sans-serif;
+    font-size: 15px;
+}
