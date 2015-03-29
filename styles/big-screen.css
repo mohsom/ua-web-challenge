@@ -161,12 +161,6 @@
 
 }
 
-.add-block1-img > i {
-    position: absolute;
-    margin-left: -6px;
-    margin-top: 6px;
-}
-
 .add-block1-img, .add-block > span, .ceo-row {
     display: block;
 }

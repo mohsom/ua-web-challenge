@@ -129,13 +129,6 @@
     border-radius: 30px;
     vertical-align: middle;
 }
-
-.add-block1-img > i {
-    position: absolute;
-    margin-left: -6px;
-    margin-top: 6px;
-}
-
 .add-block2 {
     width: 100%;
     background-color: #fff;

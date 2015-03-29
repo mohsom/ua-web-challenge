@@ -402,6 +402,11 @@ body {
     color: #eb4200;
     font-size: 16px;
 }
+.add-block1-img > i {
+    position: absolute;
+    margin-left: -6px;
+    margin-top: 6px;
+}
 .article-text > span {
     color: #eb4200;
     cursor: pointer;
