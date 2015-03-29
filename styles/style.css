@@ -60,6 +60,7 @@ body {
 }
 
 #products:hover .submenu-item {
+    visibility: visible;
     margin: 25px 0 0 25px;
     opacity: 1;
     transition: all 0.5s;
@@ -86,6 +87,7 @@ body {
     font-size: 11px;
     opacity: 0;
     word-break: normal;
+    visibility: hidden;
     vertical-align: text-top;
     transition: all 1s;
 }
