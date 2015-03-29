@@ -291,7 +291,24 @@ body {
 .our-products-menu > li:nth-last-of-type(1) {
     border-right-style: none;
 }
+.our-products-menu-item {
+    display: inline-block;
+    height: 50px;
+    color: #333;
+    background-color: #fff;
+    float: left;
+    font-size: 13px;
+    cursor: pointer;
+}
 
+.our-products-menu {
+    margin-top: 30px;
+    position: absolute;
+    max-width: 100%;
+    display: block;
+    list-style: none;
+    min-height: 50px;
+}
 .our-products-menu-item:hover {
     background-color: #333;
     color: #fff;

@@ -74,15 +74,8 @@
     margin-top: 10px;
 }
 .our-products-menu-item {
-    display: inline-block;
     width: 16%;
-    height: 50px;
-    color: #333;
-    background-color: #fff;
-    float: left;
-    font-size: 13px;
     border-right: solid #464c52 1px;
-    cursor: pointer;
 }
 
 .our-products-menu {
