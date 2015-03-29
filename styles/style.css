@@ -426,6 +426,11 @@ body {
 .add-block2 > span {
     margin-top: 25px;
 }
+.main-info-ceo {
+    font-size: 13px;
+    margin: 0 auto;
+    max-width: 100%;
+}
 .article-text > span {
     color: #eb4200;
     cursor: pointer;
