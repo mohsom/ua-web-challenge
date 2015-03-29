@@ -54,37 +54,32 @@ body {
 }
 
 #products:hover .submenu {
-    min-height: 212px;
-    height: auto;
-    transition: all 0.2s;
+    visibility: visible;
 }
 #products:hover .submenu-item {
-    visibility: visible;
+    margin: 25px 0 0 25px;
     opacity: 1;
     transition: all 0.5s;
-
 }
 .submenu {
     background-color: #8c8d8d;
     position: absolute;
     display: block;
-    min-height: 0;
-    height: 0;
+    min-height: 212px;
     cursor: default;
     max-width: 100%;
     word-break: normal;
+    visibility: hidden;
     z-index: 2;
-    transition: all 0.2s;
 }
 
 .submenu-item {
     display: inline-block;
     width: 120px;
-    margin: 25px 0 0 25px;
+    margin: 0 0 0 25px;
     font-size: 11px;
-    word-break: normal;
-    visibility: hidden;
     opacity: 0;
+    word-break: normal;
     vertical-align: text-top;
 }
 
@@ -189,6 +184,7 @@ body {
 
 .navbar-dropdown > .dropdown-lang:hover > .lang-item.active > span > .lang-arrow-img {
     transform: rotateZ(-90deg);
+    transition: all 0.2s;
 }
 
 .lang-arrow-img {
@@ -196,6 +192,7 @@ body {
     margin-left: 5px;
     position: absolute;
     transform: rotateZ(90deg);
+    transition: all 0.2s;
 }
 
 .banner-text-sub-title, .banner-text-title {
@@ -327,6 +324,7 @@ body {
     float: left;
     font-size: 13px;
     cursor: pointer;
+    transition: all 0.2s;
 }
 
 .our-products-menu {
@@ -339,6 +337,7 @@ body {
 .our-products-menu-item:hover {
     background-color: #333;
     color: #fff;
+    transition: all 0.2s;
 }
 
 .our-products-menu-item > span {
@@ -530,8 +529,12 @@ body {
     background-color: #3a5795;
     font-size: 13px;
     cursor: pointer;
+    transition: all 0.1s;
 }
-
+.facebook-button:hover{
+    opacity: 0.9;
+    transition: all 0.1s;
+}
 .facebook-img {
     padding-left: 10px;
     padding-top: 9px;
@@ -578,10 +581,12 @@ body {
     display: inline-block;
     cursor: pointer;
     text-transform: uppercase;
+    transition: all 0.2s;
 }
 
 .footer-menu-item:hover {
     color: #eb4200;
+    transition: all 0.2s;
 }
 
 .designed > .company {
