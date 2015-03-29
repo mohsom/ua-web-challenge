@@ -89,6 +89,7 @@
 }
 
 .navbar-dropdown {
+    position: absolute;
     text-align: center;
     color: #ddd;
     border-right: solid #ddd 1px;
