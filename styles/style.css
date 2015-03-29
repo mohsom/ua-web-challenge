@@ -315,7 +315,7 @@ body {
 
 .radio-buttons {
     display: block;
-    margin: 0 auto;
+    margin: -10px auto;
     width: 60px;
     height: 25px;
     padding-bottom: 60px;
@@ -323,8 +323,8 @@ body {
 
 .radio-button {
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     border-radius: 30px;
     background-color: #bbb;
     cursor: pointer;
