@@ -273,9 +273,6 @@
     display: block;
 }
 
-.footer-menu-item:hover {
-    color: #eb4200;
-}
 
 .contacts-item {
     margin-right: 30px;
@@ -293,13 +290,6 @@
 }
 
 
-.facebook-title {
-    display: inline-block;
-    border-right: solid #fff 1px;
-    padding-right: 10px;
-    padding-left: 25px;
-    margin-top: 9px;
-}
 
 .designed {
     float: left;

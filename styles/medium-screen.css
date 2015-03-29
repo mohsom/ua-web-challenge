@@ -203,9 +203,6 @@
     margin-right: 60px;
 }
 
-.footer-menu-item:hover {
-    color: #eb4200;
-}
 .contact-img, .contacts-item, .contacts-title {
     display: inline-block;
 }
@@ -217,14 +214,6 @@
 .designed, .footer-block3 {
     display: block;
     width: 100%;
-}
-
-.facebook-title {
-    display: inline-block;
-    border-right: solid #fff 1px;
-    padding-right: 10px;
-    padding-left: 25px;
-    margin-top: 9px;
 }
 
 .facebook-num {

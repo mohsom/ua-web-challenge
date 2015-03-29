@@ -228,10 +228,6 @@
     margin-right: 2%;
 }
 
-.footer-menu-item:hover {
-    color: #eb4200;
-}
-
 .contacts {
     width: 100%;
     padding: 10px;
@@ -257,14 +253,6 @@
 .designed, .footer-block3 {
     display: block;
     width: 100%;
-}
-
-.facebook-title {
-    display: inline-block;
-    border-right: solid #fff 1px;
-    padding-right: 10px;
-    padding-left: 25px;
-    margin-top: 9px;
 }
 
 .facebook-num {

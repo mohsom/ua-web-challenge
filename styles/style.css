@@ -520,6 +520,10 @@ body {
     cursor: pointer;
     text-transform: uppercase;
 }
+
+.footer-menu-item:hover {
+    color: #eb4200;
+}
 .designed > .company {
     font-family: Oswald, sans-serif;
     font-size: 15px;
