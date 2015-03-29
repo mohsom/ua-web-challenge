@@ -453,6 +453,10 @@ body {
 .article-text > span:hover {
     text-decoration: underline;
 }
+.footer {
+    width: 100%;
+    background-color: #939494;
+}
 .facebook-button {
     width: 150px;
     height: 30px;
