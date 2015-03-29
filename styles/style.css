@@ -362,6 +362,11 @@ body {
     font-size: 13px;
     cursor: pointer;
 }
+.facebook-img {
+    padding-left: 10px;
+    padding-top: 9px;
+    position: absolute;
+}
 .contact-img {
     width: 30px;
     height: 30px;
