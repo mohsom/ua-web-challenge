@@ -424,6 +424,7 @@
 
 .add-block1 > span {
     margin-top: 25px;
+    margin-left: 20px;
 }
 
 .add-block1-img {
@@ -431,15 +432,9 @@
     width: 30px;
     height: 30px;
     border-radius: 30px;
-    margin-left: 50px;
+    margin-left: 70px;
     margin-top: 17px;
     position: absolute;
-}
-
-.add-block1-img > img {
-    display: block;
-    margin: 0 auto;
-    padding-top: 8px;
 }
 
 .add-block2 {
