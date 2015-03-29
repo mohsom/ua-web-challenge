@@ -207,11 +207,9 @@
 }
 
 .ceo-article {
-    word-break: normal;
     vertical-align: text-top;
     margin-right: 80px;
     width: 490px;
-    line-height: 15px;
 }
 
 .article-title {

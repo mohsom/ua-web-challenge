@@ -435,7 +435,10 @@ body {
     display: block;
     padding-bottom: 40px;
 }
-
+.ceo-article {
+    word-break: normal;
+    line-height: 15px;
+}
 .article-text > span {
     color: #eb4200;
     cursor: pointer;
