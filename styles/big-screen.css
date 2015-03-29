@@ -148,6 +148,7 @@
         display: block;
         visibility: hidden;
         cursor: default;
+        max-width: 100%;
         word-break: normal;
     }
     .main-info-slides-item {
