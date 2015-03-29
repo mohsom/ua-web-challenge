@@ -19,7 +19,12 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    'build/styles/style.css': ['build/styles/style.css']
+                    'build/styles/style.css': ['styles/style.css'],
+                    'build/styles/small-screen.css': ['styles/small-screen.css'],
+                    'build/styles/big-screen.css': ['styles/big-screen.css'],
+                    'build/styles/medium-screen.css': ['styles/medium-screen.css'],
+                    'build/styles/reset.css': ['styles/reset.css'],
+                    'build/styles/normalize.css': ['styles/normalize.css']
                 }
             }
         },
@@ -55,11 +60,6 @@ module.exports = function (grunt) {
             }
         },
         concat: {
-            css: {
-                src: ['styles/reset.css','styles/normalize.css', 'styles/small-screen.css','styles/medium-screen.css', 'styles/big-screen.css','styles/style.css'],
-                //src: ['styles/style.css'],
-                dest: 'build/styles/style.css'
-            },
             js:{
                 src:['js/script.js'],
                 dest:'build/js/script.js'
@@ -78,6 +78,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.registerTask('build', ['clean:build','concat:css','cssmin', 'htmlmin', 'imagemin','concat:js','uglify']);
+    grunt.registerTask('build', ['clean:build','cssmin', 'htmlmin', 'imagemin','concat:js','uglify']);
     grunt.registerTask('default', ['watch']);
 };
