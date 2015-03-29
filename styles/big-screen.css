@@ -449,6 +449,7 @@
     transform: skewX(-25deg);
     margin-right: -45px;
     margin-left: -5px;
+    color: #555555;
 }
 
 .add-block2 > span {
