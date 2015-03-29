@@ -38,12 +38,7 @@
         width: 15%;
         margin-left: 45px;
     }
-
-    .footer-block1, .footer-block2 {
-        display: inline-block;
-        min-height: 75px;
-    }
-
+    
     .becker-block {
         display: block;
         font-size: 11px;
@@ -155,12 +150,6 @@
 
     .footer-block2 {
         width: 180px;
-    }
-
-    .footer-block1, .footer-block2 {
-        display: inline-block;
-        min-height: 75px;
-        border-right: solid #a6a6a6 1px;
     }
 
     .becker-block {
@@ -436,6 +425,11 @@
     display: block;
     width: 100%;
     border-bottom: solid #a6a6a6 1px;
+}
+.footer-block1, .footer-block2 {
+    display: inline-block;
+    min-height: 75px;
+    border-right: solid #a6a6a6 1px;
 }
 .contacts-item {
     margin-right: 30px;
