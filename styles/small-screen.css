@@ -225,10 +225,7 @@
 }
 
 .footer-menu-item {
-    display: inline-block;
-    cursor: pointer;
     margin-right: 2%;
-    text-transform: uppercase;
 }
 
 .footer-menu-item:hover {

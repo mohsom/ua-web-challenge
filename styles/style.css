@@ -511,6 +511,11 @@ body {
     display: block;
     color: #fff;
 }
+.footer-menu-item {
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+}
 .designed > .company {
     font-family: Oswald, sans-serif;
     font-size: 15px;
