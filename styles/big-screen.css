@@ -1,4 +1,4 @@
-@media (min-width: 1200px)and (max-width: 1279px) {
+@media (min-width: 1200px)and (max-width: 1290px) {
     .navbar-item-link {
         width: 110px;
         margin-right: 10px;
@@ -42,7 +42,7 @@
     }
 
     .main-info-slides-item {
-        width: 300px;
+        width: 320px;
         height: 240px;
         margin-right: 2%;
         display: inline-block;
@@ -151,7 +151,7 @@
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1290px) {
     .navbar-item-link {
         width: 115px;
         margin-right: 22px;
@@ -195,7 +195,7 @@
     }
 
     .main-info-slides-item {
-        width: 320px;
+        width: 360px;
         height: 250px;
         margin-right: 2%;
         display: inline-block;
@@ -356,7 +356,7 @@
 
 .main-info-slides {
     margin: 0 auto;
-    padding: 35px 0 12px 13%;
+    padding: 35px 0 12px 110px;
 }
 
 .main-info-add {
