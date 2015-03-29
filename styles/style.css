@@ -398,6 +398,11 @@ body {
 .add-block {
     display: inline-block;
 }
+.add-block1 {
+    background-color: #eb4200;
+    color: #fff;
+    font-size: 15px;
+}
 .add-block1-img {
     color: #eb4200;
     font-size: 16px;
