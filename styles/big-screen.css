@@ -1,4 +1,4 @@
-@media (min-width: 1200px)and (max-width: 1290px) {
+@media (min-width: 1200px)and (max-width: 1289px) {
     .navbar-item-link {
         width: 110px;
         margin-right: 10px;
@@ -32,6 +32,9 @@
         border-top: solid #a6a6a6 1px;
         height: 30px;
     }
+    .footer-menu {
+        margin-left: 30%;
+    }
 }
 
 @media (min-width: 1290px) {
@@ -63,6 +66,9 @@
 
     .contacts {
         margin-left: 810px;
+    }
+    .footer-menu {
+        margin-left: 420px;
     }
 }
 
@@ -332,7 +338,6 @@
     list-style: none;
     display: block;
     color: #fff;
-    margin-left: 30%;
     position: absolute;
     margin-top: 10px;
     font-size: 13px;
