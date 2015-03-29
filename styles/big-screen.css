@@ -23,32 +23,8 @@
         width: 15%;
         margin-left: 45px;
     }
-    
-    .footer-menu {
-        list-style: none;
-        display: block;
-        color: #fff;
-        margin-left: 30%;
-        position: absolute;
-        margin-top: 10px;
-        font-size: 13px;
-    }
 
-    .footer-menu-item {
-        display: inline-block;
-        cursor: pointer;
-        margin-right: 20px;
-        text-transform: uppercase;
-    }
 
-    .contacts, .facebook-button, .footer-block3 {
-        color: #fff;
-        display: block;
-    }
-
-    .footer-menu-item:hover {
-        color: #eb4200;
-    }
 
     .contacts {
         position: absolute;
@@ -100,33 +76,7 @@
     .footer-block1, .footer-block2 {
         border-right: solid #a6a6a6 1px;
     }
-
-    .footer-menu {
-        list-style: none;
-        display: block;
-        color: #fff;
-        margin-left: 417px;
-        position: absolute;
-        margin-top: 10px;
-        font-size: 13px;
-    }
-
-    .footer-menu-item {
-        display: inline-block;
-        cursor: pointer;
-        margin-right: 60px;
-        text-transform: uppercase;
-    }
-
-    .contacts, .facebook-button, .footer-block3 {
-        color: #fff;
-        display: block;
-    }
-
-    .footer-menu-item:hover {
-        color: #eb4200;
-    }
-
+    
     .contacts {
         position: absolute;
         margin-left: 810px;
@@ -398,6 +348,31 @@
     margin-left: 245px;
     margin-top: 2px;
     position: absolute;
+}
+.footer-menu {
+    list-style: none;
+    display: block;
+    color: #fff;
+    margin-left: 30%;
+    position: absolute;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.footer-menu-item {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.contacts, .facebook-button, .footer-block3 {
+    color: #fff;
+    display: block;
+}
+
+.footer-menu-item:hover {
+    color: #eb4200;
 }
 .contacts-item {
     margin-right: 30px;
