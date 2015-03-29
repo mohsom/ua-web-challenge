@@ -337,7 +337,12 @@ body {
 .main-info-slides-item#slide3 {
     background: url(../images/img-slide-3.png) no-repeat;
 }
-
+.slide-text {
+    display: block;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
 .slide-text-title {
     font-size: 15px;
     font-weight: 700;

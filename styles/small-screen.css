@@ -128,17 +128,11 @@
 }
 
 .slide-text {
-    display: block;
-    width: 100%;
-    color: #fff;
-    position: relative;
     padding-top: 180px;
     bottom: 0;
 }
 
 .main-info-add {
-    display: block;
-    width: 100%;
     padding-bottom: 65px;
     overflow: hidden;
     max-width: 100%;
