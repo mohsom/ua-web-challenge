@@ -127,8 +127,6 @@
     }
 
     .footer-block1, .footer-block2 {
-        display: inline-block;
-        min-height: 75px;
         border-right: solid #a6a6a6 1px;
     }
 
@@ -426,6 +424,10 @@
     display: block;
     width: 100%;
     border-bottom: solid #a6a6a6 1px;
+}
+.footer-block1, .footer-block2 {
+    display: inline-block;
+    min-height: 75px;
 }
 .contacts-item {
     margin-right: 30px;
