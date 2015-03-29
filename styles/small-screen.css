@@ -64,22 +64,27 @@
     margin-top: 18px;
     border-top: solid #fff 2px;
 }
+
 .show-menu {
     text-align: center;
     margin-left: 40%;
     cursor: pointer;
 }
+
 .navbar-item-link > span {
     padding-top: 30px;
 }
-.navbar-dropdown{
+
+.navbar-dropdown {
     background-color: #fff;
 }
+
 .navbar-dropdown > .dropdown-lang > .lang-item {
     height: 35px;
     width: 100%;
     padding-top: 30px;
 }
+
 .add-block1, .our-products-menu-item {
     text-transform: uppercase;
     font-weight: 700;
@@ -159,12 +164,9 @@
     vertical-align: middle;
 }
 
-
-
 .add-block2 {
     width: 100%;
 }
-
 
 .main-info-ceo {
     width: 100%;

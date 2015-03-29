@@ -70,9 +70,11 @@
     left: 0;
     width: 100%;
 }
+
 .submenu-item-img-title {
     margin-top: 10px;
 }
+
 .our-products-menu-item {
     width: 16%;
     border-right: solid #464c52 1px;
@@ -122,11 +124,11 @@
     display: inline-block;
     vertical-align: middle;
 }
+
 .add-block2 {
     width: 100%;
     text-align: center;
 }
-
 
 .main-info-ceo {
     width: 100%;

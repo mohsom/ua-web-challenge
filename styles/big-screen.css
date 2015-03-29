@@ -28,10 +28,12 @@
     .contacts {
         margin-left: 60%;
     }
+
     .footer-block3 {
         border-top: solid #a6a6a6 1px;
         height: 30px;
     }
+
     .footer-menu {
         margin-left: 30%;
     }
@@ -67,6 +69,7 @@
     .contacts {
         margin-left: 810px;
     }
+
     .footer-menu {
         margin-left: 420px;
     }
@@ -264,20 +267,22 @@
 .footer-menu-item {
     margin-right: 20px;
 }
+
 .contacts {
     position: absolute;
     margin-top: 2px;
 }
+
 .contacts, .facebook-button, .footer-block3 {
     color: #fff;
     display: block;
 }
 
-
 .contacts-item {
     margin-right: 30px;
     font-size: 13px;
 }
+
 .facebook-button {
     position: absolute;
     margin-top: 25px;
@@ -288,8 +293,6 @@
     font-size: 13px;
     width: 100%;
 }
-
-
 
 .designed {
     float: left;

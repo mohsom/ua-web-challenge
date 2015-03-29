@@ -29,13 +29,16 @@ body {
     vertical-align: middle;
     cursor: pointer;
 }
+
 .navbar-item-link {
     text-align: center;
     border-bottom: solid #fff 2px;
 }
-.navbar-item-link > span{
+
+.navbar-item-link > span {
     display: block;
 }
+
 .navbar-item-link:hover {
     border-color: #eb4200;
     color: #eb4200;
@@ -50,6 +53,7 @@ body {
 #products:hover .submenu {
     visibility: visible;
 }
+
 .submenu {
     background-color: #8c8d8d;
     min-height: 212px;
@@ -59,7 +63,9 @@ body {
     cursor: default;
     max-width: 100%;
     word-break: normal;
+    z-index: 2;
 }
+
 .submenu-item {
     display: inline-block;
     width: 120px;
@@ -72,17 +78,20 @@ body {
     cursor: pointer;
     float: left;
 }
+
 .submenu-img-container {
     cursor: pointer;
     position: relative;
     width: 110px;
     height: 70px;
 }
+
 .submenu-item-img-title {
     color: #fff;
     display: block;
     float: left;
 }
+
 .submenu-img-container:hover:after {
     vertical-align: middle;
     padding: 50px 5px 0 5px;
@@ -131,20 +140,24 @@ body {
 .submenu-img-container:hover + .submenu-item-img-title {
     visibility: hidden;
 }
+
 .navbar-dropdown {
     text-align: center;
     color: #ddd;
     cursor: default;
     position: absolute;
 }
+
 .navbar-dropdown > .dropdown-lang {
     list-style: none;
     height: 75px;
 }
+
 .navbar-dropdown > .dropdown-lang > .lang-item {
     display: none;
     cursor: pointer;
 }
+
 .navbar-dropdown > .dropdown-lang:hover > .lang-item {
     display: block;
     background-color: #8c8d8d;
@@ -291,6 +304,7 @@ body {
 .our-products-menu > li:nth-last-of-type(1) {
     border-right-style: none;
 }
+
 .our-products-menu-item {
     display: inline-block;
     height: 50px;
@@ -307,6 +321,7 @@ body {
     list-style: none;
     min-height: 50px;
 }
+
 .our-products-menu-item:hover {
     background-color: #333;
     color: #fff;
@@ -321,11 +336,13 @@ body {
     background-color: #f3f3f3;
     width: 100%;
 }
+
 .main-info-slides-item {
     display: inline-block;
     box-shadow: inset 0 -97px 96px 0 rgba(0, 0, 0, .75);
     overflow: hidden;
 }
+
 .main-info-slides-item#slide1 {
     background: url(../images/img-slide-1.png) no-repeat;
 }
@@ -337,12 +354,14 @@ body {
 .main-info-slides-item#slide3 {
     background: url(../images/img-slide-3.png) no-repeat;
 }
+
 .slide-text {
     display: block;
     width: 100%;
     color: #fff;
     position: relative;
 }
+
 .slide-text-title {
     font-size: 15px;
     font-weight: 700;
@@ -391,60 +410,74 @@ body {
 .radio-button.radio-active {
     background-color: #eb4200;
 }
+
 .main-info-add {
     overflow: hidden;
     max-width: 100%;
 }
+
 .add-block {
     display: inline-block;
 }
+
 .add-block1 {
     background-color: #eb4200;
     color: #fff;
     font-size: 15px;
 }
+
 .add-block1-img {
     background-color: #fff;
     width: 30px;
     height: 30px;
     border-radius: 30px;
 }
+
 .add-block1-img {
     color: #eb4200;
     font-size: 16px;
 }
+
 .add-block1-img > i {
     position: absolute;
     margin-left: -6px;
     margin-top: 6px;
 }
+
 .add-block2 {
     background-color: #fff;
     font-size: 15px;
     color: #555555;
 }
+
 .add-block2 > span {
     margin-top: 25px;
 }
+
 .main-info-ceo {
     font-size: 13px;
     margin: 0 auto;
     max-width: 100%;
 }
+
 .ceo-row {
     display: block;
     padding-bottom: 40px;
 }
+
 .ceo-article {
     word-break: normal;
     line-height: 15px;
 }
+
 .article-title {
     color: #000;
 }
+
 .article-text {
     color: #999;
 }
+
 .article-text > span {
     color: #eb4200;
     cursor: pointer;
@@ -453,24 +486,30 @@ body {
 .article-text > span:hover {
     text-decoration: underline;
 }
+
 .footer {
     width: 100%;
     background-color: #939494;
 }
+
 .footer-blocks {
     display: block;
     width: 100%;
 }
+
 .becker-block {
     font-size: 11px;
     color: #fff;
 }
+
 .becker-block > img {
     display: block;
 }
+
 .becker-block > span {
     display: block;
 }
+
 .facebook-button {
     width: 150px;
     height: 30px;
@@ -478,11 +517,13 @@ body {
     font-size: 13px;
     cursor: pointer;
 }
+
 .facebook-img {
     padding-left: 10px;
     padding-top: 9px;
     position: absolute;
 }
+
 .facebook-title {
     display: inline-block;
     border-right: solid #fff 1px;
@@ -494,10 +535,12 @@ body {
 .facebook-num {
     padding-left: 8px;
 }
+
 .contacts {
     display: block;
     color: #fff;
 }
+
 .contact-img {
     width: 30px;
     height: 30px;
@@ -510,11 +553,13 @@ body {
     padding-top: 10px;
     font-size: 12px;
 }
+
 .footer-menu {
     list-style: none;
     display: block;
     color: #fff;
 }
+
 .footer-menu-item {
     display: inline-block;
     cursor: pointer;
@@ -524,6 +569,7 @@ body {
 .footer-menu-item:hover {
     color: #eb4200;
 }
+
 .designed > .company {
     font-family: Oswald, sans-serif;
     font-size: 15px;
