@@ -12,11 +12,6 @@
         width: 320px;
         height: 240px;
     }
-    .footer-blocks {
-        display: block;
-        width: 100%;
-        border-bottom: solid #a6a6a6 1px;
-    }
 
     .footer-block1 {
         width: 80%;
@@ -426,6 +421,11 @@
     width: 100%;
     min-height: 110px;
     background-color: #939494;
+}
+.footer-blocks {
+    display: block;
+    width: 100%;
+    border-bottom: solid #a6a6a6 1px;
 }
 .contacts-item {
     margin-right: 30px;
