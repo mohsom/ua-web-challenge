@@ -73,7 +73,6 @@
     cursor: pointer;
 }
 .navbar-item-link > span {
-    display: block;
     padding-top: 30px;
 }
 .navbar-dropdown{

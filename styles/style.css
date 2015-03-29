@@ -29,7 +29,9 @@ body {
     vertical-align: middle;
     cursor: pointer;
 }
-
+.navbar-item-link > span{
+    display: block;
+}
 .navbar-item-link:hover {
     border-color: #eb4200;
     color: #eb4200;
