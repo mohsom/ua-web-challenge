@@ -141,7 +141,7 @@ body {
 
 .banner-text-sub-title, .banner-text-title {
     padding: 10px;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .65);
     margin: 0 auto;
 }
 
@@ -161,7 +161,7 @@ body {
 
 .banner-text {
     color: #fff;
-    padding-top: 120px;
+    padding-top: 113px;
 }
 
 .banner-text-title {
@@ -175,9 +175,10 @@ body {
 .banner-text-sub-title {
     width: 600px;
     text-align: center;
-    font-size: 16px;
+    font-size: 23px;
     max-width: 100%;
     word-break: normal;
+    margin-top: -10px;
 }
 
 .banner-text-euro {
