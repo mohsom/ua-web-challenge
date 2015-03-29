@@ -50,7 +50,16 @@ body {
 #products:hover .submenu {
     visibility: visible;
 }
-
+.submenu {
+    background-color: #8c8d8d;
+    min-height: 212px;
+    position: absolute;
+    display: block;
+    visibility: hidden;
+    cursor: default;
+    max-width: 100%;
+    word-break: normal;
+}
 .submenu-item {
     display: inline-block;
     width: 120px;

@@ -88,7 +88,7 @@
 .navbar-dropdown {
     border-right: solid #ddd 1px;
     border-left: solid #ddd 1px;
-    margin-left: 15px;
+    margin-left: 75px;
 }
 
 .navbar-dropdown > .dropdown-lang {
@@ -103,14 +103,6 @@
 
 .submenu {
     width: 1366px;
-    background-color: #8c8d8d;
-    min-height: 212px;
-    position: absolute;
-    display: block;
-    visibility: hidden;
-    cursor: default;
-    max-width: 100%;
-    word-break: normal;
 }
 
 .submenu-item-img-title {

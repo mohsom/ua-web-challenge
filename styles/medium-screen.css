@@ -67,15 +67,8 @@
 }
 
 .submenu {
-    background-color: #8c8d8d;
-    min-height: 212px;
-    position: absolute;
     left: 0;
-    display: block;
-    visibility: hidden;
-    cursor: default;
     width: 100%;
-    z-index: 2;
 }
 .submenu-item-img-title {
     color: #fff;
