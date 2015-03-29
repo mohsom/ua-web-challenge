@@ -78,7 +78,11 @@ body {
     width: 110px;
     height: 70px;
 }
-
+.submenu-item-img-title {
+    color: #fff;
+    display: block;
+    float: left;
+}
 .submenu-img-container:hover:after {
     vertical-align: middle;
     padding: 50px 5px 0 5px;
