@@ -153,7 +153,7 @@
 
 @media (min-width: 1280px) {
     .navbar-item-link {
-        width: 120px;
+        width: 115px;
         margin-right: 22px;
         text-align: center;
         height: 73px;
@@ -175,7 +175,7 @@
         color: #ddd;
         border-right: solid #ddd 1px;
         border-left: solid #ddd 1px;
-        margin-left: 15px;
+        margin-left: 65px;
         vertical-align: middle;
         cursor: default;
     }
