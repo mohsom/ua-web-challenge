@@ -1,3 +1,9 @@
+@import "reset.css";
+@import "normalize.css";
+@import "small-screen.css";
+@import "medium-screen.css";
+@import "big-screen.css";
+
 body {
     font-family: Tahoma, serif;
 }

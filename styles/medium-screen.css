@@ -16,7 +16,6 @@
         margin-top: 18px;
     }
 
-    .navbar.active .navbar-item-link,
     .show-menu,
     .show-menu-arrow {
         display: block;
@@ -242,5 +241,13 @@
         display: block;
         width: 100%;
         padding: 10px;
+    }
+}
+@media (max-width: 1199px) {
+    .navbar:not(.active) .navbar-item-link{
+        display: none;
+    }
+    .navbar.active .navbar-item-link{
+        display: block;
     }
 }

@@ -19,7 +19,7 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    'build/styles/style.min.css': ['build/styles/style.min.css']
+                    'build/styles/style.css': ['build/styles/style.css']
                 }
             }
         },
@@ -50,19 +50,24 @@ module.exports = function (grunt) {
         uglify: {
             my_target: {
                 files: {
-                    'build/js/script.min.js': ['build/js/script.min.js']
+                    'build/js/script.js': ['build/js/script.js']
                 }
             }
         },
         concat: {
             css: {
-                src: ['styles/reset.css','styles/normalize.css','styles/style.css', 'styles/big-screen.css', 'styles/small-screen.css','styles/medium-screen.css'],
+                src: ['styles/reset.css','styles/normalize.css', 'styles/small-screen.css','styles/medium-screen.css', 'styles/big-screen.css','styles/style.css'],
+                //src: ['styles/style.css'],
                 dest: 'build/styles/style.css'
             },
             js:{
-                src:['js/script.js','js/contact-widget.js','js/jquery.min.js'],
-                dest:'build/js/script.min.js'
+                src:['js/script.js'],
+                dest:'build/js/script.js'
             }
+        },
+
+        clean:{
+            build:['build']
         }
     });
 
@@ -72,6 +77,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-concat');
-    grunt.registerTask('build', ['concat:css','cssmin', 'htmlmin', 'imagemin','concat:js','uglify']);
+    grunt.loadNpmTasks('grunt-contrib-clean');
+    grunt.registerTask('build', ['clean:build','concat:css','cssmin', 'htmlmin', 'imagemin','concat:js','uglify']);
     grunt.registerTask('default', ['watch']);
 };
