@@ -121,6 +121,7 @@
         margin-left: 30%;
         position: absolute;
         margin-top: 10px;
+        font-size: 13px;
     }
 
     .footer-menu-item {
@@ -265,7 +266,7 @@
 
     .becker-block > img {
         display: block;
-        margin-left: 70px;
+        margin-left: 113px;
         position: absolute;
     }
 
@@ -273,7 +274,7 @@
         display: block;
         height: 35px;
         width: 90px;
-        margin-left: 200px;
+        margin-left: 245px;
         margin-top: 2px;
         position: absolute;
     }
@@ -285,6 +286,7 @@
         margin-left: 380px;
         position: absolute;
         margin-top: 10px;
+        font-size: 13px;
     }
 
     .footer-menu-item {
@@ -490,6 +492,7 @@
 
 .contacts-item {
     margin-right: 30px;
+    font-size: 13px;
 }
 
 .facebook-img {
