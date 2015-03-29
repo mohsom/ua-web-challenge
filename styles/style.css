@@ -439,6 +439,9 @@ body {
     word-break: normal;
     line-height: 15px;
 }
+.article-title {
+    color: #000;
+}
 .article-text > span {
     color: #eb4200;
     cursor: pointer;
