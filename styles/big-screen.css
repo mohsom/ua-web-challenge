@@ -24,30 +24,6 @@
         margin-left: 45px;
     }
     
-    .becker-block {
-        display: block;
-        font-size: 11px;
-        color: #fff;
-        width: 215px;
-        word-break: normal;
-        margin-top: 20px;
-    }
-
-    .becker-block > img {
-        display: block;
-        margin-left: 70px;
-        position: absolute;
-    }
-
-    .becker-block > span {
-        display: block;
-        height: 35px;
-        width: 90px;
-        margin-left: 200px;
-        margin-top: 2px;
-        position: absolute;
-    }
-
     .footer-menu {
         list-style: none;
         display: block;
@@ -123,30 +99,6 @@
 
     .footer-block1, .footer-block2 {
         border-right: solid #a6a6a6 1px;
-    }
-
-    .becker-block {
-        display: block;
-        font-size: 11px;
-        color: #fff;
-        width: 215px;
-        word-break: normal;
-        margin-top: 20px;
-    }
-
-    .becker-block > img {
-        display: block;
-        margin-left: 113px;
-        position: absolute;
-    }
-
-    .becker-block > span {
-        display: block;
-        height: 35px;
-        width: 90px;
-        margin-left: 245px;
-        margin-top: 2px;
-        position: absolute;
     }
 
     .footer-menu {
@@ -423,6 +375,29 @@
 .footer-block1, .footer-block2 {
     display: inline-block;
     min-height: 75px;
+}
+.becker-block {
+    display: block;
+    font-size: 11px;
+    color: #fff;
+    width: 215px;
+    word-break: normal;
+    margin-top: 20px;
+}
+
+.becker-block > img {
+    display: block;
+    margin-left: 113px;
+    position: absolute;
+}
+
+.becker-block > span {
+    display: block;
+    height: 35px;
+    width: 90px;
+    margin-left: 245px;
+    margin-top: 2px;
+    position: absolute;
 }
 .contacts-item {
     margin-right: 30px;
