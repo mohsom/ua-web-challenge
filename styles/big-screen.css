@@ -2,9 +2,6 @@
     .navbar-item-link {
         width: 110px;
         margin-right: 10px;
-        text-align: center;
-        height: 73px;
-        border-bottom: solid #fff 2px;
     }
 
     .submenu {
@@ -129,9 +126,6 @@
     .navbar-item-link {
         width: 115px;
         margin-right: 22px;
-        text-align: center;
-        height: 73px;
-        border-bottom: solid #fff 2px;
     }
     .submenu {
         width: 1366px;
@@ -153,7 +147,7 @@
         box-shadow: inset 0 -97px 96px 0 rgba(0, 0, 0, .75);
         overflow: hidden;
     }
-    
+
 
     .footer-block1 {
         width: 1075px;
@@ -244,6 +238,11 @@
 .navbar-logo {
     margin-left: 45px;
     margin-right: 80px;
+}
+.navbar-item-link {
+    text-align: center;
+    height: 73px;
+    border-bottom: solid #fff 2px;
 }
 
 .navbar-item-link > span {
