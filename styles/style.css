@@ -465,6 +465,9 @@ body {
     font-size: 11px;
     color: #fff;
 }
+.becker-block > img {
+    display: block;
+}
 .facebook-button {
     width: 150px;
     height: 30px;
