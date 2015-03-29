@@ -538,12 +538,6 @@ body {
     background-color: #3a5795;
     font-size: 13px;
     cursor: pointer;
-    transition: all 0.1s;
-}
-
-.facebook-button:hover {
-    opacity: 0.9;
-    transition: all 0.1s;
 }
 
 .facebook-img {
