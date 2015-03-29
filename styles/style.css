@@ -124,6 +124,10 @@ body {
     cursor: default;
     position: absolute;
 }
+.navbar-dropdown > .dropdown-lang > .lang-item {
+    display: none;
+    cursor: pointer;
+}
 .navbar-dropdown > .dropdown-lang:hover > .lang-item {
     display: block;
     background-color: #8c8d8d;

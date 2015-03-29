@@ -76,11 +76,9 @@
     background-color: #fff;
 }
 .navbar-dropdown > .dropdown-lang > .lang-item {
-    display: none;
     height: 35px;
     width: 100%;
     padding-top: 30px;
-    cursor: pointer;
 }
 .add-block1, .our-products-menu-item {
     text-transform: uppercase;

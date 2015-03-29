@@ -63,11 +63,9 @@
 }
 
 .navbar-dropdown > .dropdown-lang > .lang-item {
-    display: none;
     height: 35px;
     width: 100%;
     padding-top: 30px;
-    cursor: pointer;
 }
 
 .submenu {
