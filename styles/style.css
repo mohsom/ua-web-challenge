@@ -55,6 +55,8 @@ body {
 
 #products:hover .submenu {
     visibility: visible;
+    opacity: 1;
+    transition: all 0.2s;
 }
 
 #products:hover .submenu-item {
@@ -73,6 +75,8 @@ body {
     word-break: normal;
     visibility: hidden;
     z-index: 2;
+    opacity: 0;
+    transition: all 1s;
 }
 
 .submenu-item {
@@ -83,6 +87,7 @@ body {
     opacity: 0;
     word-break: normal;
     vertical-align: text-top;
+    transition: all 1s;
 }
 
 .submenu-item-img {
