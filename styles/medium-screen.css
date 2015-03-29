@@ -206,12 +206,6 @@
 .footer-menu-item:hover {
     color: #eb4200;
 }
-
-.contacts {
-    display: block;
-    color: #fff;
-}
-
 .contact-img, .contacts-item, .contacts-title {
     display: inline-block;
 }

@@ -494,6 +494,10 @@ body {
 .facebook-num {
     padding-left: 8px;
 }
+.contacts {
+    display: block;
+    color: #fff;
+}
 .contact-img {
     width: 30px;
     height: 30px;
