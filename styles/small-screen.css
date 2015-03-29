@@ -30,14 +30,6 @@
         top: 0;
         right: 4%;
     }
-
-    .navbar-dropdown > .dropdown-lang > .lang-item {
-        display: none;
-        height: 35px;
-        width: 100%;
-        padding-top: 30px;
-        cursor: pointer;
-    }
 }
 
 @media (max-width: 499px) {
@@ -63,14 +55,6 @@
         width: 100%;
         border-right: solid #ddd 1px;
         border-left: solid #ddd 1px;
-    }
-
-    .navbar-dropdown > .dropdown-lang > .lang-item {
-        display: none;
-        height: 35px;
-        width: 100%;
-        padding-top: 30px;
-        cursor: pointer;
     }
 }
 
@@ -98,6 +82,13 @@
     background-color: #fff;
     cursor: default;
     position: absolute;
+}
+.navbar-dropdown > .dropdown-lang > .lang-item {
+    display: none;
+    height: 35px;
+    width: 100%;
+    padding-top: 30px;
+    cursor: pointer;
 }
 .add-block1, .our-products-menu-item {
     text-transform: uppercase;
