@@ -154,7 +154,7 @@
 @media (min-width: 1280px) {
     .navbar-item-link {
         width: 120px;
-        margin-right: 20px;
+        margin-right: 22px;
         text-align: center;
         height: 73px;
         border-bottom: solid #fff 2px;
@@ -166,8 +166,8 @@
     }
 
     .navbar-logo {
-        margin-left: 75px;
-        margin-right: 104px;
+        margin-left: 45px;
+        margin-right: 80px;
     }
 
     .navbar-dropdown {
