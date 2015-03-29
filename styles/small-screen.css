@@ -154,7 +154,12 @@
     display: block;
     list-style: none;
 }
-
+.submenu-item-img-title {
+    color: #fff;
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
 .main-info-slides-item {
     width: 100%;
     max-width: 340px;

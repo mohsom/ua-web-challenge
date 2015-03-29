@@ -57,14 +57,6 @@ body {
     cursor: pointer;
     float: left;
 }
-
-.submenu-item-img-title {
-    color: #fff;
-    display: block;
-    float: left;
-    margin-top: 10px;
-}
-
 .submenu-img-container {
     cursor: pointer;
     position: relative;
