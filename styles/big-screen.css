@@ -26,9 +26,7 @@
     }
 
     .contacts {
-        position: absolute;
         margin-left: 60%;
-        margin-top: 2px;
     }
 
     .facebook-button {
@@ -76,11 +74,9 @@
     .footer-block1, .footer-block2 {
         border-right: solid #a6a6a6 1px;
     }
-    
+
     .contacts {
-        position: absolute;
         margin-left: 810px;
-        margin-top: 2px;
     }
 
     .facebook-button {
@@ -378,7 +374,10 @@
     margin-right: 20px;
     text-transform: uppercase;
 }
-
+.contacts {
+    position: absolute;
+    margin-top: 2px;
+}
 .contacts, .facebook-button, .footer-block3 {
     color: #fff;
     display: block;
