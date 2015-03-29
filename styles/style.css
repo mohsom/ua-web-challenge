@@ -14,8 +14,10 @@ body {
 }
 
 .navbar {
+    display: block;
     min-height: 75px;
     background-color: #fff;
+    z-index: 99;
 }
 
 .navbar-ul {
@@ -28,6 +30,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     cursor: pointer;
+    transition: all 0.2s;
 }
 
 .navbar-item-link {
@@ -51,19 +54,27 @@ body {
 }
 
 #products:hover .submenu {
-    visibility: visible;
+    min-height: 212px;
+    height: auto;
+    transition: all 0.2s;
 }
+#products:hover .submenu-item {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.5s;
 
+}
 .submenu {
     background-color: #8c8d8d;
-    min-height: 212px;
     position: absolute;
     display: block;
-    visibility: hidden;
+    min-height: 0;
+    height: 0;
     cursor: default;
     max-width: 100%;
     word-break: normal;
     z-index: 2;
+    transition: all 0.2s;
 }
 
 .submenu-item {
@@ -72,6 +83,8 @@ body {
     margin: 25px 0 0 25px;
     font-size: 11px;
     word-break: normal;
+    visibility: hidden;
+    opacity: 0;
     vertical-align: text-top;
 }
 
