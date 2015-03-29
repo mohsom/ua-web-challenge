@@ -83,7 +83,7 @@ body {
     visibility: hidden;
     z-index: 2;
     opacity: 0;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 .submenu-item {
@@ -95,7 +95,7 @@ body {
     word-break: normal;
     visibility: hidden;
     vertical-align: text-top;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 .submenu-item-img {
