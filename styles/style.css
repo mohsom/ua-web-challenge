@@ -404,6 +404,12 @@ body {
     font-size: 15px;
 }
 .add-block1-img {
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+.add-block1-img {
     color: #eb4200;
     font-size: 16px;
 }
