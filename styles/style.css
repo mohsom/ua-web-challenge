@@ -506,6 +506,11 @@ body {
     padding-top: 10px;
     font-size: 12px;
 }
+.footer-menu {
+    list-style: none;
+    display: block;
+    color: #fff;
+}
 .designed > .company {
     font-family: Oswald, sans-serif;
     font-size: 15px;

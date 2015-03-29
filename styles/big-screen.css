@@ -256,9 +256,6 @@
 }
 
 .footer-menu {
-    list-style: none;
-    display: block;
-    color: #fff;
     position: absolute;
     margin-top: 10px;
     font-size: 13px;
