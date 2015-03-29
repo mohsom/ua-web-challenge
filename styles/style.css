@@ -124,6 +124,10 @@ body {
     cursor: default;
     position: absolute;
 }
+.navbar-dropdown > .dropdown-lang {
+    list-style: none;
+    height: 75px;
+}
 .navbar-dropdown > .dropdown-lang > .lang-item {
     display: none;
     cursor: pointer;
