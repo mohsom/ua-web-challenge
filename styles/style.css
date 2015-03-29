@@ -118,7 +118,12 @@ body {
 .submenu-img-container:hover + .submenu-item-img-title {
     visibility: hidden;
 }
-
+.navbar-dropdown {
+    text-align: center;
+    color: #ddd;
+    cursor: default;
+    position: absolute;
+}
 .navbar-dropdown > .dropdown-lang:hover > .lang-item {
     display: block;
     background-color: #8c8d8d;

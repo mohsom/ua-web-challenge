@@ -73,11 +73,7 @@
     padding-top: 30px;
 }
 .navbar-dropdown{
-    text-align: center;
-    color: #ddd;
     background-color: #fff;
-    cursor: default;
-    position: absolute;
 }
 .navbar-dropdown > .dropdown-lang > .lang-item {
     display: none;

@@ -47,13 +47,9 @@
 }
 
 .navbar-dropdown {
-    color: #ddd;
     width: 75px;
     border-right: solid #ddd 1px;
     border-left: solid #ddd 1px;
-    vertical-align: middle;
-    cursor: default;
-    position: absolute;
     margin-left: 1%;
     margin-right: 5%;
     top: 0;
