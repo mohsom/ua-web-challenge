@@ -19,12 +19,7 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    'build/styles/style.css': ['styles/style.css'],
-                    'build/styles/medium-screen.css': ['styles/medium-screen.css'],
-                    'build/styles/small-screen.css': ['styles/small-screen.css'],
-                    'build/styles/big-screen.css': ['styles/big-screen.css'],
-                    'build/styles/reset.css': ['styles/reset.css'],
-                    'build/styles/normalize.css': ['styles/normalize.css']
+                    'build/styles/style.min.css': ['build/styles/style.css']
                 }
             }
         },
@@ -60,6 +55,15 @@ module.exports = function (grunt) {
                     'build/js/contact-widget.js':['js/contact-widget.js']
                 }
             }
+        },
+        concat: {
+            options: {
+                separator: ';'
+            },
+            dist: {
+                src: ['styles/style.css', 'styles/big-screen.css', 'styles/small-screen.css','styles/medium-screen.css','normalize.css','reset.css'],
+                dest: 'build/styles/style.css'
+            }
         }
     });
 
@@ -68,6 +72,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.registerTask('build', ['cssmin', 'htmlmin', 'imagemin','uglify']);
+    grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.registerTask('build', ['concat','cssmin', 'htmlmin', 'imagemin','uglify']);
     grunt.registerTask('default', ['watch']);
 };
