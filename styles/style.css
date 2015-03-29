@@ -72,6 +72,7 @@ body {
     margin: 25px 0 0 25px;
     font-size: 11px;
     word-break: normal;
+    vertical-align: text-top;
 }
 
 .submenu-item-img {
