@@ -57,7 +57,7 @@ module.exports = function (grunt) {
         concat: {
             css: {
                 src: ['styles/reset.css','styles/normalize.css','styles/style.css', 'styles/big-screen.css', 'styles/small-screen.css','styles/medium-screen.css'],
-                dest: 'build/styles/style.min.css'
+                dest: 'build/styles/style.css'
             },
             js:{
                 src:['js/script.js','js/contact-widget.js','js/jquery.min.js'],
