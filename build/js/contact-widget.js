@@ -1,0 +1,1 @@
+var _gscq=_gscq||[];_gscq.push(["language",navigator.language]),function(){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="//widgets.getsitecontrol.com/14426/script.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)}();

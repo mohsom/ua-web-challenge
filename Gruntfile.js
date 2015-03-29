@@ -50,7 +50,8 @@ module.exports = function (grunt) {
         uglify: {
             my_target: {
                 files: {
-                    'build/js/script.min.js': ['build/js/script.min.js']
+                    'build/js/script.min.js': ['build/js/script.min.js'],
+                    'build/js/contact-widget.js': ['js/contact-widget.js']
                 }
             }
         },
@@ -60,7 +61,7 @@ module.exports = function (grunt) {
                 dest: 'build/styles/style.css'
             },
             js:{
-                src:['js/script.js','js/contact-widget.js','js/jquery.min.js'],
+                src:['js/jquery.min.js','js/script.js'],
                 dest:'build/js/script.min.js'
             }
         }
