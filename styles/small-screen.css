@@ -331,12 +331,7 @@
 }
 
 .facebook-button {
-    display: block;
-    width: 150px;
-    height: 30px;
-    background-color: #3a5795;
     margin: 5px auto;
-    cursor: pointer;
 }
 
 .facebook-button, .footer-block3 {

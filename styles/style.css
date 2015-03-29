@@ -355,7 +355,13 @@ body {
 .article-text > span:hover {
     text-decoration: underline;
 }
-
+.facebook-button {
+    width: 150px;
+    height: 30px;
+    background-color: #3a5795;
+    font-size: 13px;
+    cursor: pointer;
+}
 .contact-img {
     width: 30px;
     height: 30px;
