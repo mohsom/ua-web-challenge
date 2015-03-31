@@ -19,12 +19,7 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    'build/styles/style.css': ['styles/style.css'],
-                    'build/styles/small-screen.css': ['styles/small-screen.css'],
-                    'build/styles/big-screen.css': ['styles/big-screen.css'],
-                    'build/styles/medium-screen.css': ['styles/medium-screen.css'],
-                    'build/styles/reset.css': ['styles/reset.css'],
-                    'build/styles/normalize.css': ['styles/normalize.css']
+                    'build/styles/style.css': ['styles/style.css']
                 }
             }
         },
@@ -36,20 +31,6 @@ module.exports = function (grunt) {
                     src: ['**/*.{png,jpg,gif,svg}'],
                     dest: 'build/images'
                 }]
-            }
-        },
-        watch: {
-            css:{
-                files:['styles/*.css'],
-                tasks:['build']
-            },
-            html:{
-                files:['index.html'],
-                tasks:['build']
-            },
-            js:{
-                files:['js/*.js'],
-                tasks:['build']
             }
         },
         uglify: {
@@ -68,6 +49,57 @@ module.exports = function (grunt) {
 
         clean:{
             build:['build']
+        },
+        sass: {
+            dist: {
+                files: {
+                    'styles/style.css':'styles/style.scss'
+                }
+            }
+        },
+
+        connect:{
+
+            options:{
+                port:3000,
+                hostname:'localhost',
+                livereload:35719
+            },
+
+            livereload:{
+                options:{
+                    open:true
+                }
+            }
+        },
+
+        watch: {
+            scss:{
+                files:['styles/*.scss'],
+                task:['sass']
+                //options:{
+                //    livereload: '<%= connect.options.livereload %>',
+                //}
+            },
+            html:{
+                files:['index.html']
+            },
+            js:{
+                files:['js/*.js','Gruntfile.js']
+            },
+            options:{
+                //livereload: '<%= connect.options.livereload %>'
+            },
+            livereload:{
+                files:[
+                    'styles/*.css',
+                    '<%=watch.html.files%>',
+                    '<%=watch.js.files%>'
+                ],
+                options:{
+                    livereload: '<%= connect.options.livereload %>'
+                }
+            }
         }
     });
 
@@ -78,6 +110,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.registerTask('build', ['clean:build','cssmin', 'htmlmin', 'imagemin','concat:js','uglify']);
-    grunt.registerTask('default', ['watch']);
+    grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-connect');
+
+    grunt.registerTask('build', ['clean:build', 'sass','cssmin', 'htmlmin', 'imagemin','concat:js','uglify']);
+    grunt.registerTask('serve', ['sass','connect','watch']);
 };
