@@ -6,5 +6,9 @@
     "mohsom <volodya.skalskyi@gmail.com>"
   ],
   "description": "none",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "normalize.scss": "latest",
+    "reset-scss":"latest"
+  }
 }
