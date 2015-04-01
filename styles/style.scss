@@ -2,9 +2,26 @@
 @import "normalize";
 @import "big-screen";
 //variables
-$base-font:'Tahoma, serif';
-$orangeColor:'#eb4200';
+$base-font:'Tahoma', serif;
+$orangeColor:#eb4200;
 //mixins
+@mixin set-border($part,$style,$color,$width){
+  @if $part=='bottom' {
+    border-bottom: $style $color $width;
+  }
+  @if $part=='top' {
+    border-top: $style $color $width;
+  }
+  @if $part=='right' {
+    border-right: $style $color $width;
+  }
+  @if $part=='left' {
+    border-left: $style $color $width;
+  }
+  @if $part=='all' {
+    border: $style $color $width;
+  }
+}
 body {
   font-family: $base-font;
   .banner-text-title, .navbar-item, .slide-text-title {
@@ -38,7 +55,7 @@ body {
 
     .navbar-item-link {
       text-align: center;
-      border-bottom: solid #fff 2px;
+      @include set-border('bottom',solid,#fff,2px);
       & > span {
         display: block;
       }

@@ -653,7 +653,7 @@ th {
   font-size: 11px; }
 
 body {
-  font-family: "Tahoma, serif"; }
+  font-family: "Tahoma", serif; }
   body .banner-text-title, body .navbar-item, body .slide-text-title {
     text-transform: uppercase; }
   body .main-block {
@@ -681,8 +681,8 @@ body {
       body .navbar .navbar-item-link > span {
         display: block; }
       body .navbar .navbar-item-link:hover {
-        border-color: "#eb4200";
-        color: "#eb4200"; }
+        border-color: #eb4200;
+        color: #eb4200; }
     body .navbar #products:hover {
       background-color: #8c8d8d;
       color: #fff;
