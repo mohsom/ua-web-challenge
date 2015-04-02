@@ -25,6 +25,9 @@ $orangeColor:#eb4200;
 @mixin set-content($text){
   content: $text;
 }
+@mixin rgba-color-bg($r,$g,$b,$a){
+  background: rgba($r, $g, $b, $a);
+}
 //styles
 body {
   font-family: $base-font;
@@ -141,7 +144,7 @@ body {
         height: 100%;
         top: 0;
         left: 0;
-        background: rgba(0, 0, 0, .7);
+        @include rgba-color-bg(0,0,0,.7);
         word-break: normal;
         line-height: 15px;
       }
