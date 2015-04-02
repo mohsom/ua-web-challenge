@@ -22,6 +22,10 @@ $orangeColor:#eb4200;
     border: $style $color $width;
   }
 }
+@mixin set-content($text){
+  content: $text;
+}
+//styles
 body {
   font-family: $base-font;
   .banner-text-title, .navbar-item, .slide-text-title {
@@ -143,35 +147,35 @@ body {
       }
 
       .submenu > li:nth-of-type(1) > .submenu-img-container:hover:after {
-        content: 'Rolety';
+        @include set-content('Rolety');
       }
 
       .submenu > li:nth-of-type(2) > .submenu-img-container:hover:after {
-        content: 'Venkovní žaluzie';
+        @include set-content('Venkovní žaluzie');
       }
 
       .submenu > li:nth-of-type(3) > .submenu-img-container:hover:after {
-        content: 'Systémové parapety';
+        @include set-content('Systémové parapety');
       }
 
       .submenu > li:nth-of-type(4) > .submenu-img-container:hover:after {
-        content: 'Markýzy';
+        @include set-content('Markýzy');
       }
 
       .submenu > li:nth-of-type(5) > .submenu-img-container:hover:after {
-        content: 'Vrata';
+        @include set-content('Vrata');
       }
 
       .submenu > li:nth-of-type(6) > .submenu-img-container:hover:after {
-        content: 'Sítě proti hmyzu';
+        @include set-content('Sítě proti hmyzu');
       }
 
       .submenu > li:nth-of-type(7) > .submenu-img-container:hover:after {
-        content: 'Barvy rolet a žaluzií';
+        @include set-content('Barvy rolet a žaluzií');
       }
 
       .submenu > li:nth-of-type(8) > .submenu-img-container:hover:after {
-        content: 'Spočítejte si cenu';
+        @include set-content('Spočítejte si cenu');
       }
 
       .submenu-img-container:hover + .submenu-item-img-title {
