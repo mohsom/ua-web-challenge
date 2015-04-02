@@ -93,7 +93,6 @@ module.exports = function (grunt) {
             livereload:{
                 files:[
                     'styles/*.scss',
-                    'styles/*.css',
                     '<%=watch.html.files%>',
                     '<%=watch.js.files%>'
                 ],
