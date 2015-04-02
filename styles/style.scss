@@ -28,6 +28,9 @@ $orangeColor:#eb4200;
 @mixin rgba-color-bg($r,$g,$b,$a){
   background: rgba($r, $g, $b, $a);
 }
+@mixin box-shadow($type,$top,$right,$bottom,$left,$r,$g,$b,$a){
+  box-shadow: $type $top $right $bottom $left rgba($r,$g,$b,$a);
+}
 //styles
 body {
   font-family: $base-font;
@@ -232,7 +235,7 @@ body {
   }
   .banner-text-sub-title, .banner-text-title {
     padding: 10px;
-    background: rgba(0, 0, 0, .65);
+    @include rgba-color-bg(0,0,0,.65);
     margin: 0 auto;
   }
 
@@ -240,7 +243,7 @@ body {
     width: 100%;
     height: 522px;
     background: url(../images/house.png) no-repeat;
-    box-shadow: inset 0 -117px 196px 0 rgba(0, 0, 0, .75);
+    @include box-shadow(inset, 0, -117px, 196px, 0, 0, 0, 0, .75);
   }
 
   .banner-content {
@@ -290,7 +293,7 @@ body {
     margin-left: 35px;
     width: 3px;
     height: 3px;
-    background-color: #eb4200;
+    background-color: $orangeColor;
     padding: 9px 9px;
     border-radius: 30px;
     margin-top: 3px;
@@ -387,7 +390,7 @@ body {
 
   .main-info-slides-item {
     display: inline-block;
-    box-shadow: inset 0 -97px 96px 0 rgba(0, 0, 0, .75);
+    @include box-shadow(inset, 0, -97px, 96px, 0, 0, 0, 0, .75);
     overflow: hidden;
   }
 
@@ -421,7 +424,7 @@ body {
 
   .slide-badge {
     color: #fff;
-    background-color: #eb4200;
+    background-color: $orangeColor;
     width: 145px;
     height: 35px;
     text-align: center;
@@ -456,7 +459,7 @@ body {
   }
 
   .radio-button.radio-active {
-    background-color: #eb4200;
+    background-color: $orangeColor;
   }
 
   .main-info-add {
@@ -469,7 +472,7 @@ body {
   }
 
   .add-block1 {
-    background-color: #eb4200;
+    background-color: $orangeColor;
     color: #fff;
     font-size: 15px;
   }
@@ -482,7 +485,7 @@ body {
   }
 
   .add-block1-img {
-    color: #eb4200;
+    color: $orangeColor;
     font-size: 16px;
   }
 
@@ -527,7 +530,7 @@ body {
   }
 
   .article-text > span {
-    color: #eb4200;
+    color: $orangeColor;
     cursor: pointer;
   }
 
@@ -616,7 +619,7 @@ body {
   }
 
   .footer-menu-item:hover {
-    color: #eb4200;
+    color: $orangeColor;
     transition: all 0.2s;
   }
 

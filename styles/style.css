@@ -742,21 +742,21 @@ body {
       word-break: normal;
       line-height: 15px; }
     body .navbar #products .submenu > li:nth-of-type(1) > .submenu-img-container:hover:after {
-      content: 'Rolety'; }
+      content: "Rolety"; }
     body .navbar #products .submenu > li:nth-of-type(2) > .submenu-img-container:hover:after {
-      content: 'Venkovn├н ┼╛aluzie'; }
+      content: "Venkovn├н ┼╛aluzie"; }
     body .navbar #products .submenu > li:nth-of-type(3) > .submenu-img-container:hover:after {
-      content: 'Syst├йmov├й parapety'; }
+      content: "Syst├йmov├й parapety"; }
     body .navbar #products .submenu > li:nth-of-type(4) > .submenu-img-container:hover:after {
-      content: 'Mark├╜zy'; }
+      content: "Mark├╜zy"; }
     body .navbar #products .submenu > li:nth-of-type(5) > .submenu-img-container:hover:after {
-      content: 'Vrata'; }
+      content: "Vrata"; }
     body .navbar #products .submenu > li:nth-of-type(6) > .submenu-img-container:hover:after {
-      content: 'S├нt─Ы proti hmyzu'; }
+      content: "S├нt─Ы proti hmyzu"; }
     body .navbar #products .submenu > li:nth-of-type(7) > .submenu-img-container:hover:after {
-      content: 'Barvy rolet a ┼╛aluzi├н'; }
+      content: "Barvy rolet a ┼╛aluzi├н"; }
     body .navbar #products .submenu > li:nth-of-type(8) > .submenu-img-container:hover:after {
-      content: 'Spo─Н├нtejte si cenu'; }
+      content: "Spo─Н├нtejte si cenu"; }
     body .navbar #products .submenu-img-container:hover + .submenu-item-img-title {
       visibility: hidden; }
     body .navbar .navbar-dropdown {
