@@ -1,0 +1,30 @@
+//variables
+$base-font:'Tahoma', serif;
+$orangeColor:#eb4200;
+//mixins
+@mixin set-border($part,$style,$color,$width){
+  @if $part=='bottom' {
+    border-bottom: $style $color $width;
+  }
+  @if $part=='top' {
+    border-top: $style $color $width;
+  }
+  @if $part=='right' {
+    border-right: $style $color $width;
+  }
+  @if $part=='left' {
+    border-left: $style $color $width;
+  }
+  @if $part=='all' {
+    border: $style $color $width;
+  }
+}
+@mixin set-content($text){
+  content: $text;
+}
+@mixin rgba-color-bg($r,$g,$b,$a){
+  background: rgba($r, $g, $b, $a);
+}
+@mixin box-shadow($type,$top,$right,$bottom,$left,$r,$g,$b,$a){
+  box-shadow: $type $top $right $bottom $left rgba($r,$g,$b,$a);
+}
