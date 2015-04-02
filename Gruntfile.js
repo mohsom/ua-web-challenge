@@ -19,7 +19,7 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    'build/styles/style.css': ['styles/style.css']
+                    'build/styles/style.css': ['styles/css/style.css']
                 }
             }
         },
@@ -53,7 +53,7 @@ module.exports = function (grunt) {
         sass: {
             dist: {
                 files: {
-                    'styles/style.css':'styles/style.scss'
+                    'styles/style.css':'styles/sass/style.scss'
                 }
             }
         },
@@ -75,7 +75,7 @@ module.exports = function (grunt) {
 
         watch: {
             scss:{
-                files:['styles/*.scss'],
+                files:['styles/sass/*.scss'],
                 task:['sass']
                 //options:{
                 //    livereload: '<%= connect.options.livereload %>',
@@ -92,7 +92,7 @@ module.exports = function (grunt) {
             },
             livereload:{
                 files:[
-                    'styles/*.css',
+                    'styles/css/*.css',
                     '<%=watch.html.files%>',
                     '<%=watch.js.files%>'
                 ],

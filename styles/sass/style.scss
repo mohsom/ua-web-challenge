@@ -1,4 +1,4 @@
-@import "../bower_components/reset-scss/reset";
+@import "../../bower_components/reset-scss/reset";
 @import "normalize";
 @import "big-screen";
 @import "var/_variables";
@@ -213,7 +213,7 @@ body {
   .banner {
     width: 100%;
     height: 522px;
-    background: url(../images/house.png) no-repeat;
+    background: url(../../images/house.png) no-repeat;
     @include box-shadow(inset, 0, -117px, 196px, 0, 0, 0, 0, .75);
   }
 
@@ -366,15 +366,15 @@ body {
   }
 
   .main-info-slides-item#slide1 {
-    background: url(../images/img-slide-1.png) no-repeat;
+    background: url(../../images/img-slide-1.png) no-repeat;
   }
 
   .main-info-slides-item#slide2 {
-    background: url(../images/img-slide-2.png) no-repeat;
+    background: url(../../images/img-slide-2.png) no-repeat;
   }
 
   .main-info-slides-item#slide3 {
-    background: url(../images/img-slide-3.png) no-repeat;
+    background: url(../../images/img-slide-3.png) no-repeat;
   }
 
   .slide-text {
