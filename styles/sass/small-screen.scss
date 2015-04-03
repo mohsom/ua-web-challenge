@@ -1,51 +1,7 @@
 @import "var/_variables";
-@media (max-width: 1200px) {
-  .navbar-item-link {
-    width: 110px;
-    margin-right: 10px;
-  }
-
-  .submenu {
-    margin: 34px 0 0 0;
-    left: 0;
-  }
-
-  .main-info-slides-item {
-    width: 320px;
-    height: 240px;
-  }
-
-  .footer-block1 {
-    width: 80%;
-  }
-
-  .footer-block2 {
-    @include set-border('right', solid, #a6a6a6, 1px);
-    @include set-border('left', solid, #a6a6a6, 1px);
-    width: 15%;
-    margin-left: 45px;
-  }
-
-  .contacts {
-    margin-left: 60%;
-  }
-
-  .footer-block3 {
-    @include set-border('top', solid, #a6a6a6, 1px);
-    height: 30px;
-  }
-
-  .footer-menu {
-    margin-left: 30%;
-  }
-  .navbar-logo {
-    margin-left: 45px;
-    margin-right: 80px;
-  }
-
+@media (max-width: 1199px) {
   .navbar-item-link {
     height: 73px;
-    display: none;
   }
 
   .navbar-item-link > span {
