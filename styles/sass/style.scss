@@ -26,7 +26,7 @@ body {
     }
 
     .navbar-item {
-      font-size: 13px;
+      font-size: $base-font-size;
       color: #333;
       display: inline-block;
       vertical-align: middle;
@@ -331,7 +331,7 @@ body {
     color: #333;
     background-color: #fff;
     float: left;
-    font-size: 13px;
+    font-size: $base-font-size;
     cursor: pointer;
     transition: all 0.2s;
   }
@@ -390,7 +390,7 @@ body {
   }
 
   .slide-badge, .slide-text-description {
-    font-size: 13px;
+    font-size: $base-font-size;
   }
 
   .slide-badge {
@@ -536,7 +536,7 @@ body {
     width: 150px;
     height: 30px;
     background-color: #3a5795;
-    font-size: 13px;
+    font-size: $base-font-size;
     cursor: pointer;
   }
 

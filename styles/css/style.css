@@ -472,8 +472,8 @@ th {
   padding-top: 25%; }
 
 .navbar-dropdown {
-  border-right: solid #ddd 1px;
   border-left: solid #ddd 1px;
+  border-right: solid #ddd 1px;
   margin-left: 75px; }
 
 .navbar-dropdown > .dropdown-lang {

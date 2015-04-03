@@ -1,3 +1,4 @@
+@import "var/_variables";
 @media (min-width: 1200px)and (max-width: 1289px) {
     .navbar-item-link {
         width: 110px;
@@ -19,8 +20,8 @@
     }
 
     .footer-block2 {
-        border-right: solid #a6a6a6 1px;
-        border-left: solid #a6a6a6 1px;
+        @include set-border('right',solid,#a6a6a6,1px);
+        @include set-border('left',solid,#a6a6a6,1px);
         width: 15%;
         margin-left: 45px;
     }
@@ -30,7 +31,7 @@
     }
 
     .footer-block3 {
-        border-top: solid #a6a6a6 1px;
+        @include set-border('top',solid,#a6a6a6,1px);
         height: 30px;
     }
 
@@ -63,7 +64,7 @@
     }
 
     .footer-block1, .footer-block2 {
-        border-right: solid #a6a6a6 1px;
+      @include set-border('right',solid,#a6a6a6,1px);
     }
 
     .contacts {
@@ -89,8 +90,8 @@
 }
 
 .navbar-dropdown {
-    border-right: solid #ddd 1px;
-    border-left: solid #ddd 1px;
+    @include set-border('left',solid,#ddd,1px);
+    @include set-border('right',solid,#ddd,1px);
     margin-left: 75px;
 }
 
@@ -114,7 +115,7 @@
 
 .our-products-menu-item {
     width: 190px;
-    border-right: solid #464c52 1px;
+    @include set-border('right',solid,#464c52,1px);
 }
 
 .our-products-menu {
@@ -229,7 +230,7 @@
 }
 
 .footer-blocks {
-    border-bottom: solid #a6a6a6 1px;
+    @include set-border('bottom',solid,#a6a6a6,1px);
 }
 
 .footer-block1, .footer-block2 {
@@ -279,7 +280,7 @@
 
 .contacts-item {
     margin-right: 30px;
-    font-size: 13px;
+    font-size: $base-font-size;
 }
 
 .facebook-button {
@@ -289,7 +290,7 @@
 }
 
 .footer-block3 {
-    font-size: 13px;
+    font-size: $base-font-size;
     width: 100%;
 }
 

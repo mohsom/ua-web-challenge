@@ -1,6 +1,7 @@
 //variables
 $base-font:'Tahoma', serif;
 $orangeColor:#eb4200;
+$base-font-size:13px;
 //mixins
 @mixin set-border($part,$style,$color,$width){
   @if $part=='bottom' {
