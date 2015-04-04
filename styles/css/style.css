@@ -652,13 +652,14 @@ th {
     margin-top: 10px;
     margin-right: 90px;
     font-size: 11px; } }
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .navbar-item-link {
     height: 73px;
+    width: 100%;
     display: none; }
 
   .navbar-item-link > span {
-    padding-top: 25%; }
+    padding-top: 25px; }
 
   .navbar-dropdown {
     border-left: solid #ddd 1px;

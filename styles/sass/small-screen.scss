@@ -2,10 +2,12 @@
 @media (max-width: 1199px) {
   .navbar-item-link {
     height: 73px;
+    width: 100%;
+    display: none;
   }
 
   .navbar-item-link > span {
-    padding-top: 25%;
+    padding-top: 25px;
   }
 
   .navbar-dropdown {
