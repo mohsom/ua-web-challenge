@@ -982,7 +982,7 @@ body {
       border-style: none; }
     body .navbar .navbar-dropdown > .dropdown-lang:hover > .lang-item:hover {
       color: #eb4200; }
-    body .navbar .navbar-dropdown > .dropdown-lang > .lang-item.active, body .navbar .active {
+    body .navbar .navbar-dropdown > .dropdown-lang > .lang-item.active {
       display: inline-block; }
     body .navbar .navbar-dropdown > .dropdown-lang:hover > .lang-item.active > span > .lang-arrow-img {
       transform: rotateZ(-90deg);
