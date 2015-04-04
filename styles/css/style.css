@@ -735,38 +735,25 @@ th {
   .add-block1, .add-block2, .slide-text {
     text-align: center; }
 
-  .add-block {
-    height: 60px; }
-
   .add-block1-img, .add-block > span, .ceo-row {
     display: block; }
 
   .add-block1 {
-    width: 50%;
-    margin-left: -20px;
-    transform: skewX(-25deg); }
-
-  .add-block1 > .add-block1-img, .add-block1 > span {
-    transform: skewX(25deg); }
+    width: 100%; }
 
   .add-block1 > span {
-    margin-top: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     margin-left: 20px; }
 
   .add-block1-img {
-    margin-left: 70px;
-    margin-top: 17px;
-    position: absolute; }
+    margin: 10px auto; }
 
   .add-block2 {
-    width: 55%;
-    transform: skewX(-25deg);
-    margin-right: -45px;
-    margin-left: -5px; }
+    width: 100%; }
 
   .add-block2 > span {
-    transform: skewX(25deg);
-    margin-left: -125px; }
+    margin-bottom: 25px; }
 
   .main-info-ceo {
     width: 1145px; }
