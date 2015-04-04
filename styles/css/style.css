@@ -655,10 +655,21 @@ th {
 @media (max-width: 1199px) {
   .navbar-item-link {
     height: 73px;
-    width: 100%; }
+    width: 100%;
+    display: none; }
+
+  .active {
+    display: block; }
+
+  #products {
+    margin-top: 22px; }
 
   .navbar-item-link > span {
     padding-top: 25px; }
+
+  .navbar-logo {
+    margin-top: 20px;
+    margin-left: 20px; }
 
   .navbar-dropdown {
     position: absolute;
@@ -690,7 +701,13 @@ th {
     position: absolute; }
 
   .show-menu {
-    display: none; }
+    display: block;
+    position: absolute;
+    color: #eb4200;
+    font-size: 40px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 80%; }
 
   .main-info-slides-item {
     margin-right: 2%; }
@@ -867,7 +884,8 @@ body {
       transition: all 0.2s; }
     body .navbar .navbar-item-link {
       text-align: center;
-      border-bottom: solid #fff 2px; }
+      border-bottom: solid #fff 2px;
+      display: inline-block; }
       body .navbar .navbar-item-link > span {
         display: block; }
       body .navbar .navbar-item-link:hover {

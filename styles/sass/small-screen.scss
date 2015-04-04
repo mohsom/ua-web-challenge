@@ -3,12 +3,21 @@
   .navbar-item-link {
     height: 73px;
     width: 100%;
+    display: none;
   }
-
+  .active{
+    display: block;
+  }
+  #products{
+    margin-top: 22px;
+  }
   .navbar-item-link > span {
     padding-top: 25px;
   }
-
+  .navbar-logo{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
   .navbar-dropdown {
     position: absolute;
     @include set-border('left', solid, #ddd, 1px);
@@ -46,7 +55,13 @@
   }
 
   .show-menu {
-    display: none;
+    display: block;
+    position: absolute;
+    color: $orangeColor;
+    font-size: 40px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 80%;
   }
 
   .main-info-slides-item {

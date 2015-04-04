@@ -46,6 +46,7 @@ body {
         border-color: $orangeColor;
         color: $orangeColor;
       }
+      display: inline-block;
     }
     #products {
       &:hover {
