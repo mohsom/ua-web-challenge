@@ -13,8 +13,8 @@
     padding-top: 25px;
   }
   .navbar-logo{
-    margin-top: 20px;
-    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
   }
   .navbar-dropdown {
     position: absolute;
@@ -59,6 +59,7 @@
     font-size: 40px;
     cursor: pointer;
     margin-left: 80%;
+    margin-top: 15px;
   }
 
   .main-info-slides-item {
