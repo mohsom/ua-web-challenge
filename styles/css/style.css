@@ -662,10 +662,11 @@ th {
     padding-top: 25px; }
 
   .navbar-dropdown {
+    position: absolute;
     border-left: solid #ddd 1px;
     border-right: solid #ddd 1px;
-    float: right;
-    margin-left: 75px; }
+    right: 0;
+    top: 0; }
 
   .navbar-dropdown > .dropdown-lang {
     width: 70px; }

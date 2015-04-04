@@ -81,6 +81,9 @@ module.exports = function (grunt) {
                 //    livereload: '<%= connect.options.livereload %>',
                 //}
             },
+            css:{
+                files:['styles/css/*.css']
+            },
             html:{
                 files:['index.html']
             },
