@@ -785,15 +785,14 @@ th {
   .becker-block {
     display: block;
     width: 100%;
+    padding: 10px;
     word-break: normal; }
 
   .becker-block > img {
     margin: 0 auto; }
 
   .becker-block > span {
-    height: 35px;
-    width: 90px;
-    margin: 0 auto; }
+    text-align: center; }
 
   .footer-menu {
     position: absolute;
