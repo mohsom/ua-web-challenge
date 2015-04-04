@@ -655,8 +655,7 @@ th {
 @media (max-width: 1199px) {
   .navbar-item-link {
     height: 73px;
-    width: 100%;
-    display: none; }
+    width: 100%; }
 
   .navbar-item-link > span {
     padding-top: 25px; }
@@ -665,7 +664,7 @@ th {
     position: absolute;
     border-left: solid #ddd 1px;
     border-right: solid #ddd 1px;
-    right: 0;
+    right: 30px;
     top: 0; }
 
   .navbar-dropdown > .dropdown-lang {

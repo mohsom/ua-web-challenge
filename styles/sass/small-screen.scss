@@ -3,7 +3,6 @@
   .navbar-item-link {
     height: 73px;
     width: 100%;
-    display: none;
   }
 
   .navbar-item-link > span {
@@ -14,7 +13,7 @@
     position: absolute;
     @include set-border('left', solid, #ddd, 1px);
     @include set-border('right', solid, #ddd, 1px);
-    right: 0;
+    right: 30px;
     top:0;
   }
 
