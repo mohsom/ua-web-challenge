@@ -795,8 +795,11 @@ th {
     text-align: center; }
 
   .footer-menu {
-    position: absolute;
-    margin-top: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-top: solid #a6a6a6 1px;
+    padding: 10px;
     font-size: 13px; }
 
   .footer-menu-item {

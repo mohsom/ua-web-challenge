@@ -1,4 +1,5 @@
 @import "var/_variables";
+
 @media (max-width: 1199px) {
   .navbar-item-link {
     height: 73px;
@@ -6,13 +7,13 @@
     display: none;
   }
 
-  #products{
+  #products {
     margin-top: 22px;
   }
   .navbar-item-link > span {
     padding-top: 25px;
   }
-  .navbar-logo{
+  .navbar-logo {
     padding-left: 20px;
     padding-top: 20px;
   }
@@ -21,7 +22,7 @@
     @include set-border('left', solid, #ddd, 1px);
     @include set-border('right', solid, #ddd, 1px);
     right: 30px;
-    top:0;
+    top: 0;
   }
 
   .navbar-dropdown > .dropdown-lang {
@@ -176,9 +177,12 @@
   }
 
   .footer-menu {
-    position: absolute;
-    margin-top: 10px;
-    font-size: 13px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    @include set-border('top', solid, #a6a6a6, 1px);
+    padding: 10px;
+    font-size: $base-font-size;;
   }
 
   .footer-menu-item {
