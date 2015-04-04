@@ -827,27 +827,26 @@ th {
 
   .footer-block3 {
     display: block;
+    height: 20px;
     font-size: 13px;
     width: 100%;
-    border-bottom: solid #a6a6a6 1px; }
+    border-bottom: solid #a6a6a6 1px;
+    border-top: solid #a6a6a6 1px;
+    padding: 13px; }
 
   .designed {
     float: left;
     display: block; }
 
   .designed > .company {
-    margin-left: 260px;
-    margin-top: 10px; }
+    margin-left: 10px; }
 
   .designed > span {
-    margin-left: 110px;
-    margin-top: 11px;
     font-size: 11px; }
 
   .copyright {
     float: right;
-    margin-top: 10px;
-    margin-right: 90px;
+    margin-right: 20px;
     font-size: 11px; } }
 body {
   font-family: "Tahoma", serif; }
