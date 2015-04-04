@@ -190,8 +190,11 @@
   }
 
   .contacts {
-    position: absolute;
-    margin-top: 2px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    @include set-border('top', solid, #a6a6a6, 1px);
   }
 
   .contacts, .facebook-button, .footer-block3 {
@@ -200,8 +203,9 @@
   }
 
   .contacts-item {
-    margin-right: 30px;
+    display: inline-block;
     font-size: $base-font-size;
+    margin: 2px;
   }
 
   .facebook-button {
