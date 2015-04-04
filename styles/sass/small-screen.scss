@@ -195,6 +195,7 @@
     padding: 10px;
     text-align: center;
     @include set-border('top', solid, #a6a6a6, 1px);
+    @include set-border('bottom', solid, #a6a6a6, 1px);
   }
 
   .contacts, .facebook-button, .footer-block3 {
@@ -209,14 +210,13 @@
   }
 
   .facebook-button {
-    position: absolute;
-    margin-top: 25px;
-    margin-left: 14px;
+    margin: 10px auto 10px;
   }
 
   .footer-block3 {
     font-size: $base-font-size;
     width: 100%;
+    @include set-border('bottom', solid, #a6a6a6, 1px);
   }
 
   .designed {
@@ -224,13 +224,13 @@
   }
 
   .designed > .company {
-    position: absolute;
+    position: relative;
     margin-left: 260px;
     margin-top: 10px;
   }
 
   .designed > span {
-    position: absolute;
+    position: relative;
     margin-left: 110px;
     margin-top: 11px;
     font-size: 11px;
