@@ -407,7 +407,8 @@ th {
 @media (min-width: 1200px) and (min-width: 1200px) and (max-width: 1289px) {
   .navbar-item-link {
     width: 110px;
-    margin-right: 10px; }
+    margin-right: 10px;
+    display: inline-block; }
 
   .submenu {
     margin: 34px 0 0 0;
@@ -465,6 +466,9 @@ th {
   .navbar-logo {
     margin-left: 45px;
     margin-right: 80px; }
+
+  .navbar-item {
+    display: inline-block; }
 
   .navbar-item-link {
     height: 73px; }
@@ -703,7 +707,7 @@ th {
     color: #eb4200;
     font-size: 40px;
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 5px;
     margin-left: 80%; }
 
   .main-info-slides-item {
@@ -875,19 +879,19 @@ body {
     body .navbar .navbar-item {
       font-size: 13px;
       color: #333;
-      display: inline-block;
       vertical-align: middle;
       cursor: pointer;
       transition: all 0.2s; }
     body .navbar .navbar-item-link {
       text-align: center;
-      border-bottom: solid #fff 2px;
-      display: inline-block; }
+      border-bottom: solid #fff 2px; }
       body .navbar .navbar-item-link > span {
         display: block; }
       body .navbar .navbar-item-link:hover {
         border-color: #eb4200;
         color: #eb4200; }
+      body .navbar .navbar-item-link.active {
+        display: inline-block; }
     body .navbar #products:hover {
       background-color: #8c8d8d;
       color: #fff;

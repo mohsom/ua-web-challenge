@@ -4,8 +4,8 @@
         .navbar-item-link {
             width: 110px;
             margin-right: 10px;
+            display: inline-block;
         }
-
         .submenu {
             margin: 34px 0 0 0;
             left: 0;
@@ -81,7 +81,9 @@
         margin-left: 45px;
         margin-right: 80px;
     }
-
+    .navbar-item{
+        display: inline-block;
+    }
     .navbar-item-link {
         height: 73px;
     }

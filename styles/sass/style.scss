@@ -29,7 +29,6 @@ body {
     .navbar-item {
       font-size: $base-font-size;
       color: #333;
-      display: inline-block;
       vertical-align: middle;
       cursor: pointer;
       transition: all 0.2s;
@@ -46,7 +45,9 @@ body {
         border-color: $orangeColor;
         color: $orangeColor;
       }
-      display: inline-block;
+      &.active{
+        display: inline-block;
+      }
     }
     #products {
       &:hover {
