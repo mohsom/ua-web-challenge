@@ -763,16 +763,15 @@ th {
 
   .ceo-article {
     vertical-align: text-top;
-    margin-right: 80px;
-    width: 490px; }
+    width: 100%;
+    margin-bottom: 10px; }
 
   .article-title {
-    width: 490px;
-    text-align: left; }
+    text-align: center; }
 
   .article-text {
-    width: 490px;
-    text-align: left; }
+    width: 100%;
+    text-align: center; }
 
   .footer {
     min-height: 110px; }
