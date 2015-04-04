@@ -157,28 +157,24 @@
   }
 
   .footer-block1, .footer-block2 {
-    display: inline-block;
-    min-height: 75px;
+    display: block;
   }
 
   .becker-block {
     display: block;
-    width: 215px;
+    width: 100%;
     word-break: normal;
-    margin-top: 20px;
   }
 
   .becker-block > img {
-    margin-left: 113px;
-    position: absolute;
+    margin: 0 auto;
+
   }
 
   .becker-block > span {
     height: 35px;
     width: 90px;
-    margin-left: 245px;
-    margin-top: 2px;
-    position: absolute;
+    margin: 0 auto;
   }
 
   .footer-menu {
