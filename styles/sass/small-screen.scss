@@ -214,6 +214,7 @@
   }
 
   .footer-block3 {
+    display: block;
     font-size: $base-font-size;
     width: 100%;
     @include set-border('bottom', solid, #a6a6a6, 1px);
@@ -221,16 +222,15 @@
 
   .designed {
     float: left;
+    display: block;
   }
 
   .designed > .company {
-    position: relative;
     margin-left: 260px;
     margin-top: 10px;
   }
 
   .designed > span {
-    position: relative;
     margin-left: 110px;
     margin-top: 11px;
     font-size: 11px;
