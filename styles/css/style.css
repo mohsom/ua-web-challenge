@@ -694,12 +694,12 @@ th {
     margin-top: 9px; }
 
   .our-products-menu-item {
-    width: 190px;
+    width: 16%;
+    display: inline-block;
     border-right: solid #464c52 1px; }
 
   .our-products-menu {
-    margin-top: 30px;
-    position: absolute; }
+    margin: 30px auto 0 30px; }
 
   .show-menu {
     display: block;
