@@ -664,6 +664,7 @@ th {
   .navbar-dropdown {
     border-left: solid #ddd 1px;
     border-right: solid #ddd 1px;
+    float: right;
     margin-left: 75px; }
 
   .navbar-dropdown > .dropdown-lang {
