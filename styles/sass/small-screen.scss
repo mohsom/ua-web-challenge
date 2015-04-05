@@ -28,6 +28,38 @@
       width: 70px;
       padding-top: 29px;
     }
+    .main-info-slides-item {
+      margin-right: 2%;
+      width: 30%;
+      height: 220px;
+    }
+    .main-info-slides {
+      margin: 0 auto;
+      padding: 35px 0 12px 5%;
+    }
+    .designed {
+      float: left;
+      display: block;
+    }
+
+    .designed > .company {
+      margin-left: 140px;
+    }
+
+    .designed > span {
+      font-size: 11px;
+      position: absolute;
+    }
+
+    .copyright {
+      float: right;
+      margin-right: 20px;
+      font-size: 11px;
+    }
+    .footer-block3 {
+      height: 15px;
+      padding: 13px;
+    }
   }
   @media (max-width: 754px) {
     .our-products-menu-item {
@@ -60,6 +92,41 @@
       width: 100%;
       padding-top: 29px;
     }
+    .main-info-slides-item {
+      width: 100%;
+      max-width: 360px;
+      height: 220px;
+    }
+    .main-info-slides {
+      width: 100%;
+      padding: 35px 0;
+      text-align: center;
+    }
+    .designed {
+      display: block;
+      text-align: center;
+      width: 100%;
+      height: 20px;
+      @include set-border('bottom', solid, #a6a6a6, 1px);
+    }
+
+    .designed > .company {
+      margin-left: 140px;
+    }
+
+    .designed > span {
+      font-size: 11px;
+    }
+
+    .copyright {
+      display: block;
+      width: 100%;
+      height: 20px;
+      text-align: center;
+      margin-right: 20px;
+      font-size: 11px;
+    }
+
   }
   .navbar-item-link {
     height: 73px;
@@ -96,19 +163,8 @@
     margin-top: 15px;
   }
 
-  .main-info-slides-item {
-    margin-right: 2%;
-    width: 30%;
-    height: 220px;
-  }
-
   .slide-text {
     padding-top: 170px;
-  }
-
-  .main-info-slides {
-    margin: 0 auto;
-    padding: 35px 0 12px 5%;
   }
 
   .main-info-add {
@@ -125,14 +181,6 @@
 
   .add-block1, .add-block2, .slide-text {
     text-align: center;
-  }
-
-  .add-block {
-
-  }
-
-  .add-block1-img {
-
   }
 
   .add-block1-img, .add-block > span, .ceo-row {
@@ -248,31 +296,9 @@
 
   .footer-block3 {
     display: block;
-    height: 15px;
     font-size: $base-font-size;
     width: 100%;
     @include set-border('bottom', solid, #a6a6a6, 1px);
     @include set-border('top', solid, #a6a6a6, 1px);
-    padding: 13px;
-  }
-
-  .designed {
-    float: left;
-    display: block;
-  }
-
-  .designed > .company {
-    margin-left: 140px;
-  }
-
-  .designed > span {
-    font-size: 11px;
-    position: absolute;
-  }
-
-  .copyright {
-    float: right;
-    margin-right: 20px;
-    font-size: 11px;
   }
 }
