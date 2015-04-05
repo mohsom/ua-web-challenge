@@ -665,33 +665,7 @@ th {
 
   .navbar-logo {
     padding-left: 20px;
-    padding-top: 20px; } }
-@media (max-width: 1199px) and (max-width: 754px) {
-  .our-products-menu-item {
-    width: 100%; }
-
-  .our-products-menu {
-    width: 100%;
-    margin: 30px 0; }
-
-  .navbar-logo > img {
-    width: 150px;
-    height: 25px; }
-
-  .navbar-logo {
-    padding-left: 20px;
-    padding-top: 25px; } }
-@media (max-width: 1199px) {
-  .navbar-item-link {
-    height: 73px;
-    width: 100%;
-    display: none; }
-
-  #products {
-    margin-top: 22px; }
-
-  .navbar-item-link > span {
-    padding-top: 25px; }
+    padding-top: 20px; }
 
   .navbar-dropdown {
     position: absolute;
@@ -706,7 +680,44 @@ th {
   .navbar-dropdown > .dropdown-lang > .lang-item {
     height: 45px;
     width: 70px;
-    padding-top: 29px; }
+    padding-top: 29px; } }
+@media (max-width: 1199px) and (max-width: 754px) {
+  .our-products-menu-item {
+    width: 100%; }
+
+  .our-products-menu {
+    width: 100%;
+    margin: 30px 0; }
+
+  .navbar-logo {
+    padding-left: 10px;
+    padding-top: 20px; }
+
+  .navbar-dropdown {
+    width: 100%;
+    position: absolute;
+    padding-top: 10px;
+    background-color: #ffffff;
+    text-align: center; }
+
+  .navbar-dropdown > .dropdown-lang {
+    width: 100%; }
+
+  .navbar-dropdown > .dropdown-lang > .lang-item {
+    height: 45px;
+    width: 100%;
+    padding-top: 29px; } }
+@media (max-width: 1199px) {
+  .navbar-item-link {
+    height: 73px;
+    width: 100%;
+    display: none; }
+
+  #products {
+    margin-top: 22px; }
+
+  .navbar-item-link > span {
+    padding-top: 25px; }
 
   .submenu {
     width: 1366px; }
